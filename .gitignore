@@ -1,0 +1,24 @@
+# Thư mục build
+dist
+dist-ssr
+*.local
+
+# Node dependencies
+node_modules
+
+# Biến môi trường cá nhân
+.env
+.env.production
+
+# IDE & Hệ điều hành
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.aistudio

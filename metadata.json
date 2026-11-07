@@ -1,0 +1,8 @@
+{
+  "name": "LogiMatch AI - Hệ thống Gợi ý 3PL Logistics Thông minh",
+  "description": "Nền tảng AI phân tích đơn hàng và đề xuất Top 3 nhà cung cấp 3PL tối ưu theo chi phí, thời gian và tuyến đường.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

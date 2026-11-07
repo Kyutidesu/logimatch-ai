@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "LogiMatch AI - Hệ thống Gợi ý 3PL Logistics",
+  "short_name": "LogiMatch",
+  "description": "Nền tảng AI phân tích đơn hàng và đề xuất Top 3 nhà cung cấp 3PL tối ưu theo chi phí, thời gian và tuyến đường.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#041412",
+  "theme_color": "#059669",
+  "categories": ["logistics", "business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
