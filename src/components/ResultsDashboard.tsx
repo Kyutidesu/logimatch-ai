@@ -20,14 +20,17 @@ import {
   BarChart2,
   SlidersHorizontal,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Scale
 } from 'lucide-react';
 import { 
   OrderInput, 
   CargoMetrics, 
   ProviderEvaluation, 
-  AIModelMetadata 
+  AIModelMetadata,
+  WSMComparisonResult
 } from '../types/logistics';
+import { DynamicWSMComparison } from './DynamicWSMComparison';
 
 interface ResultsDashboardProps {
   order: OrderInput;
@@ -36,6 +39,7 @@ interface ResultsDashboardProps {
   allProviders: ProviderEvaluation[];
   modelInfo: AIModelMetadata;
   aiAnalysisSummary?: string;
+  wsmComparison?: WSMComparisonResult;
   onBackToInput: () => void;
   onBookProvider: (provider: ProviderEvaluation) => void;
   onOpenModelModal: () => void;
@@ -48,11 +52,12 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
   allProviders,
   modelInfo,
   aiAnalysisSummary,
+  wsmComparison,
   onBackToInput,
   onBookProvider,
   onOpenModelModal
 }) => {
-  const [activeResultTab, setActiveResultTab] = useState<'top3' | 'comparison' | 'market'>('top3');
+  const [activeResultTab, setActiveResultTab] = useState<'top3' | 'wsm' | 'comparison' | 'market'>('top3');
   const [showComparison, setShowComparison] = useState(false);
   const [showAllMarket, setShowAllMarket] = useState(false);
   const [selectedCostDetail, setSelectedCostDetail] = useState<string | null>(null);
@@ -95,6 +100,20 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
             >
               <BarChart2 className="w-4 h-4 text-emerald-400" />
               <span>{showComparison ? 'Ẩn so sánh trực diện' : 'So sánh Top 3'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setActiveResultTab('wsm')}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 shadow-sm ${
+                activeResultTab === 'wsm'
+                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-700 text-white shadow-indigo-900/50'
+                  : 'bg-indigo-950/80 hover:bg-indigo-900 border border-indigo-500/40 text-indigo-300'
+              }`}
+              title="So sánh kết quả chấm điểm đối đầu trực tiếp giữa AI và WSM trên đơn hàng này"
+            >
+              <Scale className="w-4 h-4 text-emerald-400" />
+              <span>Đối Chiếu AI vs WSM</span>
             </button>
 
             <button
@@ -206,7 +225,20 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
           }`}
         >
           <Award className="w-4 h-4 text-emerald-300" />
-          <span>Top 3 Đề Xuất Tối Ưu (Section 6.2)</span>
+          <span>1. Top 3 Đề Xuất Tối Ưu</span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => setActiveResultTab('wsm')}
+          className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 whitespace-nowrap flex-1 justify-center ${
+            activeResultTab === 'wsm'
+              ? 'bg-gradient-to-r from-indigo-600 via-indigo-700 to-purple-600 text-white shadow-md'
+              : 'text-slate-400 hover:text-white hover:bg-slate-800'
+          }`}
+        >
+          <Scale className="w-4 h-4 text-emerald-400" />
+          <span>2. ⚔️ Đối Chiếu AI vs WSM (Song Song)</span>
         </button>
 
         <button
@@ -219,7 +251,7 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
           }`}
         >
           <BarChart2 className="w-4 h-4 text-teal-300" />
-          <span>Bảng So Sánh Đối Chiếu (Matrix)</span>
+          <span>3. Bảng Ma Trận Top 3</span>
         </button>
 
         <button
@@ -232,7 +264,7 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
           }`}
         >
           <Layers className="w-4 h-4 text-cyan-300" />
-          <span>Toàn Bộ Thị Trường ({allProviders.length} Đơn Vị 3PL)</span>
+          <span>4. Toàn Bộ Thị Trường ({allProviders.length} 3PL)</span>
         </button>
       </div>
 
@@ -523,6 +555,15 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
           })}
           </div>
         </div>
+      )}
+
+      {/* REAL-TIME DYNAMIC WSM VS AI COMPARISON */}
+      {activeResultTab === 'wsm' && wsmComparison && (
+        <DynamicWSMComparison
+          comparison={wsmComparison}
+          order={order}
+          metrics={metrics}
+        />
       )}
 
       {/* HEAD-TO-HEAD COMPARISON TABLE */}

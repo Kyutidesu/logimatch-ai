@@ -103,6 +103,49 @@ export interface AIModelMetadata {
   inputVectorPreview: Record<string, number | string>;
 }
 
+export interface WSMProviderDetail {
+  id: string;
+  name: string;
+  shortName: string;
+  logo: string;
+  brandColor: string;
+  costVnd: number;
+  transitHours: number;
+  deliveryTimeText: string;
+  onTimeRate: number;
+  customerRating: number;
+  complaintRate: number;
+  routeCapacity: number;
+  normCost: number;
+  normLeadTime: number;
+  normComplaint: number;
+  normOnTime: number;
+  normRating: number;
+  normCapacity: number;
+  wsmScore: number;
+  wsmRank: number;
+  aiScore: number;
+  aiRank: number;
+  rankDifference: number;
+  reasonForDifference: string;
+}
+
+export interface WSMComparisonResult {
+  weights: {
+    cost: number;
+    leadTime: number;
+    complaintRate: number;
+    onTimeRate: number;
+    customerRating: number;
+    routeCapacity: number;
+  };
+  providers: WSMProviderDetail[];
+  topAIProvider: WSMProviderDetail;
+  topWSMProvider: WSMProviderDetail;
+  isSameTop1: boolean;
+  insightAnalysis: string;
+}
+
 export interface RecommendationResponse {
   success: boolean;
   orderMetrics: CargoMetrics;
@@ -110,6 +153,7 @@ export interface RecommendationResponse {
   allProviders: ProviderEvaluation[];
   modelInfo: AIModelMetadata;
   aiAnalysisSummary?: string;
+  wsmComparison?: WSMComparisonResult;
 }
 
 export interface WaybillBooking {

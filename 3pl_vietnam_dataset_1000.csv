@@ -1,0 +1,1001 @@
+Order_ID,Origin_City,Destination_City,Distance_KM,Cargo_Type,Priority,Weight_Kg,Chargeable_Weight_Kg,Is_Cold_Chain,Is_Express,Provider_ID,Provider_Name,Price_VND,Lead_Time_Days,On_Time_Rate,Complaint_Rate,Route_Capacity,Customer_Rating,Is_Selected
+ORD0001,Quảng Ninh,TP. Hồ Chí Minh,1079.2,fmcg,reliability,102.2,204.4,1,0,transimex,Transimex Cold Chain,403000,1.2,0.9866,0.0082,4161,4.8,1
+ORD0002,Đồng Nai,Hải Phòng,254.1,perishable,reliability,52.4,366.8,1,0,kerry_logistics,Kerry Express,117000,0.5,0.9724,0.0178,6305,4.8,0
+ORD0003,Cần Thơ,Nghệ An (Vinh),485.0,fmcg,balanced,133.0,1330.0,0,1,vnpost,VNPost Logistics,294000,0.5,0.9784,0.0289,10714,4.7,1
+ORD0004,Bình Dương,Đà Nẵng,742.8,fragile,reliability,92.2,184.4,0,1,dhl_supply,DHL Express/Logistics,499000,0.5,1.0047,0.0071,2202,4.9,0
+ORD0005,Hà Nội,Bắc Ninh,1136.1,chemicals,cost,33.2,116.2,0,0,jt_cargo,J&T Cargo,85000,1.3,0.9676,0.0191,5207,4.8,1
+ORD0006,Nghệ An (Vinh),Đồng Nai,926.5,bulky,balanced,75.0,675.0,0,1,vnpost,VNPost Logistics,566000,0.8,0.9666,0.0268,9059,4.7,1
+ORD0007,Hà Nội,Bà Rịa - Vũng Tàu,566.9,textile,cost,18.5,1097.8,0,0,ghtk,GHTK Cargo,243000,0.7,0.9777,0.0159,6947,4.8,0
+ORD0008,Nghệ An (Vinh),Hải Phòng,627.2,electronics,reliability,90.6,90.6,1,0,transimex,Transimex Cold Chain,362000,0.8,0.9754,0.015,1850,5.0,1
+ORD0009,TP. Hồ Chí Minh,Nghệ An (Vinh),671.0,chemicals,speed,26.4,648.6,0,1,transimex,Transimex Cold Chain,363000,0.6,0.9918,0.0112,3029,4.9,0
+ORD0010,Khánh Hòa (Nha Trang),Cần Thơ,337.7,fmcg,speed,89.1,89.1,0,1,transimex,Transimex Cold Chain,175000,0.5,0.9757,0.0083,3605,4.8,0
+ORD0011,Quảng Ninh,Cần Thơ,188.6,electronics,speed,30.2,635.6,0,1,kerry_logistics,Kerry Express,402000,0.5,0.9817,0.0168,5646,4.8,1
+ORD0012,Đồng Nai,Bình Dương,552.5,chemicals,cost,68.4,615.6,0,0,vnpost,VNPost Logistics,140000,0.8,0.9583,0.03,14938,4.8,1
+ORD0013,Hải Phòng,Đà Nẵng,700.5,perishable,balanced,26.4,73.3,1,0,dhl_supply,DHL Express/Logistics,202000,0.7,0.9906,0.0097,1938,5.0,0
+ORD0014,Cần Thơ,Đà Nẵng,778.4,electronics,reliability,11.0,249.5,1,0,ghtk,GHTK Cargo,483000,0.9,0.9664,0.0191,3780,4.8,0
+ORD0015,Quảng Ninh,Hải Phòng,549.5,perishable,cost,93.7,127.1,1,0,transimex,Transimex Cold Chain,165000,0.7,0.9907,0.0105,2036,4.8,1
+ORD0016,Bắc Ninh,Khánh Hòa (Nha Trang),162.1,fragile,cost,149.4,1494.0,0,0,vnpost,VNPost Logistics,340000,0.5,0.979,0.025,13830,4.6,1
+ORD0017,Bắc Ninh,Quảng Ninh,1076.5,chemicals,cost,41.1,131.2,0,1,sotrans,Sotrans Logistics,289000,0.9,0.9721,0.0201,4001,4.7,1
+ORD0018,Hà Nội,Đà Nẵng,859.3,textile,balanced,116.1,696.5999999999999,0,0,viettel_post,Viettel Post,272000,1.0,0.9728,0.0196,9221,4.9,1
+ORD0019,Bình Dương,Quảng Ninh,1125.1,bulky,speed,56.0,280.0,0,1,transimex,Transimex Cold Chain,529000,0.8,0.9911,0.0133,3793,4.8,0
+ORD0020,Đồng Nai,Quảng Ninh,905.0,textile,speed,5.7,125.4,0,1,dhl_supply,DHL Express/Logistics,232000,0.6,0.984,0.0076,879,4.9,0
+ORD0021,Hải Phòng,Bắc Ninh,296.3,chemicals,balanced,5.5,183.6,0,0,sotrans,Sotrans Logistics,89000,0.5,0.983,0.0182,4196,4.8,1
+ORD0022,Hà Nội,Đà Nẵng,882.1,fragile,speed,66.3,663.0,0,1,vnpost,VNPost Logistics,665000,0.8,0.9666,0.0266,12806,4.6,1
+ORD0023,Khánh Hòa (Nha Trang),Nghệ An (Vinh),823.0,textile,speed,94.2,565.2,1,1,dhl_supply,DHL Express/Logistics,658000,0.5,0.9967,0.0046,1935,4.9,0
+ORD0024,Đồng Nai,Bà Rịa - Vũng Tàu,315.4,perishable,speed,47.0,102.4,1,1,sotrans,Sotrans Logistics,137000,0.5,0.9786,0.0185,3938,4.7,0
+ORD0025,Bà Rịa - Vũng Tàu,Đà Nẵng,904.6,textile,cost,51.6,1383.7,0,0,ghtk,GHTK Cargo,586000,1.0,0.9656,0.017,6980,4.8,0
+ORD0026,Cần Thơ,Đồng Nai,850.1,textile,speed,23.8,449.2,0,1,kerry_logistics,Kerry Express,251000,0.7,0.9755,0.0174,4902,4.8,1
+ORD0027,Hải Phòng,TP. Hồ Chí Minh,1144.0,perishable,speed,90.1,1912.7,1,1,kerry_logistics,Kerry Express,1543000,0.8,0.9908,0.0154,6046,4.9,0
+ORD0028,Cần Thơ,Bắc Ninh,387.5,chemicals,speed,94.8,1236.7,1,1,sotrans,Sotrans Logistics,581000,0.5,0.975,0.0193,2947,4.7,0
+ORD0029,Đà Nẵng,Bắc Ninh,751.7,fmcg,balanced,63.5,893.4,0,0,kerry_logistics,Kerry Express,315000,0.9,0.9819,0.0185,4597,4.8,1
+ORD0030,Đồng Nai,Nghệ An (Vinh),515.5,textile,speed,73.9,517.3000000000001,0,1,jt_cargo,J&T Cargo,163000,0.5,0.987,0.0258,4613,4.7,1
+ORD0031,Quảng Ninh,Hà Nội,446.6,fmcg,balanced,40.5,40.5,0,0,kerry_logistics,Kerry Express,57000,0.6,0.9763,0.0117,5209,4.7,1
+ORD0032,Bình Dương,Hải Phòng,102.8,textile,cost,31.5,126.0,0,1,transimex,Transimex Cold Chain,120000,0.5,0.9856,0.01,3981,4.9,0
+ORD0033,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,724.9,chemicals,speed,139.5,139.5,0,1,vnpost,VNPost Logistics,83000,0.7,0.9718,0.0286,12711,4.6,1
+ORD0034,Quảng Ninh,Nghệ An (Vinh),157.2,chemicals,cost,99.9,699.3000000000001,0,1,vnpost,VNPost Logistics,86000,0.5,0.9678,0.0249,10766,4.8,1
+ORD0035,Đồng Nai,Đà Nẵng,912.9,textile,reliability,41.7,1375.7,0,1,jt_cargo,J&T Cargo,584000,0.7,0.9782,0.0233,5024,4.7,1
+ORD0036,Đà Nẵng,Khánh Hòa (Nha Trang),769.1,electronics,reliability,105.8,1058.0,1,0,transimex,Transimex Cold Chain,687000,0.9,0.992,0.0119,4328,4.9,1
+ORD0037,Bà Rịa - Vũng Tàu,Cần Thơ,423.0,perishable,cost,104.4,730.8000000000001,1,0,sotrans,Sotrans Logistics,241000,0.7,0.9776,0.021,4878,4.7,0
+ORD0038,Bắc Ninh,Bình Dương,853.0,electronics,cost,142.7,1284.3,0,0,dhl_supply,DHL Express/Logistics,940000,0.8,1.0045,0.0087,1539,4.9,0
+ORD0039,Hà Nội,Nghệ An (Vinh),221.4,electronics,reliability,105.2,526.0,0,0,dhl_supply,DHL Express/Logistics,203000,0.5,0.9917,0.0055,905,4.8,0
+ORD0040,Cần Thơ,TP. Hồ Chí Minh,140.0,chemicals,cost,95.2,952.0,1,0,vnpost,VNPost Logistics,103000,0.5,0.971,0.0253,12066,4.7,0
+ORD0041,Khánh Hòa (Nha Trang),Đồng Nai,147.5,perishable,balanced,86.2,553.0,1,0,transimex,Transimex Cold Chain,312000,0.5,0.9806,0.0086,3760,4.8,1
+ORD0042,Hà Nội,Cần Thơ,867.3,perishable,balanced,106.6,533.0,1,0,transimex,Transimex Cold Chain,409000,1.0,0.9846,0.0124,2588,4.9,1
+ORD0043,TP. Hồ Chí Minh,Hà Nội,1720.0,electronics,reliability,103.9,831.2,0,0,jt_cargo,J&T Cargo,856000,1.8,0.9749,0.0228,6008,4.8,1
+ORD0044,Bắc Ninh,Hà Nội,934.7,fmcg,speed,87.3,436.5,0,1,dhl_supply,DHL Express/Logistics,446000,0.6,0.9845,0.0067,1807,4.9,0
+ORD0045,Cần Thơ,Bình Dương,856.9,perishable,reliability,50.8,152.39999999999998,1,0,viettel_post,Viettel Post,128000,1.0,0.9814,0.0145,15947,4.8,0
+ORD0046,Khánh Hòa (Nha Trang),Hà Nội,927.2,textile,balanced,55.5,499.5,0,0,ghtk,GHTK Cargo,551000,1.0,0.9882,0.0185,3997,4.8,1
+ORD0047,Quảng Ninh,Nghệ An (Vinh),184.4,chemicals,speed,83.7,83.7,0,1,vnpost,VNPost Logistics,50000,0.5,0.9732,0.0232,9390,4.8,0
+ORD0048,Bắc Ninh,Cần Thơ,293.5,chemicals,balanced,23.4,788.3,0,0,dhl_supply,DHL Express/Logistics,304000,0.5,0.9993,0.0088,2413,4.9,0
+ORD0049,Hà Nội,Bình Dương,452.3,textile,reliability,73.7,663.3000000000001,0,0,transimex,Transimex Cold Chain,228000,0.6,0.9883,0.0099,1678,4.9,0
+ORD0050,Cần Thơ,Đồng Nai,451.8,perishable,speed,144.9,1304.1000000000001,1,1,vnpost,VNPost Logistics,657000,0.5,0.9701,0.0257,10358,4.7,0
+ORD0051,Đà Nẵng,TP. Hồ Chí Minh,912.9,perishable,reliability,98.2,1367.1,1,0,sotrans,Sotrans Logistics,684000,1.1,0.9827,0.0221,4216,4.8,1
+ORD0052,TP. Hồ Chí Minh,Bắc Ninh,931.6,textile,reliability,146.8,1027.6000000000001,0,1,viettel_post,Viettel Post,711000,0.7,0.9711,0.0184,11070,4.8,1
+ORD0053,Hải Phòng,Nghệ An (Vinh),774.1,perishable,speed,130.9,1309.0,1,1,ghtk,GHTK Cargo,1008000,0.6,0.9708,0.0201,6231,4.8,1
+ORD0054,Cần Thơ,Bắc Ninh,1157.5,textile,speed,46.3,463.0,0,1,transimex,Transimex Cold Chain,421000,0.9,0.999,0.0148,3062,4.8,0
+ORD0055,Nghệ An (Vinh),Bắc Ninh,1048.9,textile,reliability,3.2,148.5,0,0,dhl_supply,DHL Express/Logistics,210000,0.9,0.9994,0.0038,1248,5.0,0
+ORD0056,Nghệ An (Vinh),Bắc Ninh,573.7,textile,speed,47.7,76.9,0,1,dhl_supply,DHL Express/Logistics,182000,0.5,0.9882,0.0053,2410,4.8,1
+ORD0057,Bình Dương,Nghệ An (Vinh),459.4,bulky,reliability,112.5,562.5,1,0,kerry_logistics,Kerry Express,355000,0.6,0.9942,0.0174,6238,4.8,0
+ORD0058,Bắc Ninh,Nghệ An (Vinh),1001.1,fmcg,balanced,88.5,1105.3,0,1,sotrans,Sotrans Logistics,597000,0.8,0.9899,0.0168,5374,4.7,1
+ORD0059,Bà Rịa - Vũng Tàu,Bắc Ninh,631.7,textile,balanced,47.0,47.0,1,0,sotrans,Sotrans Logistics,409000,0.8,0.9838,0.0209,3716,4.8,0
+ORD0060,Bà Rịa - Vũng Tàu,Đà Nẵng,792.6,perishable,cost,6.8,836.1,1,0,vnpost,VNPost Logistics,325000,1.0,0.9815,0.0249,12282,4.8,0
+ORD0061,Đồng Nai,Bắc Ninh,748.8,electronics,cost,97.0,388.0,1,0,ghtk,GHTK Cargo,346000,0.8,0.9847,0.0166,5770,4.8,0
+ORD0062,Hải Phòng,Bắc Ninh,974.3,fragile,speed,82.0,246.0,1,1,ghtk,GHTK Cargo,223000,0.7,0.9654,0.0213,4826,4.7,1
+ORD0063,Bắc Ninh,Hà Nội,485.5,electronics,balanced,68.3,546.4,0,0,viettel_post,Viettel Post,296000,0.7,0.9882,0.0193,10470,4.9,1
+ORD0064,Hà Nội,TP. Hồ Chí Minh,1720.0,perishable,balanced,107.4,859.2,1,0,ghtk,GHTK Cargo,710000,1.6,0.9666,0.0172,5746,4.8,0
+ORD0065,Đồng Nai,Quảng Ninh,866.0,bulky,reliability,16.7,1308.6,0,0,kerry_logistics,Kerry Express,498000,1.0,0.9813,0.0128,4857,4.8,1
+ORD0066,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,849.2,fragile,balanced,143.1,858.5999999999999,0,1,vnpost,VNPost Logistics,386000,0.8,0.9678,0.028,8065,4.7,1
+ORD0067,Nghệ An (Vinh),Khánh Hòa (Nha Trang),887.6,bulky,reliability,130.5,913.5,0,0,transimex,Transimex Cold Chain,463000,1.0,0.9779,0.0119,2934,4.9,0
+ORD0068,Bình Dương,TP. Hồ Chí Minh,45.0,chemicals,reliability,146.2,1315.8,0,0,dhl_supply,DHL Express/Logistics,154000,0.5,0.9807,0.0042,1495,5.0,0
+ORD0069,Đà Nẵng,Hải Phòng,832.6,bulky,balanced,15.6,22.2,0,0,sotrans,Sotrans Logistics,281000,1.0,0.9864,0.0195,2215,4.7,1
+ORD0070,Nghệ An (Vinh),Hà Nội,575.1,textile,cost,73.9,831.6,0,0,vnpost,VNPost Logistics,468000,0.8,0.9641,0.0274,12465,4.7,1
+ORD0071,Hải Phòng,Cần Thơ,935.9,bulky,cost,115.6,462.4,0,1,ghtk,GHTK Cargo,226000,0.7,0.9682,0.0193,5788,4.7,0
+ORD0072,Bình Dương,TP. Hồ Chí Minh,45.0,perishable,cost,129.6,259.2,1,0,dhl_supply,DHL Express/Logistics,171000,0.5,0.9829,0.0022,2441,4.9,0
+ORD0073,Cần Thơ,Bình Dương,168.1,fmcg,balanced,61.3,613.0,0,0,vnpost,VNPost Logistics,182000,0.5,0.9698,0.0229,14421,4.7,1
+ORD0074,Bình Dương,Bà Rịa - Vũng Tàu,754.7,chemicals,speed,31.2,156.0,0,1,jt_cargo,J&T Cargo,100000,0.6,0.9756,0.0225,5789,4.8,1
+ORD0075,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,787.2,textile,reliability,71.4,142.8,0,0,dhl_supply,DHL Express/Logistics,185000,0.8,0.9915,0.0023,1387,4.9,0
+ORD0076,TP. Hồ Chí Minh,Quảng Ninh,987.0,bulky,balanced,68.6,196.5,0,0,viettel_post,Viettel Post,119000,1.1,0.9813,0.0185,13851,4.9,1
+ORD0077,Quảng Ninh,Đà Nẵng,791.0,fmcg,speed,92.3,1299.0,0,1,viettel_post,Viettel Post,544000,0.7,0.9897,0.0172,8774,4.7,1
+ORD0078,Đồng Nai,Bắc Ninh,427.5,fragile,speed,137.7,413.09999999999997,0,1,ghtk,GHTK Cargo,380000,0.5,0.9799,0.0225,5042,4.7,0
+ORD0079,Bình Dương,Đà Nẵng,745.1,textile,cost,55.7,114.7,0,0,ghtk,GHTK Cargo,66000,0.8,0.9689,0.0174,5579,4.8,0
+ORD0080,Bà Rịa - Vũng Tàu,Khánh Hòa (Nha Trang),1011.1,fmcg,reliability,26.0,167.8,0,0,viettel_post,Viettel Post,399000,1.1,0.9803,0.0174,11638,4.8,1
+ORD0081,Bà Rịa - Vũng Tàu,Cần Thơ,1140.8,electronics,speed,56.4,654.2,0,1,dhl_supply,DHL Express/Logistics,996000,0.7,0.9995,0.006,1131,4.9,0
+ORD0082,Nghệ An (Vinh),Đà Nẵng,725.6,chemicals,reliability,84.1,504.59999999999997,0,0,dhl_supply,DHL Express/Logistics,442000,0.7,0.9912,0.0061,987,5.0,0
+ORD0083,Hải Phòng,Khánh Hòa (Nha Trang),512.5,fragile,cost,57.3,515.6999999999999,1,0,vnpost,VNPost Logistics,368000,0.8,0.978,0.0272,8127,4.8,1
+ORD0084,Cần Thơ,Đà Nẵng,753.9,chemicals,balanced,4.8,49.8,1,0,vnpost,VNPost Logistics,63000,1.0,0.9764,0.0239,8953,4.6,0
+ORD0085,Nghệ An (Vinh),Cần Thơ,724.1,fmcg,cost,95.5,208.7,0,0,transimex,Transimex Cold Chain,395000,0.9,0.9883,0.0095,3644,4.9,0
+ORD0086,TP. Hồ Chí Minh,Nghệ An (Vinh),364.1,bulky,cost,147.2,1030.3999999999999,1,0,sotrans,Sotrans Logistics,272000,0.6,0.9703,0.0178,4632,4.7,0
+ORD0087,Quảng Ninh,Cần Thơ,1136.8,textile,balanced,108.0,216.0,1,0,sotrans,Sotrans Logistics,211000,1.3,0.9903,0.0191,4224,4.8,0
+ORD0088,Hà Nội,Bà Rịa - Vũng Tàu,975.3,electronics,reliability,42.4,254.39999999999998,0,0,kerry_logistics,Kerry Express,438000,1.1,0.9785,0.0125,4504,4.8,1
+ORD0089,Khánh Hòa (Nha Trang),Bắc Ninh,282.1,chemicals,cost,149.3,1493.0,0,1,dhl_supply,DHL Express/Logistics,455000,0.5,0.9911,0.0077,1709,4.8,0
+ORD0090,Hà Nội,Đồng Nai,535.0,bulky,balanced,101.3,202.6,0,0,ghtk,GHTK Cargo,99000,0.7,0.9862,0.0204,4017,4.8,0
+ORD0091,Quảng Ninh,Bình Dương,496.7,fragile,balanced,142.4,1139.2,0,0,sotrans,Sotrans Logistics,613000,0.7,0.977,0.0202,2464,4.7,0
+ORD0092,Đà Nẵng,Khánh Hòa (Nha Trang),853.0,bulky,balanced,33.8,270.4,0,0,vnpost,VNPost Logistics,202000,1.1,0.9683,0.0292,7719,4.7,1
+ORD0093,Bình Dương,Bà Rịa - Vũng Tàu,649.8,fragile,cost,119.5,358.5,1,0,transimex,Transimex Cold Chain,361000,0.8,0.9938,0.0082,3011,4.9,1
+ORD0094,Khánh Hòa (Nha Trang),Đà Nẵng,892.3,bulky,cost,79.8,638.4,0,1,jt_cargo,J&T Cargo,292000,0.7,0.9756,0.0221,6395,4.7,1
+ORD0095,Quảng Ninh,Nghệ An (Vinh),420.6,electronics,speed,78.7,157.4,0,1,sotrans,Sotrans Logistics,266000,0.5,0.9907,0.0192,2323,4.7,1
+ORD0096,Quảng Ninh,Khánh Hòa (Nha Trang),268.9,fragile,speed,76.4,281.5,0,1,ghtk,GHTK Cargo,184000,0.5,0.9815,0.0208,6951,4.8,0
+ORD0097,Hà Nội,TP. Hồ Chí Minh,1720.0,fmcg,cost,63.7,637.0,0,0,dhl_supply,DHL Express/Logistics,755000,1.4,0.9921,0.0084,1409,4.9,0
+ORD0098,Bà Rịa - Vũng Tàu,Hà Nội,240.9,electronics,balanced,52.3,528.6,0,0,kerry_logistics,Kerry Express,330000,0.5,0.9733,0.014,4307,4.8,1
+ORD0099,TP. Hồ Chí Minh,Bình Dương,45.0,perishable,speed,141.9,709.5,1,1,transimex,Transimex Cold Chain,177000,0.5,0.9981,0.0152,3866,4.9,1
+ORD0100,Hải Phòng,Đà Nẵng,798.3,perishable,balanced,15.3,115.9,1,0,sotrans,Sotrans Logistics,518000,1.0,0.9682,0.0173,5452,4.8,0
+ORD0101,Cần Thơ,Bắc Ninh,935.5,bulky,cost,109.7,548.5,0,0,sotrans,Sotrans Logistics,250000,1.1,0.9808,0.0156,5130,4.8,1
+ORD0102,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,459.8,bulky,cost,119.6,717.5999999999999,0,0,kerry_logistics,Kerry Express,515000,0.6,0.9825,0.0114,4364,4.7,1
+ORD0103,Khánh Hòa (Nha Trang),Cần Thơ,770.5,electronics,speed,60.2,287.4,0,1,sotrans,Sotrans Logistics,569000,0.7,0.9797,0.0191,4305,4.8,1
+ORD0104,Hà Nội,Đồng Nai,377.4,fragile,cost,90.3,109.9,0,0,transimex,Transimex Cold Chain,489000,0.6,0.992,0.0127,4076,4.8,0
+ORD0105,Đồng Nai,Đà Nẵng,810.3,chemicals,speed,30.2,97.6,0,1,kerry_logistics,Kerry Express,102000,0.6,0.9825,0.0159,6474,4.8,0
+ORD0106,Hà Nội,Hải Phòng,120.0,bulky,speed,57.8,1303.2,0,1,sotrans,Sotrans Logistics,156000,0.5,0.9807,0.0204,4788,4.8,1
+ORD0107,Bà Rịa - Vũng Tàu,Bắc Ninh,1134.5,bulky,balanced,46.2,415.8,0,0,sotrans,Sotrans Logistics,235000,1.3,0.979,0.0195,4955,4.8,1
+ORD0108,TP. Hồ Chí Minh,Quảng Ninh,402.1,textile,balanced,45.0,466.5,0,0,jt_cargo,J&T Cargo,104000,0.6,0.9693,0.0246,5302,4.7,1
+ORD0109,Đà Nẵng,TP. Hồ Chí Minh,758.2,bulky,speed,35.4,318.59999999999997,1,1,vnpost,VNPost Logistics,185000,0.7,0.974,0.0231,14611,4.8,0
+ORD0110,Quảng Ninh,Cần Thơ,180.2,perishable,speed,136.4,136.4,1,1,viettel_post,Viettel Post,92000,0.5,0.9928,0.0134,9440,4.9,0
+ORD0111,Hà Nội,Cần Thơ,716.1,chemicals,balanced,3.4,69.3,1,0,jt_cargo,J&T Cargo,432000,0.9,0.9862,0.0191,4117,4.7,0
+ORD0112,TP. Hồ Chí Minh,Đồng Nai,965.7,electronics,balanced,111.0,111.0,0,0,kerry_logistics,Kerry Express,212000,1.1,0.9907,0.0151,5741,4.7,1
+ORD0113,Đà Nẵng,Khánh Hòa (Nha Trang),766.7,fragile,speed,68.1,272.4,0,1,viettel_post,Viettel Post,535000,0.6,0.9765,0.0149,13470,4.8,1
+ORD0114,Bắc Ninh,Đà Nẵng,754.8,perishable,reliability,93.0,558.0,1,1,sotrans,Sotrans Logistics,762000,0.7,0.9774,0.0194,4201,4.7,0
+ORD0115,Hải Phòng,Bắc Ninh,711.9,textile,cost,13.6,1318.6,1,0,ghtk,GHTK Cargo,469000,0.8,0.9691,0.0218,6286,4.8,0
+ORD0116,Nghệ An (Vinh),Cần Thơ,711.6,fmcg,balanced,63.5,571.5,0,0,kerry_logistics,Kerry Express,211000,0.8,0.9764,0.011,3299,4.8,1
+ORD0117,Bình Dương,TP. Hồ Chí Minh,45.0,bulky,cost,62.5,312.5,0,0,sotrans,Sotrans Logistics,75000,0.5,0.9918,0.0181,5714,4.8,1
+ORD0118,TP. Hồ Chí Minh,Bà Rịa - Vũng Tàu,222.6,textile,speed,60.2,541.8000000000001,0,1,dhl_supply,DHL Express/Logistics,237000,0.5,0.9916,0.0078,1576,4.9,0
+ORD0119,Hải Phòng,Khánh Hòa (Nha Trang),549.5,fragile,speed,121.8,121.8,0,1,transimex,Transimex Cold Chain,171000,0.5,0.9792,0.0088,3948,4.8,0
+ORD0120,Hà Nội,Bắc Ninh,1047.4,textile,cost,34.2,608.1,1,0,sotrans,Sotrans Logistics,770000,1.2,0.9814,0.0212,2970,4.8,0
+ORD0121,Đà Nẵng,Bà Rịa - Vũng Tàu,847.9,bulky,speed,84.4,84.4,0,1,jt_cargo,J&T Cargo,360000,0.7,0.9652,0.0208,4561,4.8,1
+ORD0122,Bình Dương,Cần Thơ,1031.3,perishable,speed,72.1,648.9,1,1,jt_cargo,J&T Cargo,451000,0.8,0.9869,0.0225,5282,4.8,0
+ORD0123,Đồng Nai,Hải Phòng,183.6,fragile,speed,127.4,1019.2,0,1,viettel_post,Viettel Post,275000,0.5,0.9767,0.0174,15156,4.8,1
+ORD0124,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,97.2,bulky,speed,143.6,718.0,0,1,jt_cargo,J&T Cargo,80000,0.5,0.9869,0.0236,4624,4.8,1
+ORD0125,Khánh Hòa (Nha Trang),Bình Dương,482.8,chemicals,reliability,47.6,810.4,0,0,sotrans,Sotrans Logistics,207000,0.7,0.9899,0.018,4304,4.7,1
+ORD0126,Bà Rịa - Vũng Tàu,Đà Nẵng,795.0,fmcg,reliability,50.8,203.2,0,0,dhl_supply,DHL Express/Logistics,214000,0.8,0.9991,0.0059,2314,4.9,0
+ORD0127,Đà Nẵng,Đồng Nai,909.8,electronics,speed,79.5,87.1,1,1,viettel_post,Viettel Post,167000,0.7,0.9803,0.0187,13793,4.8,0
+ORD0128,Hải Phòng,Nghệ An (Vinh),818.4,perishable,reliability,137.1,1371.0,1,1,viettel_post,Viettel Post,795000,0.7,0.9704,0.0178,10348,4.8,1
+ORD0129,Bà Rịa - Vũng Tàu,Quảng Ninh,774.2,perishable,speed,37.7,113.10000000000001,1,1,dhl_supply,DHL Express/Logistics,523000,0.5,0.9999,0.0026,1740,5.0,0
+ORD0130,Bà Rịa - Vũng Tàu,Hải Phòng,613.1,fragile,cost,57.8,404.59999999999997,0,0,jt_cargo,J&T Cargo,184000,0.8,0.9851,0.0232,3390,4.7,1
+ORD0131,Hà Nội,Bắc Ninh,711.1,electronics,balanced,135.1,675.5,1,0,viettel_post,Viettel Post,517000,0.9,0.994,0.0167,13838,4.9,0
+ORD0132,TP. Hồ Chí Minh,Bình Dương,45.0,electronics,speed,58.8,1139.4,0,1,sotrans,Sotrans Logistics,170000,0.5,0.9683,0.0185,3395,4.8,1
+ORD0133,Nghệ An (Vinh),Quảng Ninh,478.5,perishable,reliability,74.6,596.8,1,0,kerry_logistics,Kerry Express,220000,0.6,0.9721,0.0159,5920,4.9,0
+ORD0134,Bắc Ninh,Đà Nẵng,935.7,perishable,speed,15.5,146.6,1,1,vnpost,VNPost Logistics,131000,0.8,0.9603,0.0235,11544,4.7,0
+ORD0135,TP. Hồ Chí Minh,Hà Nội,1720.0,fmcg,reliability,129.8,778.8000000000001,1,0,transimex,Transimex Cold Chain,953000,1.7,0.9883,0.0094,2068,4.9,1
+ORD0136,Bắc Ninh,Khánh Hòa (Nha Trang),956.6,electronics,cost,46.4,324.8,0,0,transimex,Transimex Cold Chain,558000,1.1,0.9854,0.0091,3120,4.8,0
+ORD0137,Nghệ An (Vinh),Đồng Nai,439.1,chemicals,reliability,22.1,978.1,0,0,sotrans,Sotrans Logistics,220000,0.7,0.9743,0.0206,4358,4.8,1
+ORD0138,Bình Dương,Cần Thơ,691.1,fragile,balanced,89.6,358.4,0,0,transimex,Transimex Cold Chain,509000,0.8,0.985,0.0103,3175,4.9,0
+ORD0139,Đà Nẵng,Bà Rịa - Vũng Tàu,718.5,fragile,speed,118.8,831.6,0,1,kerry_logistics,Kerry Express,673000,0.6,0.9834,0.0184,4713,4.9,1
+ORD0140,Bình Dương,Nghệ An (Vinh),766.2,bulky,cost,26.6,261.3,0,0,kerry_logistics,Kerry Express,129000,0.9,0.9726,0.0118,6059,4.8,1
+ORD0141,Nghệ An (Vinh),Quảng Ninh,248.8,electronics,balanced,104.2,1042.0,0,0,kerry_logistics,Kerry Express,347000,0.5,0.993,0.0117,5990,4.9,1
+ORD0142,Bắc Ninh,Đồng Nai,860.4,perishable,speed,66.8,236.2,1,1,viettel_post,Viettel Post,206000,0.7,0.9903,0.0129,13308,4.9,0
+ORD0143,Đà Nẵng,Bắc Ninh,758.0,bulky,speed,143.9,1007.3000000000001,0,1,kerry_logistics,Kerry Express,724000,0.6,0.9707,0.0159,5425,4.7,1
+ORD0144,Hà Nội,Bắc Ninh,445.1,electronics,reliability,29.7,267.3,0,0,sotrans,Sotrans Logistics,432000,0.7,0.9819,0.0199,3425,4.8,1
+ORD0145,Cần Thơ,Quảng Ninh,422.0,electronics,reliability,19.4,134.2,0,0,kerry_logistics,Kerry Express,407000,0.6,0.9805,0.0121,3760,4.8,1
+ORD0146,Khánh Hòa (Nha Trang),Bà Rịa - Vũng Tàu,585.1,electronics,speed,48.6,145.8,1,1,viettel_post,Viettel Post,366000,0.5,0.9821,0.0136,12600,4.8,0
+ORD0147,Cần Thơ,Đồng Nai,713.2,textile,balanced,26.8,1397.1,0,0,dhl_supply,DHL Express/Logistics,848000,0.7,0.9842,0.0057,2368,5.0,0
+ORD0148,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,927.6,bulky,cost,82.2,951.0,0,0,vnpost,VNPost Logistics,588000,1.2,0.9754,0.0272,14166,4.6,1
+ORD0149,Cần Thơ,Bắc Ninh,738.5,fragile,cost,122.0,488.0,0,0,ghtk,GHTK Cargo,437000,0.8,0.9804,0.0213,6799,4.8,0
+ORD0150,Bình Dương,Nghệ An (Vinh),1146.7,fragile,speed,86.8,503.4,0,1,ghtk,GHTK Cargo,356000,0.8,0.9891,0.0213,4635,4.8,0
+ORD0151,Đà Nẵng,Hải Phòng,844.4,electronics,speed,74.4,630.6,0,1,kerry_logistics,Kerry Express,600000,0.7,0.9813,0.0161,3381,4.9,1
+ORD0152,Bà Rịa - Vũng Tàu,Bắc Ninh,947.0,textile,reliability,2.4,1068.1,0,0,vnpost,VNPost Logistics,349000,1.2,0.9769,0.0252,13757,4.8,1
+ORD0153,Bắc Ninh,Đồng Nai,623.6,chemicals,reliability,85.8,448.7,0,0,jt_cargo,J&T Cargo,205000,0.8,0.9644,0.0254,4869,4.7,0
+ORD0154,Đồng Nai,Hải Phòng,360.4,textile,speed,98.9,197.8,0,1,viettel_post,Viettel Post,90000,0.5,0.9799,0.0144,9918,4.9,1
+ORD0155,TP. Hồ Chí Minh,Đà Nẵng,870.0,fmcg,speed,35.5,355.0,1,1,kerry_logistics,Kerry Express,290000,0.7,0.9874,0.0148,3365,4.8,0
+ORD0156,TP. Hồ Chí Minh,Đà Nẵng,869.3,fragile,reliability,97.0,291.0,1,0,ghtk,GHTK Cargo,564000,0.9,0.976,0.0208,4120,4.8,0
+ORD0157,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,510.1,perishable,speed,89.3,178.6,1,1,ghtk,GHTK Cargo,115000,0.5,0.9712,0.0202,5961,4.7,0
+ORD0158,Nghệ An (Vinh),Bắc Ninh,917.6,chemicals,cost,77.4,774.0,0,1,jt_cargo,J&T Cargo,352000,0.7,0.9736,0.0199,3290,4.8,1
+ORD0159,Hà Nội,Đồng Nai,273.5,fragile,speed,82.9,782.7,0,1,viettel_post,Viettel Post,213000,0.5,0.9847,0.0121,15557,4.8,1
+ORD0160,Đồng Nai,Nghệ An (Vinh),682.2,fragile,balanced,96.8,324.8,0,1,transimex,Transimex Cold Chain,300000,0.6,0.9984,0.0092,3902,4.8,0
+ORD0161,Quảng Ninh,Bà Rịa - Vũng Tàu,176.6,textile,cost,10.6,535.4,0,0,ghtk,GHTK Cargo,69000,0.5,0.968,0.0207,4171,4.8,0
+ORD0162,Bình Dương,Nghệ An (Vinh),212.2,bulky,reliability,110.5,552.5,0,0,vnpost,VNPost Logistics,71000,0.5,0.9636,0.0298,11064,4.7,1
+ORD0163,Bình Dương,Hà Nội,835.0,perishable,speed,134.4,268.8,1,1,viettel_post,Viettel Post,555000,0.7,0.9711,0.0189,11864,4.8,0
+ORD0164,Đà Nẵng,Hải Phòng,880.1,chemicals,cost,63.6,254.4,0,1,viettel_post,Viettel Post,163000,0.7,0.9745,0.0184,15815,4.9,1
+ORD0165,Cần Thơ,Bắc Ninh,304.8,chemicals,reliability,3.2,342.8,0,0,sotrans,Sotrans Logistics,107000,0.5,0.9818,0.0189,2800,4.8,1
+ORD0166,Khánh Hòa (Nha Trang),Hải Phòng,1020.3,electronics,cost,53.3,479.7,0,0,kerry_logistics,Kerry Express,253000,1.1,0.9912,0.0168,5170,4.7,1
+ORD0167,Đồng Nai,Khánh Hòa (Nha Trang),662.1,fmcg,speed,134.8,539.2,0,1,vnpost,VNPost Logistics,182000,0.6,0.9696,0.0271,11848,4.7,1
+ORD0168,Đồng Nai,Bà Rịa - Vũng Tàu,903.6,electronics,speed,105.7,739.9,0,1,transimex,Transimex Cold Chain,677000,0.7,0.9759,0.0096,3894,4.9,0
+ORD0169,TP. Hồ Chí Minh,Hải Phòng,942.8,perishable,balanced,55.0,495.0,1,0,vnpost,VNPost Logistics,243000,1.2,0.9609,0.0275,12708,4.8,0
+ORD0170,Hải Phòng,Đồng Nai,414.7,electronics,cost,9.2,537.8,0,1,jt_cargo,J&T Cargo,410000,0.5,0.9779,0.0224,3417,4.7,1
+ORD0171,Đà Nẵng,TP. Hồ Chí Minh,857.6,fmcg,cost,57.1,399.7,0,0,viettel_post,Viettel Post,230000,1.0,0.9949,0.0136,14629,4.9,1
+ORD0172,Bình Dương,TP. Hồ Chí Minh,45.0,fmcg,balanced,123.6,865.1999999999999,0,1,sotrans,Sotrans Logistics,105000,0.5,0.9724,0.0165,5618,4.7,1
+ORD0173,Nghệ An (Vinh),Quảng Ninh,178.2,bulky,speed,72.9,827.0,0,1,transimex,Transimex Cold Chain,197000,0.5,0.9898,0.0144,3066,4.9,0
+ORD0174,Bình Dương,Khánh Hòa (Nha Trang),281.4,bulky,balanced,59.5,834.4,0,0,viettel_post,Viettel Post,134000,0.5,0.9902,0.0158,12784,4.8,1
+ORD0175,Đà Nẵng,TP. Hồ Chí Minh,945.7,electronics,speed,87.2,348.8,0,1,ghtk,GHTK Cargo,304000,0.7,0.9709,0.0175,4969,4.8,0
+ORD0176,Hà Nội,Đồng Nai,629.3,bulky,speed,47.7,1054.4,1,1,viettel_post,Viettel Post,651000,0.6,0.9832,0.012,9650,4.9,0
+ORD0177,Bình Dương,Đà Nẵng,735.4,chemicals,reliability,106.3,1063.0,1,0,sotrans,Sotrans Logistics,464000,0.9,0.9846,0.0203,3378,4.8,0
+ORD0178,Đà Nẵng,Hải Phòng,840.5,textile,balanced,106.7,423.4,0,0,ghtk,GHTK Cargo,155000,0.9,0.9745,0.0209,4227,4.7,0
+ORD0179,Bà Rịa - Vũng Tàu,Nghệ An (Vinh),713.4,perishable,cost,34.7,607.2,1,0,transimex,Transimex Cold Chain,446000,0.9,0.9827,0.0106,1863,4.9,1
+ORD0180,Quảng Ninh,Bà Rịa - Vũng Tàu,155.9,textile,reliability,38.9,155.6,0,1,jt_cargo,J&T Cargo,315000,0.5,0.9823,0.0258,5019,4.8,1
+ORD0181,Bình Dương,Nghệ An (Vinh),162.6,perishable,cost,26.1,1084.3,1,0,dhl_supply,DHL Express/Logistics,510000,0.5,1.0038,0.0026,1568,4.8,0
+ORD0182,TP. Hồ Chí Minh,Nghệ An (Vinh),264.8,fmcg,reliability,141.5,990.5,0,1,transimex,Transimex Cold Chain,403000,0.5,0.9842,0.0124,3712,5.0,0
+ORD0183,Bắc Ninh,Bình Dương,252.0,electronics,cost,126.3,1136.7,0,0,jt_cargo,J&T Cargo,332000,0.5,0.969,0.0182,4195,4.7,1
+ORD0184,Cần Thơ,TP. Hồ Chí Minh,689.4,fragile,balanced,15.5,1013.3,0,0,ghtk,GHTK Cargo,514000,0.8,0.9761,0.0171,4426,4.8,0
+ORD0185,Nghệ An (Vinh),Hà Nội,927.2,electronics,cost,63.3,569.6999999999999,0,1,kerry_logistics,Kerry Express,578000,0.7,0.9941,0.0165,5345,4.9,1
+ORD0186,Cần Thơ,Bắc Ninh,838.8,fmcg,balanced,120.5,1084.5,0,1,ghtk,GHTK Cargo,423000,0.6,0.9893,0.0215,5234,4.7,0
+ORD0187,Quảng Ninh,Đồng Nai,525.0,electronics,speed,59.4,118.8,0,1,jt_cargo,J&T Cargo,262000,0.5,0.9869,0.0181,5406,4.8,1
+ORD0188,Đồng Nai,TP. Hồ Chí Minh,1132.4,perishable,speed,114.2,1142.0,1,1,vnpost,VNPost Logistics,736000,1.0,0.9766,0.0289,14191,4.8,0
+ORD0189,Đồng Nai,Bà Rịa - Vũng Tàu,761.7,perishable,balanced,23.3,163.1,1,0,transimex,Transimex Cold Chain,419000,0.9,0.9752,0.0118,3025,4.8,0
+ORD0190,Bắc Ninh,Bình Dương,576.3,fragile,balanced,146.2,731.0,0,0,vnpost,VNPost Logistics,441000,0.8,0.9617,0.0237,13069,4.8,1
+ORD0191,Khánh Hòa (Nha Trang),Bình Dương,954.2,chemicals,cost,61.7,555.3000000000001,0,0,viettel_post,Viettel Post,381000,1.1,0.9762,0.0157,13772,4.9,1
+ORD0192,Bình Dương,Khánh Hòa (Nha Trang),745.3,bulky,balanced,57.1,228.4,0,0,sotrans,Sotrans Logistics,130000,1.0,0.9711,0.0222,4821,4.8,1
+ORD0193,Hà Nội,Cần Thơ,381.4,fmcg,speed,102.3,409.2,0,1,jt_cargo,J&T Cargo,131000,0.5,0.9868,0.0232,3034,4.8,1
+ORD0194,Nghệ An (Vinh),Bắc Ninh,602.7,textile,reliability,39.3,696.7,0,0,viettel_post,Viettel Post,205000,0.8,0.9828,0.0173,11065,4.9,1
+ORD0195,Nghệ An (Vinh),Quảng Ninh,797.5,fragile,reliability,148.3,889.8000000000001,0,0,transimex,Transimex Cold Chain,616000,0.9,0.9777,0.0141,3957,5.0,0
+ORD0196,Bình Dương,Bà Rịa - Vũng Tàu,905.1,electronics,cost,61.9,460.2,0,0,sotrans,Sotrans Logistics,346000,1.1,0.9852,0.0168,5214,4.8,1
+ORD0197,Quảng Ninh,Bình Dương,607.3,bulky,reliability,45.5,303.1,0,0,sotrans,Sotrans Logistics,134000,0.8,0.9834,0.0168,5569,4.7,1
+ORD0198,Bình Dương,Đồng Nai,733.6,fragile,reliability,130.2,130.2,0,1,vnpost,VNPost Logistics,211000,0.7,0.9787,0.0251,7442,4.7,1
+ORD0199,Đà Nẵng,Hải Phòng,878.9,electronics,reliability,48.8,440.2,0,0,sotrans,Sotrans Logistics,325000,1.1,0.9829,0.015,5117,4.7,1
+ORD0200,Nghệ An (Vinh),Đà Nẵng,941.3,perishable,cost,61.7,448.5,1,0,sotrans,Sotrans Logistics,429000,1.1,0.9908,0.0221,4175,4.8,0
+ORD0201,Quảng Ninh,Hà Nội,509.6,textile,speed,21.1,428.3,0,1,dhl_supply,DHL Express/Logistics,343000,0.5,1.0037,0.0056,1873,4.9,0
+ORD0202,Quảng Ninh,Đà Nẵng,929.6,fragile,balanced,142.3,426.90000000000003,0,0,transimex,Transimex Cold Chain,363000,1.0,0.9924,0.0127,3001,4.8,0
+ORD0203,Hà Nội,Cần Thơ,102.1,textile,reliability,98.7,197.4,0,0,dhl_supply,DHL Express/Logistics,132000,0.5,0.9919,0.0032,2090,4.9,1
+ORD0204,Đồng Nai,Bà Rịa - Vũng Tàu,211.9,fmcg,reliability,108.4,975.6,1,1,dhl_supply,DHL Express/Logistics,540000,0.5,1.0008,0.0098,1639,4.9,0
+ORD0205,Hà Nội,Nghệ An (Vinh),179.7,perishable,speed,3.9,65.2,1,1,jt_cargo,J&T Cargo,449000,0.5,0.9677,0.0187,5963,4.7,0
+ORD0206,Bắc Ninh,Bà Rịa - Vũng Tàu,275.7,electronics,balanced,16.8,62.9,1,0,kerry_logistics,Kerry Express,287000,0.5,0.9885,0.0118,3187,4.9,1
+ORD0207,Đà Nẵng,Bà Rịa - Vũng Tàu,883.3,textile,speed,41.7,823.7,0,1,kerry_logistics,Kerry Express,422000,0.7,0.98,0.0147,5825,4.9,1
+ORD0208,Đồng Nai,Bà Rịa - Vũng Tàu,1025.7,chemicals,speed,147.3,147.3,1,1,jt_cargo,J&T Cargo,154000,0.8,0.9685,0.021,3118,4.7,0
+ORD0209,Bà Rịa - Vũng Tàu,Đà Nẵng,863.7,perishable,balanced,11.4,42.5,1,1,transimex,Transimex Cold Chain,180000,0.7,0.9984,0.0134,3642,4.8,1
+ORD0210,Nghệ An (Vinh),TP. Hồ Chí Minh,1005.6,perishable,speed,24.0,1110.3,1,1,viettel_post,Viettel Post,792000,0.8,0.9703,0.0195,11844,4.8,0
+ORD0211,Đà Nẵng,TP. Hồ Chí Minh,755.7,chemicals,balanced,9.5,238.7,0,0,jt_cargo,J&T Cargo,401000,0.9,0.984,0.0216,4831,4.8,1
+ORD0212,Cần Thơ,Bà Rịa - Vũng Tàu,1005.0,fmcg,cost,83.3,749.6999999999999,0,0,transimex,Transimex Cold Chain,437000,1.1,0.9904,0.0116,1722,4.8,0
+ORD0213,Cần Thơ,Bình Dương,818.0,bulky,balanced,16.4,321.0,1,0,sotrans,Sotrans Logistics,219000,1.0,0.9846,0.0154,2575,4.7,0
+ORD0214,Bà Rịa - Vũng Tàu,Đồng Nai,1003.5,fmcg,reliability,33.9,237.29999999999998,0,0,vnpost,VNPost Logistics,109000,1.2,0.9763,0.0256,14833,4.7,1
+ORD0215,Cần Thơ,Hà Nội,1099.4,bulky,cost,117.6,1478.6,0,1,kerry_logistics,Kerry Express,865000,0.8,0.9864,0.0158,6610,4.8,1
+ORD0216,Nghệ An (Vinh),Hải Phòng,754.8,fragile,balanced,22.5,223.7,0,0,sotrans,Sotrans Logistics,489000,1.0,0.9848,0.0225,2822,4.8,1
+ORD0217,Bà Rịa - Vũng Tàu,Bắc Ninh,857.6,textile,reliability,76.6,310.5,0,1,kerry_logistics,Kerry Express,194000,0.7,0.9869,0.0182,6594,4.8,1
+ORD0218,Hà Nội,Nghệ An (Vinh),920.2,fmcg,cost,31.6,31.6,0,0,dhl_supply,DHL Express/Logistics,182000,0.8,0.9851,0.0063,1726,4.9,0
+ORD0219,Quảng Ninh,Khánh Hòa (Nha Trang),132.6,chemicals,speed,104.6,523.0,0,1,viettel_post,Viettel Post,89000,0.5,0.9703,0.014,14397,4.8,1
+ORD0220,Cần Thơ,Hải Phòng,1181.5,textile,reliability,68.4,342.0,1,0,kerry_logistics,Kerry Express,283000,1.2,0.971,0.0132,3659,4.8,0
+ORD0221,Bắc Ninh,Hà Nội,946.5,fragile,balanced,90.3,541.8,0,0,jt_cargo,J&T Cargo,414000,1.1,0.9837,0.0224,5898,4.7,1
+ORD0222,Hải Phòng,Đà Nẵng,723.0,bulky,cost,81.5,733.5,0,0,dhl_supply,DHL Express/Logistics,428000,0.7,0.9855,0.008,1949,4.9,0
+ORD0223,Quảng Ninh,Hà Nội,353.1,fmcg,reliability,138.0,1380.0,1,0,kerry_logistics,Kerry Express,327000,0.5,0.9764,0.0168,5117,4.7,0
+ORD0224,Bình Dương,Nghệ An (Vinh),172.2,chemicals,balanced,49.4,197.6,1,0,viettel_post,Viettel Post,78000,0.5,0.9857,0.0137,9746,4.8,0
+ORD0225,Đồng Nai,TP. Hồ Chí Minh,882.9,electronics,balanced,5.5,243.3,1,1,dhl_supply,DHL Express/Logistics,533000,0.6,0.994,0.0066,1329,4.9,0
+ORD0226,Cần Thơ,Bà Rịa - Vũng Tàu,798.4,perishable,balanced,81.2,162.4,1,0,viettel_post,Viettel Post,127000,0.9,0.9875,0.0126,8869,4.9,0
+ORD0227,Quảng Ninh,Bắc Ninh,820.0,bulky,cost,60.5,952.1,0,0,dhl_supply,DHL Express/Logistics,833000,0.8,1.004,0.0032,2428,4.9,0
+ORD0228,Quảng Ninh,Bình Dương,681.6,fmcg,speed,90.3,903.0,0,1,transimex,Transimex Cold Chain,466000,0.6,0.9843,0.0132,2159,4.9,0
+ORD0229,Nghệ An (Vinh),Bắc Ninh,1124.3,electronics,cost,128.0,128.0,0,0,vnpost,VNPost Logistics,440000,1.4,0.9643,0.0225,12944,4.6,1
+ORD0230,Bình Dương,Đồng Nai,435.9,electronics,speed,135.2,270.4,0,1,dhl_supply,DHL Express/Logistics,635000,0.5,0.9973,0.0032,2454,4.9,0
+ORD0231,Đồng Nai,Đà Nẵng,789.9,fmcg,reliability,42.9,507.8,0,0,sotrans,Sotrans Logistics,210000,1.0,0.9864,0.0189,4644,4.7,1
+ORD0232,Bắc Ninh,Đà Nẵng,923.0,bulky,speed,109.7,338.3,0,1,kerry_logistics,Kerry Express,217000,0.7,0.9892,0.0127,4067,4.7,1
+ORD0233,Khánh Hòa (Nha Trang),Cần Thơ,405.9,textile,speed,110.5,1105.0,0,1,sotrans,Sotrans Logistics,284000,0.5,0.9796,0.0203,5303,4.8,1
+ORD0234,Quảng Ninh,Đà Nẵng,864.9,chemicals,speed,142.4,1424.0,0,1,sotrans,Sotrans Logistics,626000,0.7,0.968,0.0211,3082,4.7,1
+ORD0235,Hà Nội,Bà Rịa - Vũng Tàu,806.3,electronics,reliability,7.9,121.4,1,0,dhl_supply,DHL Express/Logistics,424000,0.8,0.9945,0.0066,1575,4.9,0
+ORD0236,Quảng Ninh,TP. Hồ Chí Minh,1051.8,bulky,reliability,54.2,530.7,0,0,ghtk,GHTK Cargo,222000,1.1,0.976,0.0168,4650,4.8,0
+ORD0237,Đà Nẵng,Hải Phòng,819.7,fragile,cost,73.3,146.6,0,1,viettel_post,Viettel Post,383000,0.7,0.9761,0.013,9103,4.8,1
+ORD0238,Hà Nội,Quảng Ninh,751.3,electronics,cost,143.8,1294.2,0,1,vnpost,VNPost Logistics,611000,0.7,0.9624,0.0269,10945,4.7,1
+ORD0239,Đồng Nai,Quảng Ninh,748.1,electronics,speed,138.5,831.0,1,1,kerry_logistics,Kerry Express,749000,0.6,0.9733,0.0111,6724,4.8,0
+ORD0240,Đồng Nai,Đà Nẵng,896.0,bulky,cost,7.8,858.0,0,1,viettel_post,Viettel Post,421000,0.7,0.9924,0.0182,12276,4.9,1
+ORD0241,Hà Nội,Nghệ An (Vinh),910.4,perishable,speed,89.2,1154.5,1,1,vnpost,VNPost Logistics,609000,0.8,0.9676,0.024,14455,4.7,0
+ORD0242,Bắc Ninh,Quảng Ninh,212.0,bulky,balanced,87.5,87.5,1,0,kerry_logistics,Kerry Express,77000,0.5,0.9791,0.0122,4038,4.8,0
+ORD0243,Khánh Hòa (Nha Trang),Đồng Nai,957.8,bulky,reliability,63.2,440.6,0,0,dhl_supply,DHL Express/Logistics,365000,0.9,0.9944,0.0082,1082,4.9,0
+ORD0244,Quảng Ninh,TP. Hồ Chí Minh,649.3,textile,speed,16.8,915.4,0,1,viettel_post,Viettel Post,339000,0.6,0.974,0.0197,8746,4.7,1
+ORD0245,Cần Thơ,Quảng Ninh,122.3,perishable,cost,13.8,82.80000000000001,1,0,dhl_supply,DHL Express/Logistics,170000,0.5,0.9978,0.0068,2479,5.0,0
+ORD0246,Cần Thơ,Khánh Hòa (Nha Trang),862.3,fmcg,speed,77.6,776.0,0,1,transimex,Transimex Cold Chain,497000,0.7,0.9904,0.0158,2630,4.8,0
+ORD0247,Bình Dương,Bà Rịa - Vũng Tàu,695.5,perishable,balanced,138.0,276.0,1,0,sotrans,Sotrans Logistics,185000,0.9,0.9757,0.0215,5944,4.7,0
+ORD0248,Đồng Nai,Quảng Ninh,643.5,fmcg,reliability,84.7,169.4,0,1,dhl_supply,DHL Express/Logistics,229000,0.5,0.9974,0.0097,2376,4.9,0
+ORD0249,Bình Dương,Khánh Hòa (Nha Trang),789.7,textile,balanced,12.0,60.0,0,0,kerry_logistics,Kerry Express,279000,0.9,0.9939,0.0151,6408,4.7,1
+ORD0250,Bắc Ninh,TP. Hồ Chí Minh,324.8,perishable,reliability,48.5,388.0,1,0,jt_cargo,J&T Cargo,242000,0.5,0.9824,0.0199,4087,4.7,0
+ORD0251,Hải Phòng,Bắc Ninh,836.9,chemicals,reliability,138.2,276.4,0,0,viettel_post,Viettel Post,133000,1.0,0.9912,0.015,15357,4.8,1
+ORD0252,Nghệ An (Vinh),Bắc Ninh,223.6,perishable,speed,113.0,452.0,1,1,jt_cargo,J&T Cargo,125000,0.5,0.9875,0.0183,5811,4.7,0
+ORD0253,Cần Thơ,TP. Hồ Chí Minh,505.0,textile,balanced,101.8,101.8,1,0,dhl_supply,DHL Express/Logistics,202000,0.6,0.9859,0.0058,1549,4.9,0
+ORD0254,Đồng Nai,Hải Phòng,226.9,perishable,reliability,28.6,537.0,1,0,dhl_supply,DHL Express/Logistics,327000,0.5,1.0001,0.0064,1201,5.0,0
+ORD0255,Bà Rịa - Vũng Tàu,Đà Nẵng,912.3,perishable,cost,149.3,447.90000000000003,1,0,dhl_supply,DHL Express/Logistics,482000,0.8,0.9863,0.0089,1002,4.8,0
+ORD0256,Hà Nội,Bắc Ninh,370.9,chemicals,reliability,112.2,897.6,0,0,viettel_post,Viettel Post,172000,0.6,0.9803,0.0148,12960,4.9,1
+ORD0257,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,904.9,textile,speed,74.1,666.9,0,1,jt_cargo,J&T Cargo,306000,0.7,0.9798,0.0192,6308,4.7,1
+ORD0258,Đồng Nai,Bà Rịa - Vũng Tàu,434.9,bulky,balanced,35.8,214.79999999999998,0,0,jt_cargo,J&T Cargo,72000,0.6,0.9835,0.0255,5133,4.8,1
+ORD0259,Đồng Nai,Đà Nẵng,875.2,electronics,cost,141.2,706.0,1,1,vnpost,VNPost Logistics,457000,0.8,0.9586,0.029,7215,4.7,0
+ORD0260,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,357.1,fmcg,reliability,47.8,334.59999999999997,0,0,viettel_post,Viettel Post,205000,0.6,0.9709,0.0149,15079,4.9,1
+ORD0261,Khánh Hòa (Nha Trang),Bắc Ninh,591.3,bulky,balanced,89.4,268.20000000000005,0,0,dhl_supply,DHL Express/Logistics,212000,0.6,1.0027,0.0059,983,4.9,0
+ORD0262,Bình Dương,Cần Thơ,1029.7,fragile,speed,122.7,1104.3,0,1,viettel_post,Viettel Post,906000,0.8,0.9872,0.0159,10454,4.9,0
+ORD0263,Đồng Nai,Bắc Ninh,707.8,bulky,speed,62.9,251.6,0,1,kerry_logistics,Kerry Express,405000,0.6,0.9755,0.0116,5116,4.8,1
+ORD0264,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,404.3,fragile,reliability,29.0,80.2,0,0,jt_cargo,J&T Cargo,231000,0.6,0.9687,0.0182,5191,4.6,1
+ORD0265,TP. Hồ Chí Minh,Bình Dương,45.0,fragile,speed,15.3,125.5,1,1,sotrans,Sotrans Logistics,266000,0.5,0.9775,0.0213,3521,4.8,0
+ORD0266,Hà Nội,Đồng Nai,283.4,fmcg,speed,82.4,164.8,0,1,viettel_post,Viettel Post,328000,0.5,0.973,0.0181,14317,4.8,1
+ORD0267,Hải Phòng,Hà Nội,120.0,electronics,balanced,72.0,288.0,0,0,ghtk,GHTK Cargo,264000,0.5,0.9807,0.0153,5633,4.8,0
+ORD0268,Cần Thơ,Bà Rịa - Vũng Tàu,344.3,fragile,speed,146.0,584.0,0,1,ghtk,GHTK Cargo,145000,0.5,0.9849,0.0197,4495,4.7,1
+ORD0269,Hà Nội,Quảng Ninh,182.4,chemicals,balanced,25.3,101.2,0,0,viettel_post,Viettel Post,52000,0.5,0.9789,0.0132,8879,4.8,1
+ORD0270,Hải Phòng,Đồng Nai,481.1,bulky,reliability,104.0,104.0,1,0,dhl_supply,DHL Express/Logistics,201000,0.6,0.9936,0.0059,1913,4.9,0
+ORD0271,Bà Rịa - Vũng Tàu,Cần Thơ,375.0,fragile,speed,45.8,366.4,0,1,kerry_logistics,Kerry Express,140000,0.5,0.9883,0.0181,4491,4.8,1
+ORD0272,Hải Phòng,Đồng Nai,252.6,textile,cost,115.3,922.4,0,0,vnpost,VNPost Logistics,107000,0.5,0.9581,0.0295,7256,4.6,1
+ORD0273,Cần Thơ,Hải Phòng,741.1,fmcg,cost,94.3,1526.8,1,0,transimex,Transimex Cold Chain,824000,0.9,0.9904,0.0154,3417,4.9,1
+ORD0274,Hà Nội,Đồng Nai,377.7,bulky,balanced,123.9,264.5,1,1,vnpost,VNPost Logistics,111000,0.5,0.9595,0.0238,8582,4.7,0
+ORD0275,Hải Phòng,Quảng Ninh,593.8,textile,speed,55.0,637.6,0,1,ghtk,GHTK Cargo,204000,0.5,0.9787,0.019,5686,4.8,0
+ORD0276,Cần Thơ,Bình Dương,442.3,fragile,reliability,124.3,981.6,0,0,dhl_supply,DHL Express/Logistics,622000,0.5,0.989,0.0056,800,5.0,0
+ORD0277,Bắc Ninh,Quảng Ninh,432.7,fmcg,speed,33.8,135.2,0,1,ghtk,GHTK Cargo,72000,0.5,0.9674,0.0187,4585,4.7,0
+ORD0278,Nghệ An (Vinh),Hải Phòng,323.5,electronics,reliability,86.2,603.4,1,0,ghtk,GHTK Cargo,453000,0.5,0.9772,0.0222,6856,4.8,0
+ORD0279,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,995.2,fragile,cost,53.5,321.0,0,0,viettel_post,Viettel Post,321000,1.1,0.9858,0.0171,12295,4.7,1
+ORD0280,Khánh Hòa (Nha Trang),Quảng Ninh,899.4,electronics,reliability,9.5,350.9,0,0,vnpost,VNPost Logistics,523000,1.1,0.9626,0.0243,8082,4.7,1
+ORD0281,Cần Thơ,Quảng Ninh,946.7,textile,cost,76.3,534.1,1,1,kerry_logistics,Kerry Express,421000,0.7,0.9863,0.0126,6013,4.8,0
+ORD0282,Hải Phòng,TP. Hồ Chí Minh,543.2,fragile,balanced,18.7,345.4,0,1,viettel_post,Viettel Post,375000,0.5,0.9892,0.0134,14730,4.8,1
+ORD0283,Cần Thơ,Quảng Ninh,254.7,electronics,balanced,103.4,413.6,0,1,transimex,Transimex Cold Chain,213000,0.5,0.9977,0.0154,2678,4.9,1
+ORD0284,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,317.3,fragile,balanced,111.5,446.0,0,0,jt_cargo,J&T Cargo,448000,0.5,0.9796,0.0259,5737,4.8,0
+ORD0285,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,860.1,bulky,cost,31.7,158.5,0,0,kerry_logistics,Kerry Express,104000,1.0,0.9865,0.0163,4475,4.9,1
+ORD0286,Hà Nội,Bình Dương,622.8,chemicals,balanced,135.8,271.6,0,1,viettel_post,Viettel Post,437000,0.6,0.971,0.0194,12013,4.8,1
+ORD0287,Đà Nẵng,Hà Nội,944.6,fragile,reliability,149.4,597.6,0,1,kerry_logistics,Kerry Express,511000,0.7,0.9923,0.0175,5273,4.7,1
+ORD0288,Hải Phòng,Đà Nẵng,853.1,fragile,balanced,144.2,1297.8,0,0,ghtk,GHTK Cargo,563000,0.9,0.9757,0.0175,5339,4.8,0
+ORD0289,Hải Phòng,Bà Rịa - Vũng Tàu,561.7,electronics,speed,136.6,1229.3999999999999,0,1,ghtk,GHTK Cargo,432000,0.5,0.9729,0.0195,3984,4.9,0
+ORD0290,Đà Nẵng,Hà Nội,905.4,chemicals,reliability,112.4,899.2,0,0,vnpost,VNPost Logistics,417000,1.1,0.9603,0.0222,12054,4.8,1
+ORD0291,Nghệ An (Vinh),Quảng Ninh,953.4,electronics,speed,13.8,125.7,1,1,jt_cargo,J&T Cargo,531000,0.8,0.9818,0.021,5012,4.8,0
+ORD0292,Đà Nẵng,Bắc Ninh,755.6,electronics,cost,142.6,713.0,0,0,vnpost,VNPost Logistics,342000,1.0,0.9614,0.0296,12054,4.7,1
+ORD0293,Bình Dương,Khánh Hòa (Nha Trang),506.0,electronics,balanced,110.8,1108.0,0,0,viettel_post,Viettel Post,633000,0.7,0.983,0.0156,8347,4.9,1
+ORD0294,Hải Phòng,Nghệ An (Vinh),1158.1,bulky,balanced,115.2,1036.8,0,0,jt_cargo,J&T Cargo,448000,1.3,0.9682,0.0204,5826,4.8,1
+ORD0295,Đà Nẵng,Khánh Hòa (Nha Trang),846.4,chemicals,balanced,28.6,136.2,0,0,jt_cargo,J&T Cargo,79000,1.0,0.9646,0.0216,3827,4.8,1
+ORD0296,TP. Hồ Chí Minh,Bình Dương,45.0,fragile,speed,95.8,766.4,1,1,ghtk,GHTK Cargo,338000,0.5,0.9745,0.018,7236,4.8,0
+ORD0297,Quảng Ninh,Đà Nẵng,882.5,electronics,speed,47.6,333.2,0,1,ghtk,GHTK Cargo,359000,0.7,0.9679,0.0161,6050,4.7,0
+ORD0298,Hà Nội,Khánh Hòa (Nha Trang),818.6,perishable,balanced,34.1,136.4,1,0,viettel_post,Viettel Post,118000,1.0,0.9761,0.0164,12567,4.8,0
+ORD0299,Hải Phòng,Hà Nội,120.0,electronics,speed,23.5,36.0,1,1,dhl_supply,DHL Express/Logistics,582000,0.5,0.9883,0.0027,1165,4.8,0
+ORD0300,Bắc Ninh,Quảng Ninh,184.3,textile,speed,139.9,1508.0,0,1,vnpost,VNPost Logistics,151000,0.5,0.976,0.0287,10856,4.6,1
+ORD0301,Bà Rịa - Vũng Tàu,Bắc Ninh,719.9,fragile,balanced,10.6,546.6,0,0,jt_cargo,J&T Cargo,239000,0.9,0.9821,0.0228,5895,4.8,1
+ORD0302,Nghệ An (Vinh),Bình Dương,787.7,fragile,reliability,78.9,646.7,0,1,transimex,Transimex Cold Chain,805000,0.6,0.9917,0.0158,1598,4.8,0
+ORD0303,TP. Hồ Chí Minh,Bắc Ninh,794.0,chemicals,balanced,84.9,509.40000000000003,1,0,dhl_supply,DHL Express/Logistics,529000,0.8,0.9875,0.0064,1033,5.0,0
+ORD0304,Bình Dương,Cần Thơ,616.6,textile,cost,138.5,831.0,0,1,jt_cargo,J&T Cargo,373000,0.6,0.9863,0.0223,6211,4.7,1
+ORD0305,Bà Rịa - Vũng Tàu,Hà Nội,847.8,chemicals,reliability,32.8,134.2,0,0,dhl_supply,DHL Express/Logistics,186000,0.8,1.001,0.0047,1894,4.9,0
+ORD0306,Nghệ An (Vinh),Quảng Ninh,384.1,perishable,speed,107.1,642.5999999999999,1,1,sotrans,Sotrans Logistics,424000,0.5,0.9783,0.0226,3238,4.7,0
+ORD0307,Bình Dương,Hà Nội,1093.6,chemicals,speed,120.3,120.3,0,1,dhl_supply,DHL Express/Logistics,245000,0.7,0.9994,0.0031,2483,5.0,0
+ORD0308,Khánh Hòa (Nha Trang),Bà Rịa - Vũng Tàu,428.3,electronics,speed,19.1,224.8,1,1,vnpost,VNPost Logistics,499000,0.5,0.9653,0.0291,13276,4.6,0
+ORD0309,Bắc Ninh,Hà Nội,676.1,bulky,reliability,44.4,177.6,0,0,dhl_supply,DHL Express/Logistics,300000,0.7,0.9829,0.0097,1009,4.9,0
+ORD0310,Bình Dương,Nghệ An (Vinh),159.8,fragile,reliability,38.2,541.0,0,0,viettel_post,Viettel Post,368000,0.5,0.9733,0.0158,8867,4.9,1
+ORD0311,TP. Hồ Chí Minh,Cần Thơ,301.9,perishable,speed,51.2,685.4,1,1,vnpost,VNPost Logistics,167000,0.5,0.9813,0.028,8079,4.7,0
+ORD0312,Bà Rịa - Vũng Tàu,Cần Thơ,1141.1,fmcg,balanced,71.6,1486.4,1,0,kerry_logistics,Kerry Express,1212000,1.2,0.9746,0.0183,6525,4.8,0
+ORD0313,Cần Thơ,Khánh Hòa (Nha Trang),271.3,fmcg,cost,70.3,562.4,0,0,kerry_logistics,Kerry Express,185000,0.5,0.9904,0.0174,5660,4.8,1
+ORD0314,Bắc Ninh,Nghệ An (Vinh),1170.8,perishable,balanced,83.1,400.5,1,0,kerry_logistics,Kerry Express,318000,1.2,0.9896,0.0145,5230,4.9,0
+ORD0315,Đà Nẵng,Bà Rịa - Vũng Tàu,838.8,textile,cost,70.5,709.9,0,1,vnpost,VNPost Logistics,274000,0.8,0.9741,0.0268,9682,4.8,1
+ORD0316,Quảng Ninh,Hà Nội,820.2,fmcg,speed,114.0,114.0,0,1,jt_cargo,J&T Cargo,490000,0.7,0.9689,0.0235,5335,4.7,1
+ORD0317,Quảng Ninh,Bắc Ninh,532.7,perishable,reliability,148.0,1480.0,1,1,viettel_post,Viettel Post,826000,0.5,0.97,0.0165,8898,4.9,0
+ORD0318,Hà Nội,Bắc Ninh,690.5,perishable,balanced,58.5,869.3,1,0,kerry_logistics,Kerry Express,388000,0.8,0.9911,0.0139,4181,4.8,0
+ORD0319,Quảng Ninh,Đà Nẵng,821.7,electronics,cost,108.8,326.4,0,0,ghtk,GHTK Cargo,187000,0.9,0.9811,0.0183,6731,4.8,0
+ORD0320,Đồng Nai,Quảng Ninh,332.8,electronics,balanced,58.9,1324.8,0,1,transimex,Transimex Cold Chain,691000,0.5,0.9918,0.0102,3860,5.0,0
+ORD0321,Hà Nội,Quảng Ninh,899.0,perishable,reliability,23.0,121.3,1,0,jt_cargo,J&T Cargo,104000,1.0,0.9769,0.0222,4004,4.8,0
+ORD0322,Bà Rịa - Vũng Tàu,Quảng Ninh,92.1,textile,cost,81.2,487.20000000000005,0,0,kerry_logistics,Kerry Express,68000,0.5,0.9788,0.0188,3686,4.8,0
+ORD0323,Nghệ An (Vinh),Bắc Ninh,137.8,textile,reliability,27.0,465.5,0,0,jt_cargo,J&T Cargo,62000,0.5,0.9661,0.022,4138,4.8,1
+ORD0324,Nghệ An (Vinh),Bắc Ninh,742.8,fragile,reliability,27.8,278.0,0,0,dhl_supply,DHL Express/Logistics,360000,0.7,0.9996,0.0039,1880,4.8,0
+ORD0325,Bình Dương,TP. Hồ Chí Minh,45.0,electronics,speed,37.2,1406.7,0,1,transimex,Transimex Cold Chain,264000,0.5,0.9884,0.0147,2582,4.8,0
+ORD0326,TP. Hồ Chí Minh,Hà Nội,1720.0,electronics,balanced,112.4,899.2,0,0,kerry_logistics,Kerry Express,911000,1.7,0.9819,0.0122,3048,4.9,1
+ORD0327,Cần Thơ,Đồng Nai,563.6,textile,reliability,143.5,861.0,0,0,vnpost,VNPost Logistics,185000,0.8,0.9634,0.0267,12531,4.7,1
+ORD0328,Bà Rịa - Vũng Tàu,Quảng Ninh,91.8,bulky,speed,48.4,629.5,1,1,vnpost,VNPost Logistics,359000,0.5,0.9701,0.0275,12941,4.7,0
+ORD0329,Hải Phòng,Hà Nội,120.0,fmcg,cost,142.7,570.8,0,0,ghtk,GHTK Cargo,456000,0.5,0.9744,0.0211,6789,4.8,0
+ORD0330,TP. Hồ Chí Minh,Hải Phòng,389.5,fragile,reliability,138.6,1108.8,0,0,dhl_supply,DHL Express/Logistics,585000,0.5,0.984,0.0026,1583,5.0,0
+ORD0331,Hà Nội,Bình Dương,304.7,chemicals,reliability,147.0,1176.0,0,0,kerry_logistics,Kerry Express,547000,0.5,0.9755,0.0161,5930,4.9,1
+ORD0332,Hà Nội,Đà Nẵng,700.2,fmcg,reliability,98.6,295.79999999999995,1,0,kerry_logistics,Kerry Express,398000,0.8,0.9844,0.0151,5009,4.9,0
+ORD0333,Đồng Nai,TP. Hồ Chí Minh,679.5,bulky,speed,19.9,200.7,0,1,kerry_logistics,Kerry Express,130000,0.6,0.9714,0.019,4496,4.8,1
+ORD0334,Bình Dương,TP. Hồ Chí Minh,45.0,chemicals,balanced,84.1,252.29999999999998,0,0,vnpost,VNPost Logistics,294000,0.5,0.9728,0.0249,12183,4.6,1
+ORD0335,Hải Phòng,Đà Nẵng,715.7,fmcg,speed,74.4,297.6,0,1,jt_cargo,J&T Cargo,141000,0.6,0.9882,0.0181,4383,4.7,1
+ORD0336,Hà Nội,Cần Thơ,340.9,fmcg,speed,111.7,647.6,1,1,viettel_post,Viettel Post,218000,0.5,0.9818,0.0193,13745,4.7,0
+ORD0337,Hà Nội,Hải Phòng,120.0,textile,cost,92.5,740.0,0,1,jt_cargo,J&T Cargo,88000,0.5,0.9789,0.0229,3830,4.7,1
+ORD0338,Bà Rịa - Vũng Tàu,Quảng Ninh,1016.8,perishable,reliability,22.3,761.9,1,0,ghtk,GHTK Cargo,396000,1.1,0.9734,0.016,5200,4.7,0
+ORD0339,Bình Dương,Nghệ An (Vinh),1029.1,electronics,balanced,16.8,65.7,0,0,jt_cargo,J&T Cargo,83000,1.2,0.966,0.0181,5894,4.8,0
+ORD0340,Bắc Ninh,Cần Thơ,541.5,textile,balanced,79.4,397.0,0,0,jt_cargo,J&T Cargo,238000,0.7,0.9793,0.0187,4233,4.8,1
+ORD0341,Hà Nội,Nghệ An (Vinh),932.5,electronics,speed,55.6,556.0,0,1,jt_cargo,J&T Cargo,420000,0.8,0.9833,0.0233,3793,4.7,1
+ORD0342,Đà Nẵng,Bà Rịa - Vũng Tàu,791.0,chemicals,balanced,10.0,32.6,0,0,viettel_post,Viettel Post,55000,0.9,0.9726,0.0124,9294,4.8,1
+ORD0343,Cần Thơ,Nghệ An (Vinh),549.4,fmcg,cost,87.8,1129.9,0,0,sotrans,Sotrans Logistics,367000,0.8,0.9727,0.0169,2819,4.7,1
+ORD0344,Hải Phòng,TP. Hồ Chí Minh,589.6,perishable,balanced,139.3,557.2,1,0,sotrans,Sotrans Logistics,380000,0.8,0.9914,0.0166,4835,4.7,0
+ORD0345,Bắc Ninh,Đà Nẵng,773.8,fmcg,balanced,34.5,346.6,0,0,transimex,Transimex Cold Chain,213000,0.9,0.9762,0.0149,2386,4.9,0
+ORD0346,Cần Thơ,Bắc Ninh,1078.8,fmcg,balanced,87.8,614.6,0,1,kerry_logistics,Kerry Express,390000,0.8,0.9945,0.0113,6148,4.8,1
+ORD0347,Đồng Nai,Nghệ An (Vinh),923.4,perishable,balanced,14.3,189.2,1,0,ghtk,GHTK Cargo,129000,1.0,0.974,0.0169,3565,4.9,0
+ORD0348,Bắc Ninh,Đà Nẵng,801.3,textile,balanced,131.4,394.20000000000005,0,0,vnpost,VNPost Logistics,133000,1.0,0.9666,0.0275,9429,4.7,1
+ORD0349,Bắc Ninh,Quảng Ninh,1099.2,bulky,speed,78.2,78.2,0,1,sotrans,Sotrans Logistics,380000,0.9,0.9786,0.0153,4654,4.7,1
+ORD0350,TP. Hồ Chí Minh,Nghệ An (Vinh),615.9,textile,speed,18.8,225.7,0,1,transimex,Transimex Cold Chain,192000,0.5,0.982,0.0152,3232,4.9,0
+ORD0351,TP. Hồ Chí Minh,Đồng Nai,675.7,fragile,balanced,71.6,350.4,0,0,sotrans,Sotrans Logistics,448000,0.9,0.987,0.0226,5853,4.8,1
+ORD0352,Hải Phòng,Khánh Hòa (Nha Trang),389.1,fmcg,cost,18.2,81.7,0,0,viettel_post,Viettel Post,57000,0.6,0.9773,0.0198,9081,4.8,0
+ORD0353,Đồng Nai,Khánh Hòa (Nha Trang),340.2,textile,cost,131.0,131.0,0,0,sotrans,Sotrans Logistics,86000,0.6,0.9792,0.0203,4246,4.8,1
+ORD0354,Bắc Ninh,Quảng Ninh,1167.2,electronics,reliability,73.7,294.8,0,1,dhl_supply,DHL Express/Logistics,634000,0.7,0.9914,0.0033,2257,5.0,0
+ORD0355,Đà Nẵng,Hải Phòng,843.6,chemicals,speed,149.1,149.1,0,1,viettel_post,Viettel Post,116000,0.7,0.9866,0.0198,11673,4.8,1
+ORD0356,Đà Nẵng,Nghệ An (Vinh),932.0,fragile,cost,142.3,426.90000000000003,0,0,sotrans,Sotrans Logistics,564000,1.1,0.9832,0.0174,5971,4.8,1
+ORD0357,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,236.2,electronics,balanced,135.2,1081.6,0,0,transimex,Transimex Cold Chain,473000,0.5,0.9851,0.0087,4126,4.8,0
+ORD0358,Khánh Hòa (Nha Trang),Hải Phòng,838.3,chemicals,reliability,127.7,1149.3,0,0,sotrans,Sotrans Logistics,407000,1.0,0.9821,0.0191,4731,4.7,1
+ORD0359,Đà Nẵng,Cần Thơ,944.4,fragile,balanced,54.0,324.0,0,1,kerry_logistics,Kerry Express,504000,0.7,0.9901,0.0133,6974,4.9,1
+ORD0360,Bà Rịa - Vũng Tàu,Đồng Nai,668.3,electronics,cost,148.3,1186.4,0,0,kerry_logistics,Kerry Express,748000,0.8,0.9722,0.0143,4697,4.9,1
+ORD0361,Cần Thơ,Quảng Ninh,127.3,chemicals,speed,84.0,420.0,0,1,jt_cargo,J&T Cargo,73000,0.5,0.978,0.0217,3010,4.6,1
+ORD0362,Bắc Ninh,Bà Rịa - Vũng Tàu,630.9,chemicals,balanced,63.7,474.8,0,0,jt_cargo,J&T Cargo,327000,0.8,0.9889,0.0185,5380,4.8,1
+ORD0363,Đồng Nai,Bắc Ninh,370.7,textile,balanced,4.6,465.0,0,1,sotrans,Sotrans Logistics,163000,0.5,0.9711,0.0172,5735,4.7,1
+ORD0364,Hà Nội,Bình Dương,750.6,fragile,cost,115.2,421.0,0,0,dhl_supply,DHL Express/Logistics,513000,0.7,0.9868,0.0076,1894,4.9,0
+ORD0365,Đà Nẵng,Hà Nội,927.7,electronics,reliability,52.4,1321.5,1,1,transimex,Transimex Cold Chain,1254000,0.7,0.9939,0.0125,3653,4.9,1
+ORD0366,Bà Rịa - Vũng Tàu,Khánh Hòa (Nha Trang),1114.2,textile,cost,123.2,246.4,0,0,sotrans,Sotrans Logistics,166000,1.3,0.9713,0.0174,2485,4.8,1
+ORD0367,Bà Rịa - Vũng Tàu,Đà Nẵng,806.2,textile,speed,147.2,441.59999999999997,0,1,jt_cargo,J&T Cargo,221000,0.7,0.9829,0.0183,6248,4.7,1
+ORD0368,Nghệ An (Vinh),Hà Nội,925.1,perishable,cost,100.8,504.0,1,0,transimex,Transimex Cold Chain,411000,1.0,0.9786,0.0108,2636,4.8,1
+ORD0369,Bình Dương,Đồng Nai,934.8,electronics,speed,123.3,246.6,0,1,dhl_supply,DHL Express/Logistics,447000,0.6,0.9843,0.008,2285,4.8,0
+ORD0370,Hải Phòng,Nghệ An (Vinh),1152.7,chemicals,balanced,67.1,599.4,0,0,transimex,Transimex Cold Chain,408000,1.2,0.9842,0.0141,3408,4.8,0
+ORD0371,Đà Nẵng,Khánh Hòa (Nha Trang),728.9,chemicals,reliability,50.6,101.2,0,0,transimex,Transimex Cold Chain,124000,0.9,0.9878,0.0103,2273,4.9,0
+ORD0372,Cần Thơ,Bà Rịa - Vũng Tàu,665.4,fragile,speed,60.7,121.4,0,1,ghtk,GHTK Cargo,166000,0.5,0.9749,0.0206,6536,4.9,0
+ORD0373,Đà Nẵng,TP. Hồ Chí Minh,909.5,fragile,speed,20.2,510.5,0,1,dhl_supply,DHL Express/Logistics,672000,0.6,0.9989,0.0084,1529,5.0,0
+ORD0374,Nghệ An (Vinh),Đồng Nai,628.1,perishable,reliability,20.1,175.2,1,0,vnpost,VNPost Logistics,93000,0.9,0.9754,0.0286,7219,4.7,0
+ORD0375,Đồng Nai,Quảng Ninh,165.7,textile,reliability,16.3,556.6,0,0,dhl_supply,DHL Express/Logistics,173000,0.5,0.9966,0.0059,1503,4.9,0
+ORD0376,Khánh Hòa (Nha Trang),Nghệ An (Vinh),501.5,fmcg,cost,48.6,388.8,0,1,ghtk,GHTK Cargo,128000,0.5,0.9773,0.0161,5496,4.8,0
+ORD0377,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,375.0,perishable,balanced,10.2,654.8,1,0,dhl_supply,DHL Express/Logistics,354000,0.5,0.988,0.0022,1550,4.8,0
+ORD0378,Bà Rịa - Vũng Tàu,Nghệ An (Vinh),541.4,fmcg,reliability,148.8,892.8000000000001,1,0,vnpost,VNPost Logistics,455000,0.8,0.9798,0.0225,9765,4.7,0
+ORD0379,Khánh Hòa (Nha Trang),Bình Dương,859.5,fmcg,balanced,41.5,1169.3,0,0,sotrans,Sotrans Logistics,422000,1.1,0.9813,0.0215,4765,4.7,1
+ORD0380,Cần Thơ,Nghệ An (Vinh),306.0,chemicals,reliability,145.5,873.0,0,0,transimex,Transimex Cold Chain,563000,0.5,0.9812,0.0084,3146,5.0,0
+ORD0381,Nghệ An (Vinh),TP. Hồ Chí Minh,612.3,textile,cost,120.6,1206.0,0,0,dhl_supply,DHL Express/Logistics,548000,0.6,0.9908,0.0063,1623,4.8,0
+ORD0382,Khánh Hòa (Nha Trang),Cần Thơ,726.1,textile,speed,129.7,1167.3,0,1,dhl_supply,DHL Express/Logistics,764000,0.5,1.0034,0.0063,2375,4.9,0
+ORD0383,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,847.5,fmcg,speed,24.3,187.3,0,1,vnpost,VNPost Logistics,105000,0.8,0.9728,0.0288,9351,4.7,1
+ORD0384,Bắc Ninh,Bà Rịa - Vũng Tàu,355.1,bulky,speed,30.4,91.19999999999999,0,1,kerry_logistics,Kerry Express,78000,0.5,0.9806,0.0182,4117,4.7,1
+ORD0385,Bắc Ninh,Bình Dương,1084.1,textile,speed,10.2,46.2,0,1,kerry_logistics,Kerry Express,137000,0.8,0.9924,0.0164,4625,4.9,1
+ORD0386,Bà Rịa - Vũng Tàu,Đà Nẵng,932.9,electronics,cost,142.6,1426.0,0,0,vnpost,VNPost Logistics,607000,1.2,0.9763,0.0245,13039,4.8,1
+ORD0387,Bà Rịa - Vũng Tàu,Hải Phòng,572.2,perishable,speed,145.5,582.0,1,1,viettel_post,Viettel Post,674000,0.5,0.9823,0.015,10592,4.9,0
+ORD0388,Cần Thơ,Bà Rịa - Vũng Tàu,103.6,electronics,reliability,123.6,741.5999999999999,0,0,transimex,Transimex Cold Chain,165000,0.5,0.9803,0.0111,4369,4.9,0
+ORD0389,Quảng Ninh,TP. Hồ Chí Minh,1108.1,bulky,speed,139.3,975.1000000000001,0,1,dhl_supply,DHL Express/Logistics,933000,0.7,0.9853,0.0091,2093,5.0,0
+ORD0390,Quảng Ninh,Đồng Nai,1117.7,chemicals,cost,111.1,888.8,0,0,ghtk,GHTK Cargo,366000,1.1,0.9825,0.0191,5966,4.7,0
+ORD0391,Khánh Hòa (Nha Trang),Bình Dương,965.9,perishable,cost,95.3,285.9,1,1,sotrans,Sotrans Logistics,281000,0.8,0.9814,0.0159,4922,4.7,0
+ORD0392,Quảng Ninh,Đà Nẵng,871.9,chemicals,balanced,40.6,309.8,0,0,sotrans,Sotrans Logistics,440000,1.1,0.9715,0.022,5622,4.8,1
+ORD0393,Hà Nội,TP. Hồ Chí Minh,1720.0,bulky,speed,105.8,529.0,0,1,dhl_supply,DHL Express/Logistics,810000,0.9,0.9837,0.0097,1961,4.8,0
+ORD0394,Bà Rịa - Vũng Tàu,Khánh Hòa (Nha Trang),1045.4,perishable,balanced,30.2,133.2,1,0,kerry_logistics,Kerry Express,467000,1.1,0.9733,0.0179,6375,4.8,0
+ORD0395,Quảng Ninh,Hải Phòng,373.2,perishable,speed,44.9,80.6,1,1,sotrans,Sotrans Logistics,136000,0.5,0.9816,0.0202,3920,4.7,0
+ORD0396,Bình Dương,Cần Thơ,186.7,textile,speed,39.9,1585.9,1,1,jt_cargo,J&T Cargo,237000,0.5,0.9867,0.026,6286,4.8,0
+ORD0397,Bà Rịa - Vũng Tàu,Hà Nội,831.8,fmcg,reliability,146.7,812.3,1,0,dhl_supply,DHL Express/Logistics,811000,0.8,0.9842,0.0059,1758,4.9,0
+ORD0398,Bình Dương,Nghệ An (Vinh),639.1,perishable,speed,146.8,146.8,1,1,sotrans,Sotrans Logistics,174000,0.6,0.9902,0.0173,4510,4.8,0
+ORD0399,Bắc Ninh,Nghệ An (Vinh),1113.6,fragile,balanced,84.2,252.60000000000002,0,0,ghtk,GHTK Cargo,261000,1.1,0.9664,0.0165,4169,4.8,0
+ORD0400,Đồng Nai,TP. Hồ Chí Minh,632.1,perishable,cost,73.8,1436.4,1,0,sotrans,Sotrans Logistics,524000,0.8,0.9693,0.0219,2689,4.7,0
+ORD0401,Bắc Ninh,Quảng Ninh,166.1,textile,speed,63.6,190.8,0,1,viettel_post,Viettel Post,71000,0.5,0.9771,0.0199,11060,4.8,1
+ORD0402,TP. Hồ Chí Minh,Đồng Nai,1149.8,electronics,cost,69.2,553.6,0,1,jt_cargo,J&T Cargo,356000,0.9,0.9721,0.0239,6264,4.8,1
+ORD0403,Hải Phòng,Hà Nội,120.0,chemicals,reliability,83.0,166.0,0,1,kerry_logistics,Kerry Express,232000,0.5,0.9722,0.0178,6192,4.7,1
+ORD0404,Quảng Ninh,Bà Rịa - Vũng Tàu,755.9,electronics,cost,135.8,679.0,0,1,transimex,Transimex Cold Chain,653000,0.6,0.9862,0.0151,3806,4.9,0
+ORD0405,TP. Hồ Chí Minh,Cần Thơ,654.9,chemicals,reliability,15.8,590.9,0,0,jt_cargo,J&T Cargo,172000,0.8,0.9772,0.0232,4917,4.7,1
+ORD0406,Cần Thơ,Bắc Ninh,133.5,electronics,speed,45.7,469.9,1,1,vnpost,VNPost Logistics,127000,0.5,0.9698,0.0253,12900,4.7,0
+ORD0407,Bắc Ninh,Đồng Nai,284.1,fragile,cost,28.6,228.8,0,1,sotrans,Sotrans Logistics,316000,0.5,0.9817,0.0186,4555,4.8,1
+ORD0408,Bình Dương,Đà Nẵng,726.6,electronics,speed,131.0,655.0,0,1,kerry_logistics,Kerry Express,307000,0.6,0.9729,0.0124,5833,4.8,1
+ORD0409,Quảng Ninh,Nghệ An (Vinh),1158.7,textile,balanced,104.2,962.9,0,0,viettel_post,Viettel Post,564000,1.3,0.9748,0.0185,9541,4.9,1
+ORD0410,Hải Phòng,Khánh Hòa (Nha Trang),417.0,textile,speed,30.3,918.5,0,1,vnpost,VNPost Logistics,192000,0.5,0.9612,0.0232,14895,4.7,1
+ORD0411,Hà Nội,Khánh Hòa (Nha Trang),88.8,bulky,speed,9.5,423.8,0,1,jt_cargo,J&T Cargo,66000,0.5,0.9824,0.0228,4191,4.7,0
+ORD0412,Đồng Nai,Khánh Hòa (Nha Trang),725.6,bulky,balanced,4.8,256.2,0,0,vnpost,VNPost Logistics,93000,1.0,0.9694,0.0295,12714,4.7,1
+ORD0413,Đà Nẵng,Bình Dương,846.9,textile,speed,77.1,436.1,0,1,ghtk,GHTK Cargo,200000,0.7,0.9871,0.0208,5207,4.7,0
+ORD0414,Quảng Ninh,Bà Rịa - Vũng Tàu,853.6,textile,reliability,32.7,982.8,1,0,jt_cargo,J&T Cargo,549000,1.0,0.9665,0.0213,4243,4.8,0
+ORD0415,Khánh Hòa (Nha Trang),Hà Nội,1042.6,fmcg,reliability,27.9,297.2,0,0,transimex,Transimex Cold Chain,233000,1.1,0.977,0.0098,2893,4.8,0
+ORD0416,Hà Nội,Nghệ An (Vinh),1158.2,fragile,speed,120.3,962.4,0,1,vnpost,VNPost Logistics,551000,1.0,0.9776,0.0223,12160,4.6,1
+ORD0417,Hải Phòng,Đồng Nai,191.2,electronics,reliability,110.4,1763.7,0,0,vnpost,VNPost Logistics,235000,0.5,0.9782,0.0255,13299,4.7,0
+ORD0418,Cần Thơ,Bình Dương,824.8,fragile,speed,55.4,387.8,0,1,kerry_logistics,Kerry Express,565000,0.7,0.9897,0.0121,6760,4.8,1
+ORD0419,Cần Thơ,Nghệ An (Vinh),659.4,chemicals,reliability,108.2,108.2,1,0,kerry_logistics,Kerry Express,106000,0.8,0.9715,0.0171,5627,4.8,0
+ORD0420,Nghệ An (Vinh),Hà Nội,888.1,textile,reliability,131.3,1463.5,0,0,ghtk,GHTK Cargo,467000,1.0,0.9825,0.0186,5729,4.7,0
+ORD0421,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,681.9,perishable,reliability,14.5,490.8,1,0,dhl_supply,DHL Express/Logistics,424000,0.7,0.9853,0.0061,1497,4.9,0
+ORD0422,Đà Nẵng,Hà Nội,727.6,fmcg,reliability,148.1,1036.7,1,0,vnpost,VNPost Logistics,363000,1.0,0.9582,0.0272,9440,4.6,0
+ORD0423,Hà Nội,Khánh Hòa (Nha Trang),992.9,fragile,speed,100.7,503.5,0,1,kerry_logistics,Kerry Express,404000,0.8,0.983,0.013,5385,4.8,1
+ORD0424,Bình Dương,Khánh Hòa (Nha Trang),1075.1,fmcg,speed,11.2,68.6,0,1,kerry_logistics,Kerry Express,99000,0.8,0.9847,0.0152,4080,4.8,0
+ORD0425,Quảng Ninh,Đồng Nai,622.9,perishable,balanced,76.9,272.2,1,0,vnpost,VNPost Logistics,118000,0.9,0.9744,0.0256,8284,4.6,0
+ORD0426,Bình Dương,TP. Hồ Chí Minh,45.0,bulky,balanced,44.9,449.0,0,1,dhl_supply,DHL Express/Logistics,165000,0.5,0.9873,0.0022,2405,4.8,0
+ORD0427,Hà Nội,Bình Dương,470.5,fragile,speed,20.1,113.1,0,1,jt_cargo,J&T Cargo,348000,0.5,0.9783,0.0225,6200,4.8,1
+ORD0428,Bà Rịa - Vũng Tàu,Nghệ An (Vinh),246.9,electronics,speed,100.7,1556.3,0,1,kerry_logistics,Kerry Express,317000,0.5,0.9797,0.0182,3187,4.8,1
+ORD0429,Cần Thơ,Bắc Ninh,944.2,textile,cost,95.3,953.0,0,0,transimex,Transimex Cold Chain,504000,1.1,0.9979,0.0123,3835,4.9,0
+ORD0430,Cần Thơ,Nghệ An (Vinh),870.3,fmcg,cost,38.3,153.2,0,0,sotrans,Sotrans Logistics,117000,1.1,0.977,0.0154,2095,4.8,1
+ORD0431,Đà Nẵng,Cần Thơ,835.4,fmcg,reliability,147.0,294.0,0,1,dhl_supply,DHL Express/Logistics,328000,0.5,1.0038,0.0074,1466,4.8,0
+ORD0432,Bà Rịa - Vũng Tàu,Hà Nội,368.9,fragile,balanced,134.2,939.3999999999999,0,0,transimex,Transimex Cold Chain,289000,0.6,0.98,0.0128,3583,4.8,0
+ORD0433,Đồng Nai,TP. Hồ Chí Minh,112.4,fragile,cost,11.7,837.1,0,0,dhl_supply,DHL Express/Logistics,195000,0.5,0.9939,0.0067,2362,4.8,0
+ORD0434,Đà Nẵng,Bình Dương,942.0,bulky,balanced,32.1,548.7,0,0,kerry_logistics,Kerry Express,254000,1.0,0.994,0.0154,6328,4.7,1
+ORD0435,Nghệ An (Vinh),Bắc Ninh,1020.2,textile,speed,90.5,452.5,0,1,dhl_supply,DHL Express/Logistics,485000,0.6,0.9811,0.0079,1415,4.9,0
+ORD0436,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,978.3,chemicals,speed,76.7,767.0,0,1,jt_cargo,J&T Cargo,369000,0.8,0.9708,0.0233,3862,4.7,1
+ORD0437,Nghệ An (Vinh),Bình Dương,833.4,fmcg,speed,135.4,135.4,0,1,kerry_logistics,Kerry Express,118000,0.7,0.9835,0.0173,3317,4.8,1
+ORD0438,Quảng Ninh,Cần Thơ,278.4,textile,cost,55.0,1518.4,0,0,sotrans,Sotrans Logistics,523000,0.5,0.9904,0.0186,2081,4.7,1
+ORD0439,Quảng Ninh,Bình Dương,1163.4,electronics,cost,147.1,588.4,1,0,transimex,Transimex Cold Chain,942000,1.2,0.9742,0.0159,1954,4.9,1
+ORD0440,Nghệ An (Vinh),Khánh Hòa (Nha Trang),153.2,perishable,speed,85.6,1120.3,1,1,ghtk,GHTK Cargo,210000,0.5,0.9715,0.0196,5642,4.7,0
+ORD0441,Bắc Ninh,Hải Phòng,558.4,chemicals,cost,2.3,1110.4,0,0,kerry_logistics,Kerry Express,295000,0.7,0.9911,0.0143,5122,4.7,1
+ORD0442,Bình Dương,Nghệ An (Vinh),434.2,chemicals,cost,80.8,565.6,0,0,transimex,Transimex Cold Chain,203000,0.6,0.9985,0.0114,2523,4.8,0
+ORD0443,Bình Dương,Bắc Ninh,781.5,fmcg,cost,89.7,89.7,0,0,sotrans,Sotrans Logistics,255000,1.0,0.9878,0.0216,2969,4.8,0
+ORD0444,Nghệ An (Vinh),Quảng Ninh,1106.7,perishable,cost,146.2,292.4,1,0,ghtk,GHTK Cargo,195000,1.1,0.9666,0.0214,6001,4.7,0
+ORD0445,TP. Hồ Chí Minh,Đà Nẵng,888.0,textile,cost,16.2,139.3,0,0,jt_cargo,J&T Cargo,82000,1.0,0.9736,0.0244,5536,4.8,1
+ORD0446,Quảng Ninh,Bà Rịa - Vũng Tàu,195.0,chemicals,cost,30.5,1145.7,0,1,ghtk,GHTK Cargo,140000,0.5,0.9809,0.0171,6468,4.7,0
+ORD0447,Đà Nẵng,Bắc Ninh,939.9,electronics,cost,66.5,665.0,0,0,ghtk,GHTK Cargo,599000,1.0,0.9687,0.0175,5010,4.7,0
+ORD0448,Khánh Hòa (Nha Trang),Quảng Ninh,552.7,textile,speed,129.1,1161.8999999999999,0,1,vnpost,VNPost Logistics,428000,0.6,0.9655,0.0273,10828,4.7,1
+ORD0449,Bình Dương,Quảng Ninh,1061.2,bulky,reliability,17.5,203.7,0,0,transimex,Transimex Cold Chain,189000,1.2,0.9857,0.0097,2857,4.9,0
+ORD0450,Đồng Nai,Hải Phòng,701.3,perishable,speed,55.0,110.0,1,1,transimex,Transimex Cold Chain,502000,0.6,0.9898,0.0153,1621,4.8,1
+ORD0451,Bắc Ninh,Đà Nẵng,705.4,electronics,reliability,28.4,237.6,0,0,ghtk,GHTK Cargo,113000,0.8,0.9745,0.0213,7334,4.7,0
+ORD0452,Cần Thơ,Hải Phòng,153.2,fragile,reliability,132.0,924.0,1,0,transimex,Transimex Cold Chain,339000,0.5,0.9873,0.0136,3259,4.8,1
+ORD0453,Hải Phòng,Hà Nội,120.0,chemicals,speed,38.6,383.5,0,1,jt_cargo,J&T Cargo,160000,0.5,0.9692,0.0187,5717,4.7,1
+ORD0454,Đà Nẵng,Nghệ An (Vinh),793.5,perishable,reliability,49.6,492.9,1,0,jt_cargo,J&T Cargo,234000,1.0,0.9707,0.0212,5391,4.8,0
+ORD0455,Hải Phòng,Bắc Ninh,502.3,electronics,balanced,64.9,324.5,0,0,vnpost,VNPost Logistics,256000,0.7,0.9604,0.0227,9880,4.7,1
+ORD0456,Hà Nội,Khánh Hòa (Nha Trang),981.0,bulky,reliability,62.5,897.2,0,0,dhl_supply,DHL Express/Logistics,785000,0.9,0.9961,0.0049,1827,4.8,0
+ORD0457,Quảng Ninh,TP. Hồ Chí Minh,691.5,chemicals,reliability,55.3,110.6,0,0,transimex,Transimex Cold Chain,310000,0.8,0.9916,0.016,4433,5.0,0
+ORD0458,Bắc Ninh,Hà Nội,1000.5,chemicals,reliability,142.0,994.0,0,1,kerry_logistics,Kerry Express,554000,0.8,0.9757,0.0168,3957,4.7,1
+ORD0459,Khánh Hòa (Nha Trang),Cần Thơ,560.2,textile,balanced,127.2,763.2,0,0,viettel_post,Viettel Post,207000,0.7,0.9794,0.0166,15727,4.8,1
+ORD0460,Cần Thơ,Bà Rịa - Vũng Tàu,531.8,chemicals,reliability,103.5,724.5,0,0,viettel_post,Viettel Post,191000,0.7,0.9931,0.0132,10705,4.9,1
+ORD0461,Nghệ An (Vinh),Quảng Ninh,290.9,bulky,balanced,81.1,162.2,1,0,vnpost,VNPost Logistics,67000,0.5,0.9613,0.0274,13770,4.6,0
+ORD0462,Cần Thơ,Hà Nội,818.7,electronics,speed,36.5,146.0,1,1,sotrans,Sotrans Logistics,234000,0.7,0.98,0.0164,3682,4.8,0
+ORD0463,TP. Hồ Chí Minh,Hải Phòng,1049.6,bulky,balanced,143.4,1003.8000000000001,1,0,ghtk,GHTK Cargo,521000,1.1,0.9801,0.0225,5558,4.8,0
+ORD0464,Cần Thơ,Bắc Ninh,356.5,electronics,cost,91.5,640.5,0,0,jt_cargo,J&T Cargo,438000,0.6,0.9756,0.0183,5647,4.7,1
+ORD0465,Cần Thơ,Bình Dương,1088.0,textile,reliability,38.9,500.0,0,0,vnpost,VNPost Logistics,204000,1.3,0.9668,0.0296,14131,4.6,1
+ORD0466,Quảng Ninh,Khánh Hòa (Nha Trang),493.0,fragile,cost,19.9,652.9,0,0,kerry_logistics,Kerry Express,392000,0.7,0.9813,0.013,4893,4.8,0
+ORD0467,Quảng Ninh,Bà Rịa - Vũng Tàu,92.0,textile,balanced,60.7,331.2,1,0,jt_cargo,J&T Cargo,68000,0.5,0.9755,0.0187,5922,4.8,0
+ORD0468,Đà Nẵng,Khánh Hòa (Nha Trang),773.5,chemicals,reliability,16.9,169.0,0,0,dhl_supply,DHL Express/Logistics,211000,0.7,0.9838,0.0049,870,4.9,0
+ORD0469,Khánh Hòa (Nha Trang),Hải Phòng,750.0,perishable,cost,67.7,338.5,1,1,transimex,Transimex Cold Chain,349000,0.6,0.9834,0.0099,3227,4.8,0
+ORD0470,Hà Nội,Đồng Nai,129.3,chemicals,speed,109.2,327.6,0,1,transimex,Transimex Cold Chain,137000,0.5,0.9896,0.0155,3252,4.9,0
+ORD0471,Hải Phòng,TP. Hồ Chí Minh,318.3,fragile,reliability,3.8,75.0,0,0,sotrans,Sotrans Logistics,263000,0.6,0.9681,0.0221,5143,4.7,0
+ORD0472,TP. Hồ Chí Minh,Nghệ An (Vinh),859.9,chemicals,speed,147.2,883.1999999999999,0,1,sotrans,Sotrans Logistics,420000,0.7,0.9714,0.0211,5487,4.8,1
+ORD0473,TP. Hồ Chí Minh,Đồng Nai,869.2,fmcg,balanced,76.5,681.4,1,1,dhl_supply,DHL Express/Logistics,782000,0.6,0.9859,0.0054,962,4.9,0
+ORD0474,Bình Dương,Khánh Hòa (Nha Trang),892.3,fragile,speed,37.2,37.2,0,1,sotrans,Sotrans Logistics,392000,0.8,0.9704,0.0175,2162,4.8,0
+ORD0475,Đồng Nai,Bà Rịa - Vũng Tàu,684.0,chemicals,reliability,37.9,227.39999999999998,0,0,kerry_logistics,Kerry Express,261000,0.8,0.983,0.0125,3264,4.8,1
+ORD0476,TP. Hồ Chí Minh,Bắc Ninh,1011.0,fmcg,speed,89.7,269.1,0,1,kerry_logistics,Kerry Express,257000,0.8,0.9881,0.0135,4003,4.8,1
+ORD0477,Nghệ An (Vinh),Hải Phòng,618.9,fragile,reliability,129.6,648.0,0,0,ghtk,GHTK Cargo,420000,0.7,0.9768,0.0184,5275,4.8,0
+ORD0478,Cần Thơ,Hà Nội,699.2,chemicals,balanced,81.5,815.0,0,0,kerry_logistics,Kerry Express,275000,0.8,0.9841,0.0148,5928,4.8,1
+ORD0479,Đà Nẵng,Bắc Ninh,804.0,fmcg,cost,61.9,1457.7,0,0,vnpost,VNPost Logistics,398000,1.0,0.9672,0.0223,10152,4.8,1
+ORD0480,Đà Nẵng,Bắc Ninh,858.7,chemicals,balanced,107.0,963.0,0,1,transimex,Transimex Cold Chain,588000,0.7,0.9801,0.0083,4084,4.9,0
+ORD0481,Hà Nội,Bà Rịa - Vũng Tàu,754.4,textile,speed,39.6,322.8,0,1,vnpost,VNPost Logistics,138000,0.7,0.9763,0.0272,10257,4.8,1
+ORD0482,TP. Hồ Chí Minh,Nghệ An (Vinh),677.2,electronics,balanced,76.1,380.5,0,0,vnpost,VNPost Logistics,385000,0.9,0.9597,0.0266,13670,4.8,1
+ORD0483,Bà Rịa - Vũng Tàu,Hải Phòng,158.2,textile,balanced,2.2,72.9,0,0,ghtk,GHTK Cargo,42000,0.5,0.9694,0.0165,5492,4.7,1
+ORD0484,TP. Hồ Chí Minh,Khánh Hòa (Nha Trang),294.9,bulky,speed,121.8,365.4,0,1,vnpost,VNPost Logistics,86000,0.5,0.9787,0.0233,10094,4.7,1
+ORD0485,TP. Hồ Chí Minh,Đồng Nai,378.0,fmcg,speed,3.4,419.9,0,1,vnpost,VNPost Logistics,105000,0.5,0.9623,0.0283,11260,4.7,1
+ORD0486,Bắc Ninh,Khánh Hòa (Nha Trang),994.9,perishable,reliability,149.9,899.4000000000001,1,0,viettel_post,Viettel Post,520000,1.1,0.9944,0.019,8025,4.9,0
+ORD0487,Bà Rịa - Vũng Tàu,Đồng Nai,863.2,textile,speed,43.4,390.59999999999997,0,1,kerry_logistics,Kerry Express,229000,0.7,0.9865,0.011,6858,4.8,1
+ORD0488,Hà Nội,Bà Rịa - Vũng Tàu,528.2,fragile,cost,91.8,549.3,0,1,jt_cargo,J&T Cargo,453000,0.5,0.9887,0.0249,6007,4.8,1
+ORD0489,Nghệ An (Vinh),Hải Phòng,417.5,textile,speed,119.9,959.2,0,1,ghtk,GHTK Cargo,213000,0.5,0.9874,0.0226,5714,4.8,0
+ORD0490,Hải Phòng,Đà Nẵng,781.6,chemicals,cost,139.5,418.5,0,0,vnpost,VNPost Logistics,136000,1.0,0.9736,0.0294,11030,4.7,1
+ORD0491,Bà Rịa - Vũng Tàu,Bình Dương,912.1,chemicals,speed,136.7,956.8999999999999,0,1,kerry_logistics,Kerry Express,493000,0.7,0.9902,0.0128,3359,4.7,1
+ORD0492,Bình Dương,Quảng Ninh,81.9,electronics,cost,87.4,611.8000000000001,1,0,kerry_logistics,Kerry Express,349000,0.5,0.978,0.0139,6262,4.8,0
+ORD0493,Quảng Ninh,Nghệ An (Vinh),433.8,bulky,speed,128.1,1152.8999999999999,0,1,jt_cargo,J&T Cargo,413000,0.5,0.981,0.0192,6059,4.7,1
+ORD0494,Bà Rịa - Vũng Tàu,Hà Nội,1029.4,bulky,reliability,42.5,306.6,0,0,kerry_logistics,Kerry Express,370000,1.1,0.9715,0.0175,5935,4.7,1
+ORD0495,Bà Rịa - Vũng Tàu,Hải Phòng,818.4,textile,cost,147.7,738.5,0,0,kerry_logistics,Kerry Express,289000,0.9,0.9869,0.0189,4601,4.9,1
+ORD0496,Bà Rịa - Vũng Tàu,Bắc Ninh,730.0,fragile,speed,113.3,679.8,0,1,jt_cargo,J&T Cargo,461000,0.6,0.9804,0.0226,4976,4.7,1
+ORD0497,Đà Nẵng,Bắc Ninh,947.1,electronics,speed,102.4,204.8,1,1,ghtk,GHTK Cargo,452000,0.7,0.9881,0.0158,4235,4.9,0
+ORD0498,TP. Hồ Chí Minh,Nghệ An (Vinh),213.1,textile,reliability,38.3,561.2,0,0,kerry_logistics,Kerry Express,97000,0.5,0.9894,0.0189,3367,4.8,1
+ORD0499,Quảng Ninh,Đồng Nai,627.9,fragile,balanced,14.2,28.4,0,0,jt_cargo,J&T Cargo,66000,0.8,0.9708,0.024,3741,4.8,0
+ORD0500,Quảng Ninh,Đồng Nai,990.4,fragile,speed,29.4,264.59999999999997,1,1,jt_cargo,J&T Cargo,583000,0.8,0.9656,0.0247,6353,4.7,0
+ORD0501,TP. Hồ Chí Minh,Bắc Ninh,580.9,textile,cost,2.8,353.2,0,1,vnpost,VNPost Logistics,123000,0.6,0.9711,0.0288,8021,4.6,1
+ORD0502,Bình Dương,Nghệ An (Vinh),661.8,electronics,balanced,142.0,142.0,0,0,ghtk,GHTK Cargo,359000,0.8,0.9794,0.0206,4942,4.8,0
+ORD0503,Khánh Hòa (Nha Trang),Hải Phòng,1038.8,textile,cost,23.0,92.0,0,1,sotrans,Sotrans Logistics,129000,0.9,0.9739,0.0208,4252,4.7,0
+ORD0504,Đồng Nai,Bà Rịa - Vũng Tàu,240.4,electronics,balanced,141.1,987.6999999999999,0,0,transimex,Transimex Cold Chain,379000,0.5,0.9919,0.0125,3594,4.9,0
+ORD0505,Đồng Nai,Đà Nẵng,731.2,fragile,balanced,13.5,146.6,1,0,sotrans,Sotrans Logistics,195000,0.9,0.983,0.0179,3119,4.7,0
+ORD0506,Hải Phòng,Bình Dương,218.3,fmcg,cost,117.8,235.6,0,0,vnpost,VNPost Logistics,51000,0.5,0.9702,0.0276,11518,4.8,1
+ORD0507,TP. Hồ Chí Minh,Hà Nội,1720.0,electronics,reliability,83.6,752.4,0,0,ghtk,GHTK Cargo,850000,1.6,0.9715,0.0205,6193,4.8,0
+ORD0508,Đồng Nai,Quảng Ninh,359.0,textile,reliability,106.7,640.2,0,0,jt_cargo,J&T Cargo,353000,0.6,0.9766,0.0202,5942,4.7,1
+ORD0509,Hải Phòng,Bình Dương,165.9,textile,cost,95.9,191.8,0,1,dhl_supply,DHL Express/Logistics,173000,0.5,0.9939,0.0059,1668,5.0,0
+ORD0510,Bà Rịa - Vũng Tàu,Đà Nẵng,907.8,perishable,balanced,30.1,301.0,1,1,sotrans,Sotrans Logistics,280000,0.8,0.9731,0.0209,5372,4.8,0
+ORD0511,Khánh Hòa (Nha Trang),Bà Rịa - Vũng Tàu,275.8,bulky,cost,135.8,1222.2,0,1,kerry_logistics,Kerry Express,229000,0.5,0.9824,0.0124,4384,4.9,1
+ORD0512,Hải Phòng,Nghệ An (Vinh),82.5,chemicals,cost,41.2,353.7,0,0,viettel_post,Viettel Post,56000,0.5,0.9934,0.0191,8471,4.9,1
+ORD0513,Nghệ An (Vinh),Cần Thơ,288.5,fragile,reliability,133.7,802.1999999999999,0,1,transimex,Transimex Cold Chain,566000,0.5,0.9761,0.0121,2007,4.8,0
+ORD0514,Hà Nội,Hải Phòng,120.0,chemicals,reliability,46.3,415.8,0,1,jt_cargo,J&T Cargo,71000,0.5,0.9804,0.0215,6060,4.7,1
+ORD0515,Bình Dương,Hải Phòng,451.0,fmcg,speed,64.3,450.09999999999997,1,1,dhl_supply,DHL Express/Logistics,401000,0.5,0.983,0.0059,2196,4.9,0
+ORD0516,Bình Dương,Cần Thơ,465.4,bulky,balanced,20.7,20.7,1,0,kerry_logistics,Kerry Express,298000,0.6,0.9944,0.0169,4185,4.8,0
+ORD0517,TP. Hồ Chí Minh,Cần Thơ,1047.9,electronics,speed,115.5,577.5,0,1,kerry_logistics,Kerry Express,526000,0.8,0.975,0.0167,5871,4.9,1
+ORD0518,Nghệ An (Vinh),Đà Nẵng,947.6,electronics,speed,7.7,85.2,0,1,viettel_post,Viettel Post,375000,0.8,0.9854,0.0127,11336,4.7,1
+ORD0519,Bà Rịa - Vũng Tàu,Quảng Ninh,801.1,electronics,speed,77.5,103.9,0,1,sotrans,Sotrans Logistics,304000,0.7,0.974,0.0178,3310,4.7,1
+ORD0520,Đà Nẵng,Hà Nội,851.6,fmcg,cost,43.5,348.0,0,0,dhl_supply,DHL Express/Logistics,292000,0.8,0.9828,0.0074,2377,4.9,0
+ORD0521,Bình Dương,Đồng Nai,510.1,textile,reliability,33.1,481.3,0,1,viettel_post,Viettel Post,173000,0.5,0.9847,0.0193,9560,4.9,1
+ORD0522,Cần Thơ,TP. Hồ Chí Minh,252.1,fmcg,reliability,81.0,581.2,1,0,sotrans,Sotrans Logistics,164000,0.5,0.9894,0.0186,5730,4.8,0
+ORD0523,Cần Thơ,Đồng Nai,1150.5,bulky,cost,44.9,152.3,1,0,jt_cargo,J&T Cargo,394000,1.3,0.9811,0.025,3677,4.8,0
+ORD0524,Khánh Hòa (Nha Trang),Đồng Nai,259.2,bulky,balanced,29.2,395.1,0,0,jt_cargo,J&T Cargo,75000,0.5,0.9766,0.0238,6491,4.7,1
+ORD0525,Bà Rịa - Vũng Tàu,Bắc Ninh,123.8,bulky,cost,37.3,335.7,1,0,viettel_post,Viettel Post,82000,0.5,0.9861,0.014,12379,4.9,0
+ORD0526,Quảng Ninh,Bình Dương,229.6,textile,reliability,41.1,463.5,0,0,sotrans,Sotrans Logistics,107000,0.5,0.9725,0.0227,5979,4.7,0
+ORD0527,Quảng Ninh,Nghệ An (Vinh),994.9,fmcg,balanced,83.5,1469.7,0,0,ghtk,GHTK Cargo,521000,1.0,0.9762,0.0208,4107,4.8,0
+ORD0528,TP. Hồ Chí Minh,Khánh Hòa (Nha Trang),1136.6,electronics,balanced,86.3,345.2,0,0,ghtk,GHTK Cargo,372000,1.2,0.9871,0.0215,4269,4.8,0
+ORD0529,TP. Hồ Chí Minh,Cần Thơ,985.0,electronics,balanced,109.6,328.79999999999995,0,0,vnpost,VNPost Logistics,155000,1.2,0.9777,0.0281,7358,4.7,1
+ORD0530,TP. Hồ Chí Minh,Bình Dương,45.0,electronics,cost,110.9,998.1,0,0,ghtk,GHTK Cargo,188000,0.5,0.977,0.0195,4168,4.8,0
+ORD0531,Cần Thơ,Đà Nẵng,711.1,electronics,cost,5.1,264.2,0,1,ghtk,GHTK Cargo,400000,0.6,0.965,0.0168,5078,4.7,0
+ORD0532,Quảng Ninh,Bắc Ninh,1151.2,electronics,balanced,35.2,70.4,0,1,vnpost,VNPost Logistics,295000,1.0,0.966,0.0294,7355,4.6,0
+ORD0533,Đà Nẵng,Cần Thơ,871.8,bulky,reliability,134.2,402.59999999999997,0,0,jt_cargo,J&T Cargo,159000,1.0,0.9805,0.0255,5913,4.8,1
+ORD0534,Hà Nội,Hải Phòng,120.0,chemicals,speed,108.8,870.4,0,1,vnpost,VNPost Logistics,84000,0.5,0.9714,0.0297,7740,4.7,1
+ORD0535,Đà Nẵng,Hải Phòng,943.2,chemicals,balanced,73.2,618.3,0,0,kerry_logistics,Kerry Express,445000,1.0,0.9805,0.015,5181,4.8,1
+ORD0536,Hải Phòng,Cần Thơ,307.7,fmcg,balanced,55.5,222.0,0,0,vnpost,VNPost Logistics,56000,0.6,0.9585,0.0248,14100,4.8,1
+ORD0537,Đà Nẵng,Bình Dương,734.5,perishable,speed,10.3,168.2,1,1,kerry_logistics,Kerry Express,167000,0.6,0.9883,0.0166,3221,4.8,0
+ORD0538,Quảng Ninh,Nghệ An (Vinh),354.5,fmcg,balanced,22.9,137.39999999999998,1,0,jt_cargo,J&T Cargo,76000,0.6,0.9826,0.024,4226,4.8,0
+ORD0539,Bà Rịa - Vũng Tàu,Bình Dương,116.0,perishable,cost,132.4,132.4,1,0,kerry_logistics,Kerry Express,76000,0.5,0.9908,0.0164,5269,4.9,0
+ORD0540,Bắc Ninh,Quảng Ninh,664.1,bulky,reliability,146.0,730.0,0,1,transimex,Transimex Cold Chain,436000,0.6,0.9838,0.0146,3978,5.0,0
+ORD0541,Bà Rịa - Vũng Tàu,Cần Thơ,496.1,perishable,reliability,10.1,513.6,1,0,vnpost,VNPost Logistics,229000,0.7,0.9661,0.0282,8962,4.7,0
+ORD0542,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,795.0,fmcg,speed,83.7,334.8,1,1,viettel_post,Viettel Post,617000,0.7,0.9841,0.0183,10577,4.7,0
+ORD0543,Bắc Ninh,Hà Nội,892.8,fragile,reliability,113.3,679.8,0,0,sotrans,Sotrans Logistics,352000,1.1,0.9772,0.0209,5307,4.7,1
+ORD0544,Hà Nội,Quảng Ninh,844.3,chemicals,balanced,25.9,178.9,1,0,transimex,Transimex Cold Chain,215000,1.0,0.9942,0.0132,2159,4.9,1
+ORD0545,Khánh Hòa (Nha Trang),Nghệ An (Vinh),778.3,textile,reliability,45.0,480.8,0,1,transimex,Transimex Cold Chain,328000,0.6,0.9792,0.0129,2124,4.8,0
+ORD0546,Cần Thơ,TP. Hồ Chí Minh,973.1,chemicals,cost,130.4,1173.6000000000001,0,0,dhl_supply,DHL Express/Logistics,782000,0.9,0.984,0.0042,982,4.9,0
+ORD0547,Bà Rịa - Vũng Tàu,Cần Thơ,1168.3,fragile,balanced,141.1,423.29999999999995,0,0,kerry_logistics,Kerry Express,435000,1.2,0.9802,0.016,4805,4.8,1
+ORD0548,Nghệ An (Vinh),Bình Dương,1190.2,fragile,cost,131.9,661.6,1,0,transimex,Transimex Cold Chain,655000,1.3,0.9915,0.0125,1931,4.8,1
+ORD0549,Đà Nẵng,Quảng Ninh,817.1,perishable,cost,53.6,136.0,1,0,vnpost,VNPost Logistics,94000,1.1,0.9615,0.0229,10251,4.8,0
+ORD0550,Hải Phòng,Cần Thơ,910.2,fragile,cost,33.5,815.4,1,0,ghtk,GHTK Cargo,737000,1.0,0.9887,0.0162,5827,4.7,1
+ORD0551,Nghệ An (Vinh),Đồng Nai,105.7,fmcg,reliability,33.3,72.2,0,0,vnpost,VNPost Logistics,157000,0.5,0.9605,0.0242,14157,4.6,0
+ORD0552,Đồng Nai,Nghệ An (Vinh),923.6,electronics,reliability,52.6,368.2,0,0,jt_cargo,J&T Cargo,431000,1.1,0.9759,0.0235,5853,4.7,1
+ORD0553,Bà Rịa - Vũng Tàu,Nghệ An (Vinh),442.6,perishable,cost,93.2,932.0,1,0,viettel_post,Viettel Post,272000,0.6,0.9738,0.0157,15080,4.8,0
+ORD0554,Quảng Ninh,Đồng Nai,727.8,fragile,cost,96.6,772.8,1,0,kerry_logistics,Kerry Express,497000,0.9,0.9874,0.0172,3885,4.8,0
+ORD0555,Hải Phòng,Bà Rịa - Vũng Tàu,423.8,bulky,cost,46.7,151.9,0,1,kerry_logistics,Kerry Express,94000,0.5,0.9803,0.0138,5142,4.8,1
+ORD0556,Bình Dương,TP. Hồ Chí Minh,45.0,electronics,balanced,90.0,810.0,0,0,dhl_supply,DHL Express/Logistics,426000,0.5,0.9976,0.0095,1003,5.0,0
+ORD0557,TP. Hồ Chí Minh,Đà Nẵng,724.9,textile,cost,139.2,1392.0,0,0,kerry_logistics,Kerry Express,644000,0.9,0.9753,0.0172,3468,4.8,1
+ORD0558,Cần Thơ,TP. Hồ Chí Minh,499.6,fragile,balanced,3.1,1932.0,0,0,dhl_supply,DHL Express/Logistics,855000,0.6,1.001,0.0084,1294,4.9,1
+ORD0559,Đồng Nai,Hà Nội,751.9,fmcg,cost,123.4,1110.6000000000001,0,0,kerry_logistics,Kerry Express,380000,0.9,0.9748,0.0162,6282,4.9,1
+ORD0560,Đồng Nai,Đà Nẵng,757.7,textile,balanced,25.4,380.2,0,1,kerry_logistics,Kerry Express,580000,0.6,0.9911,0.016,5264,4.8,1
+ORD0561,Bình Dương,Hải Phòng,772.3,fmcg,cost,24.7,247.0,0,0,ghtk,GHTK Cargo,101000,0.9,0.9896,0.0201,4264,4.8,0
+ORD0562,Hải Phòng,Bình Dương,1127.2,electronics,speed,42.7,112.7,0,1,vnpost,VNPost Logistics,473000,1.0,0.9598,0.0294,8161,4.6,1
+ORD0563,Đà Nẵng,TP. Hồ Chí Minh,705.5,fmcg,balanced,74.7,149.4,1,0,kerry_logistics,Kerry Express,399000,0.8,0.9922,0.0161,3659,4.8,0
+ORD0564,Hà Nội,Hải Phòng,120.0,textile,cost,149.2,1193.6,0,1,vnpost,VNPost Logistics,99000,0.5,0.9618,0.0222,11192,4.6,1
+ORD0565,Hải Phòng,Đồng Nai,854.6,fmcg,speed,14.3,57.2,1,1,vnpost,VNPost Logistics,220000,0.8,0.9657,0.0264,13104,4.7,0
+ORD0566,Đồng Nai,Nghệ An (Vinh),195.2,perishable,speed,144.4,722.0,1,1,dhl_supply,DHL Express/Logistics,340000,0.5,0.9841,0.0036,1687,4.9,0
+ORD0567,Đồng Nai,Quảng Ninh,303.7,textile,reliability,58.7,587.0,0,0,ghtk,GHTK Cargo,97000,0.5,0.9872,0.0227,5178,4.7,0
+ORD0568,Quảng Ninh,Khánh Hòa (Nha Trang),288.2,fragile,balanced,65.5,393.0,0,0,sotrans,Sotrans Logistics,355000,0.5,0.9706,0.0175,4819,4.7,0
+ORD0569,Bình Dương,Hải Phòng,317.6,perishable,reliability,44.0,308.0,1,0,vnpost,VNPost Logistics,88000,0.6,0.9713,0.0272,10565,4.7,0
+ORD0570,Bình Dương,Hải Phòng,219.0,electronics,cost,64.3,321.5,0,0,transimex,Transimex Cold Chain,377000,0.5,0.9884,0.0103,3858,4.9,0
+ORD0571,Cần Thơ,Bắc Ninh,98.2,electronics,balanced,51.9,51.9,0,0,dhl_supply,DHL Express/Logistics,398000,0.5,0.9869,0.008,1939,4.9,1
+ORD0572,Cần Thơ,Quảng Ninh,1163.2,fmcg,balanced,127.6,1086.3,1,0,transimex,Transimex Cold Chain,906000,1.2,0.9752,0.0081,2822,4.8,1
+ORD0573,Bà Rịa - Vũng Tàu,Đồng Nai,1126.2,electronics,speed,148.5,1336.5,0,1,viettel_post,Viettel Post,946000,0.9,0.9728,0.0196,10697,4.7,1
+ORD0574,Đồng Nai,Bắc Ninh,1045.3,textile,speed,20.7,133.1,0,1,jt_cargo,J&T Cargo,109000,0.8,0.9807,0.0222,4957,4.7,1
+ORD0575,Bắc Ninh,Đồng Nai,475.4,chemicals,balanced,107.3,536.5,0,0,vnpost,VNPost Logistics,114000,0.7,0.9589,0.026,12492,4.6,1
+ORD0576,Đồng Nai,Hải Phòng,431.0,perishable,cost,78.1,702.9,1,0,vnpost,VNPost Logistics,174000,0.7,0.9799,0.0238,14987,4.7,0
+ORD0577,Nghệ An (Vinh),Khánh Hòa (Nha Trang),424.0,electronics,balanced,26.3,184.1,0,0,jt_cargo,J&T Cargo,167000,0.6,0.9859,0.024,4887,4.7,1
+ORD0578,Hà Nội,Khánh Hòa (Nha Trang),563.3,textile,balanced,14.4,237.6,0,0,jt_cargo,J&T Cargo,86000,0.7,0.9708,0.0188,5998,4.8,1
+ORD0579,Hải Phòng,Bình Dương,660.9,electronics,balanced,91.9,827.1,1,1,vnpost,VNPost Logistics,510000,0.6,0.9625,0.0224,9180,4.6,0
+ORD0580,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,1003.0,fragile,speed,34.5,191.9,0,1,transimex,Transimex Cold Chain,548000,0.8,0.9783,0.0096,4391,4.9,0
+ORD0581,Bà Rịa - Vũng Tàu,Hà Nội,1034.9,fmcg,speed,111.4,2191.8,0,1,ghtk,GHTK Cargo,1033000,0.8,0.9697,0.0222,3552,4.7,0
+ORD0582,Đồng Nai,Bình Dương,1165.9,fmcg,speed,89.9,89.9,0,1,jt_cargo,J&T Cargo,95000,0.9,0.9667,0.0246,4190,4.7,0
+ORD0583,Khánh Hòa (Nha Trang),Nghệ An (Vinh),903.0,electronics,speed,69.0,414.0,0,1,jt_cargo,J&T Cargo,379000,0.7,0.9703,0.0217,4233,4.8,1
+ORD0584,Khánh Hòa (Nha Trang),Bà Rịa - Vũng Tàu,103.2,chemicals,balanced,109.8,988.1999999999999,0,0,sotrans,Sotrans Logistics,106000,0.5,0.9794,0.017,5986,4.8,1
+ORD0585,Hải Phòng,TP. Hồ Chí Minh,583.2,electronics,balanced,135.1,1215.8999999999999,0,0,sotrans,Sotrans Logistics,493000,0.8,0.9892,0.0181,3131,4.7,1
+ORD0586,Hà Nội,Quảng Ninh,967.4,bulky,reliability,145.3,1453.0,0,0,jt_cargo,J&T Cargo,518000,1.1,0.981,0.0222,5286,4.7,1
+ORD0587,Bắc Ninh,Khánh Hòa (Nha Trang),1004.5,fragile,cost,34.2,34.2,1,0,kerry_logistics,Kerry Express,96000,1.1,0.9788,0.0177,3564,4.7,0
+ORD0588,Bắc Ninh,Nghệ An (Vinh),300.3,textile,speed,149.4,448.20000000000005,0,1,viettel_post,Viettel Post,270000,0.5,0.9818,0.0148,13218,4.9,1
+ORD0589,Đồng Nai,TP. Hồ Chí Minh,441.2,fragile,reliability,102.5,717.5,0,0,dhl_supply,DHL Express/Logistics,439000,0.5,0.9834,0.0064,975,4.9,0
+ORD0590,Quảng Ninh,Cần Thơ,574.9,bulky,speed,22.5,346.8,0,1,jt_cargo,J&T Cargo,135000,0.5,0.9729,0.0217,4889,4.8,0
+ORD0591,Khánh Hòa (Nha Trang),Hà Nội,961.0,chemicals,balanced,136.2,1362.0,0,0,dhl_supply,DHL Express/Logistics,879000,0.9,0.9813,0.0088,2172,4.8,1
+ORD0592,Khánh Hòa (Nha Trang),Cần Thơ,189.1,chemicals,cost,51.4,102.8,0,0,vnpost,VNPost Logistics,41000,0.5,0.9755,0.0274,7434,4.7,1
+ORD0593,Khánh Hòa (Nha Trang),Đà Nẵng,777.7,bulky,balanced,46.5,139.5,0,1,vnpost,VNPost Logistics,86000,0.7,0.9587,0.0232,11258,4.8,1
+ORD0594,Hải Phòng,TP. Hồ Chí Minh,415.9,perishable,cost,139.1,139.1,1,0,dhl_supply,DHL Express/Logistics,367000,0.5,1.0005,0.0075,2063,5.0,0
+ORD0595,Đà Nẵng,Bà Rịa - Vũng Tàu,885.4,fmcg,speed,27.3,501.1,0,1,dhl_supply,DHL Express/Logistics,472000,0.6,0.9967,0.0097,2167,4.9,0
+ORD0596,Đồng Nai,TP. Hồ Chí Minh,711.9,perishable,balanced,69.6,348.0,1,1,viettel_post,Viettel Post,235000,0.6,0.9927,0.0148,15228,4.8,0
+ORD0597,Bắc Ninh,Hà Nội,668.1,electronics,reliability,135.6,813.5999999999999,0,1,sotrans,Sotrans Logistics,430000,0.6,0.9834,0.0195,5517,4.7,1
+ORD0598,Bắc Ninh,Bà Rịa - Vũng Tàu,758.5,fragile,balanced,144.5,1011.5,0,0,dhl_supply,DHL Express/Logistics,895000,0.7,0.9832,0.0046,1512,5.0,0
+ORD0599,Đồng Nai,TP. Hồ Chí Minh,840.8,fmcg,cost,75.9,151.8,0,0,vnpost,VNPost Logistics,75000,1.1,0.9795,0.0234,13191,4.8,1
+ORD0600,TP. Hồ Chí Minh,Hà Nội,1720.0,bulky,reliability,115.0,920.0,0,0,vnpost,VNPost Logistics,526000,2.0,0.9745,0.025,11700,4.8,1
+ORD0601,Hải Phòng,Bình Dương,672.0,perishable,balanced,66.2,198.60000000000002,1,0,vnpost,VNPost Logistics,128000,0.9,0.9621,0.0285,9945,4.8,0
+ORD0602,Nghệ An (Vinh),Khánh Hòa (Nha Trang),1012.3,chemicals,cost,75.4,709.9,0,0,ghtk,GHTK Cargo,275000,1.1,0.985,0.0185,7079,4.8,0
+ORD0603,TP. Hồ Chí Minh,Hải Phòng,685.4,chemicals,reliability,9.6,78.8,1,0,kerry_logistics,Kerry Express,266000,0.8,0.9876,0.0115,6965,4.9,0
+ORD0604,Khánh Hòa (Nha Trang),Quảng Ninh,204.2,electronics,reliability,105.2,946.8000000000001,0,0,viettel_post,Viettel Post,293000,0.5,0.9708,0.0154,15274,4.8,1
+ORD0605,Đà Nẵng,Bắc Ninh,841.0,bulky,reliability,121.2,242.4,0,0,vnpost,VNPost Logistics,98000,1.1,0.9807,0.0268,7660,4.7,1
+ORD0606,Cần Thơ,Đà Nẵng,787.6,fragile,cost,35.3,317.7,0,0,viettel_post,Viettel Post,295000,0.9,0.9933,0.0122,9607,4.9,1
+ORD0607,Đồng Nai,Bà Rịa - Vũng Tàu,561.3,textile,cost,104.9,734.3000000000001,0,1,sotrans,Sotrans Logistics,268000,0.5,0.9758,0.0177,2975,4.8,1
+ORD0608,Nghệ An (Vinh),Hà Nội,165.8,electronics,balanced,122.3,489.2,1,1,sotrans,Sotrans Logistics,201000,0.5,0.9757,0.0202,3197,4.7,0
+ORD0609,Đồng Nai,Khánh Hòa (Nha Trang),869.9,textile,cost,32.5,292.5,0,0,dhl_supply,DHL Express/Logistics,268000,0.8,1.0035,0.0082,2138,4.9,0
+ORD0610,Bắc Ninh,Đồng Nai,167.9,textile,cost,74.0,740.0,0,0,transimex,Transimex Cold Chain,147000,0.5,0.9771,0.0138,1646,4.9,0
+ORD0611,Bà Rịa - Vũng Tàu,Cần Thơ,738.8,textile,balanced,42.0,42.0,0,0,kerry_logistics,Kerry Express,462000,0.9,0.9824,0.0179,3181,4.8,1
+ORD0612,Đồng Nai,Đà Nẵng,787.0,textile,balanced,82.1,82.1,1,0,transimex,Transimex Cold Chain,162000,0.9,0.9929,0.0107,3277,4.9,1
+ORD0613,Bà Rịa - Vũng Tàu,Hà Nội,1130.5,chemicals,cost,129.1,1222.4,0,0,dhl_supply,DHL Express/Logistics,922000,1.0,0.9841,0.0051,1287,5.0,0
+ORD0614,Hà Nội,Bình Dương,522.0,chemicals,reliability,52.0,260.0,0,0,viettel_post,Viettel Post,97000,0.7,0.9731,0.0165,10166,4.8,1
+ORD0615,Cần Thơ,Khánh Hòa (Nha Trang),1025.6,fmcg,balanced,73.1,438.59999999999997,0,1,sotrans,Sotrans Logistics,284000,0.9,0.9908,0.0185,5222,4.7,1
+ORD0616,Cần Thơ,Đà Nẵng,863.7,electronics,speed,36.4,99.7,0,1,jt_cargo,J&T Cargo,417000,0.7,0.9785,0.0183,3249,4.8,0
+ORD0617,Bắc Ninh,Bình Dương,647.8,fmcg,reliability,18.2,135.4,1,1,sotrans,Sotrans Logistics,545000,0.6,0.9877,0.0204,3746,4.7,0
+ORD0618,Đà Nẵng,Hà Nội,943.4,fragile,reliability,71.7,785.1,0,1,dhl_supply,DHL Express/Logistics,722000,0.6,1.0033,0.0093,2047,4.8,0
+ORD0619,Bình Dương,Nghệ An (Vinh),248.1,textile,reliability,99.2,99.2,0,0,kerry_logistics,Kerry Express,60000,0.5,0.9835,0.012,6269,4.9,1
+ORD0620,Cần Thơ,Bà Rịa - Vũng Tàu,353.3,bulky,balanced,45.4,454.0,0,0,sotrans,Sotrans Logistics,126000,0.6,0.9857,0.0159,5001,4.7,1
+ORD0621,Đồng Nai,Bình Dương,582.8,fmcg,reliability,91.6,732.8,0,0,transimex,Transimex Cold Chain,286000,0.7,0.9934,0.0113,2065,4.9,0
+ORD0622,Bắc Ninh,Đồng Nai,725.1,fragile,cost,147.5,1327.5,0,0,jt_cargo,J&T Cargo,492000,0.9,0.9644,0.019,5271,4.7,1
+ORD0623,Cần Thơ,TP. Hồ Chí Minh,228.3,electronics,cost,148.5,445.5,0,0,sotrans,Sotrans Logistics,386000,0.5,0.9702,0.0206,3201,4.7,1
+ORD0624,Bình Dương,Quảng Ninh,786.5,bulky,cost,136.8,1094.4,0,0,ghtk,GHTK Cargo,322000,0.9,0.9831,0.0197,5586,4.8,0
+ORD0625,Hà Nội,Quảng Ninh,889.2,bulky,reliability,28.2,699.1,0,0,sotrans,Sotrans Logistics,613000,1.1,0.9682,0.0191,4081,4.8,1
+ORD0626,Đồng Nai,Bắc Ninh,1138.5,fragile,balanced,8.2,215.3,0,0,dhl_supply,DHL Express/Logistics,547000,1.0,0.9944,0.0069,1383,4.8,0
+ORD0627,Bắc Ninh,Bình Dương,923.9,perishable,balanced,148.3,741.5,1,0,vnpost,VNPost Logistics,334000,1.2,0.9622,0.0287,7224,4.7,0
+ORD0628,Hà Nội,Nghệ An (Vinh),1134.8,bulky,speed,32.1,192.60000000000002,0,1,ghtk,GHTK Cargo,138000,0.8,0.9858,0.0174,6393,4.7,0
+ORD0629,TP. Hồ Chí Minh,Khánh Hòa (Nha Trang),210.4,perishable,balanced,110.3,551.5,1,0,vnpost,VNPost Logistics,246000,0.5,0.9652,0.0261,12166,4.7,0
+ORD0630,Quảng Ninh,TP. Hồ Chí Minh,1022.4,textile,reliability,49.0,441.0,0,0,transimex,Transimex Cold Chain,312000,1.1,0.9774,0.011,4258,5.0,0
+ORD0631,Cần Thơ,Đà Nẵng,722.2,perishable,speed,95.9,383.6,1,1,viettel_post,Viettel Post,254000,0.6,0.9809,0.0159,13816,4.8,0
+ORD0632,Đồng Nai,Bắc Ninh,1148.9,bulky,balanced,80.5,663.6,0,0,jt_cargo,J&T Cargo,299000,1.3,0.9839,0.0211,4970,4.7,1
+ORD0633,Hải Phòng,TP. Hồ Chí Minh,209.7,chemicals,reliability,100.0,400.0,0,0,ghtk,GHTK Cargo,326000,0.5,0.9843,0.0189,5503,4.8,0
+ORD0634,Quảng Ninh,Hải Phòng,944.4,fmcg,reliability,11.0,360.1,0,0,kerry_logistics,Kerry Express,184000,1.0,0.98,0.0183,5982,4.8,1
+ORD0635,Quảng Ninh,Hà Nội,953.1,fragile,balanced,81.3,265.5,1,0,sotrans,Sotrans Logistics,614000,1.2,0.9702,0.0193,2086,4.8,0
+ORD0636,TP. Hồ Chí Minh,Đồng Nai,1183.4,fragile,cost,81.2,487.20000000000005,0,0,dhl_supply,DHL Express/Logistics,609000,1.0,1.0,0.0093,1241,4.9,0
+ORD0637,Hải Phòng,Hà Nội,120.0,fmcg,cost,8.3,348.9,0,1,viettel_post,Viettel Post,76000,0.5,0.9768,0.013,13368,4.9,1
+ORD0638,Bà Rịa - Vũng Tàu,Bắc Ninh,911.8,chemicals,cost,5.0,97.0,0,0,kerry_logistics,Kerry Express,470000,1.0,0.9749,0.0158,4325,4.8,0
+ORD0639,Bà Rịa - Vũng Tàu,Hà Nội,725.3,fragile,reliability,145.5,727.5,0,0,kerry_logistics,Kerry Express,408000,0.9,0.984,0.0149,5184,4.9,1
+ORD0640,Đồng Nai,Hà Nội,727.2,perishable,balanced,68.9,407.0,1,1,sotrans,Sotrans Logistics,293000,0.7,0.9789,0.0159,2588,4.7,0
+ORD0641,TP. Hồ Chí Minh,Đà Nẵng,800.8,bulky,speed,14.4,382.2,0,1,transimex,Transimex Cold Chain,288000,0.7,0.9755,0.0119,2883,4.9,0
+ORD0642,Hà Nội,Đồng Nai,970.1,textile,balanced,113.7,454.8,0,0,jt_cargo,J&T Cargo,190000,1.1,0.9817,0.0221,6002,4.8,1
+ORD0643,TP. Hồ Chí Minh,Cần Thơ,216.1,textile,cost,79.0,237.0,0,0,jt_cargo,J&T Cargo,337000,0.5,0.9683,0.0244,6067,4.7,1
+ORD0644,Đồng Nai,Cần Thơ,768.9,fmcg,reliability,79.3,396.5,0,0,transimex,Transimex Cold Chain,570000,0.9,0.9941,0.0156,3976,4.9,0
+ORD0645,Cần Thơ,Hải Phòng,280.7,fragile,speed,49.0,71.2,0,1,dhl_supply,DHL Express/Logistics,174000,0.5,0.9975,0.0036,1739,4.8,1
+ORD0646,Hà Nội,Quảng Ninh,466.4,perishable,speed,132.7,1194.3,1,1,dhl_supply,DHL Express/Logistics,878000,0.5,0.9871,0.0093,2293,4.9,0
+ORD0647,Nghệ An (Vinh),Đồng Nai,393.6,fragile,speed,110.1,220.2,0,1,ghtk,GHTK Cargo,158000,0.5,0.9849,0.0197,4852,4.8,0
+ORD0648,Nghệ An (Vinh),Quảng Ninh,182.3,fragile,balanced,148.4,593.6,0,1,jt_cargo,J&T Cargo,211000,0.5,0.9859,0.0206,3213,4.8,1
+ORD0649,Cần Thơ,Đồng Nai,520.4,textile,balanced,37.6,161.6,0,0,sotrans,Sotrans Logistics,99000,0.7,0.9803,0.0221,5913,4.8,1
+ORD0650,Quảng Ninh,Bắc Ninh,360.6,textile,speed,104.9,1189.7,1,1,ghtk,GHTK Cargo,303000,0.5,0.9656,0.0179,6244,4.8,0
+ORD0651,Đồng Nai,Hải Phòng,484.3,bulky,speed,31.0,46.4,0,1,vnpost,VNPost Logistics,52000,0.5,0.9798,0.0293,7106,4.7,1
+ORD0652,Hà Nội,Bà Rịa - Vũng Tàu,144.1,fragile,balanced,42.6,239.6,0,1,jt_cargo,J&T Cargo,375000,0.5,0.9763,0.0218,6074,4.8,1
+ORD0653,TP. Hồ Chí Minh,Hà Nội,1720.0,fragile,cost,14.3,118.9,0,1,viettel_post,Viettel Post,443000,1.2,0.9779,0.0189,14984,4.8,1
+ORD0654,Nghệ An (Vinh),Hà Nội,824.2,fragile,reliability,4.1,571.5,0,0,vnpost,VNPost Logistics,226000,1.1,0.9618,0.0281,9184,4.6,1
+ORD0655,Cần Thơ,Hà Nội,707.8,fragile,speed,48.1,63.9,1,1,vnpost,VNPost Logistics,388000,0.7,0.9712,0.0257,7741,4.6,0
+ORD0656,TP. Hồ Chí Minh,Hải Phòng,595.6,fragile,cost,96.4,385.6,0,0,transimex,Transimex Cold Chain,401000,0.8,0.9927,0.0139,3053,4.8,0
+ORD0657,Đà Nẵng,Bình Dương,744.3,electronics,reliability,132.8,664.0,0,0,vnpost,VNPost Logistics,363000,1.0,0.9692,0.0266,12257,4.7,1
+ORD0658,Quảng Ninh,Bà Rịa - Vũng Tàu,315.9,chemicals,speed,81.6,244.79999999999998,0,1,transimex,Transimex Cold Chain,157000,0.5,0.9826,0.0157,2601,4.9,0
+ORD0659,Hải Phòng,Bình Dương,288.8,electronics,balanced,99.4,894.6,1,0,kerry_logistics,Kerry Express,450000,0.5,0.9865,0.0182,3428,4.8,0
+ORD0660,Hà Nội,Hải Phòng,120.0,perishable,balanced,29.7,224.1,1,0,ghtk,GHTK Cargo,418000,0.5,0.9838,0.0185,5931,4.8,0
+ORD0661,Đồng Nai,Cần Thơ,840.0,perishable,speed,52.0,1024.6,1,1,vnpost,VNPost Logistics,509000,0.8,0.9675,0.0282,10282,4.8,0
+ORD0662,Đà Nẵng,Nghệ An (Vinh),897.1,electronics,reliability,100.2,300.6,1,1,sotrans,Sotrans Logistics,377000,0.8,0.9785,0.0163,2604,4.7,0
+ORD0663,Đà Nẵng,Bình Dương,761.2,fragile,cost,15.3,152.0,0,0,viettel_post,Viettel Post,334000,0.9,0.9819,0.0148,13626,4.8,1
+ORD0664,Hải Phòng,Khánh Hòa (Nha Trang),436.6,textile,balanced,59.4,237.6,0,0,kerry_logistics,Kerry Express,91000,0.6,0.9849,0.0153,5743,4.8,1
+ORD0665,Nghệ An (Vinh),Hà Nội,81.8,electronics,speed,76.2,457.20000000000005,0,1,vnpost,VNPost Logistics,318000,0.5,0.9731,0.0231,8730,4.6,1
+ORD0666,TP. Hồ Chí Minh,Đồng Nai,999.8,perishable,speed,59.2,296.0,1,1,ghtk,GHTK Cargo,504000,0.7,0.9691,0.0205,5404,4.8,0
+ORD0667,Bình Dương,Bà Rịa - Vũng Tàu,723.6,textile,cost,49.2,147.60000000000002,0,0,kerry_logistics,Kerry Express,92000,0.9,0.9893,0.0134,5597,4.8,1
+ORD0668,Cần Thơ,Nghệ An (Vinh),1178.4,fragile,balanced,118.3,236.6,0,0,ghtk,GHTK Cargo,190000,1.2,0.9652,0.0226,4556,4.8,0
+ORD0669,Nghệ An (Vinh),Cần Thơ,595.5,perishable,cost,130.4,260.8,1,1,dhl_supply,DHL Express/Logistics,355000,0.5,0.9906,0.0074,848,5.0,0
+ORD0670,Đà Nẵng,Bình Dương,848.9,fragile,balanced,96.1,480.5,0,1,transimex,Transimex Cold Chain,607000,0.7,0.9784,0.0123,2092,4.8,0
+ORD0671,Đồng Nai,Bắc Ninh,165.7,fragile,balanced,69.8,1515.4,0,1,kerry_logistics,Kerry Express,256000,0.5,0.9828,0.0168,5608,4.8,1
+ORD0672,Đồng Nai,Cần Thơ,565.4,fmcg,speed,125.9,338.3,1,1,dhl_supply,DHL Express/Logistics,565000,0.5,0.9954,0.0063,2221,5.0,0
+ORD0673,Bình Dương,Quảng Ninh,832.0,perishable,speed,43.0,385.1,1,1,dhl_supply,DHL Express/Logistics,516000,0.5,0.9868,0.0053,1648,4.8,0
+ORD0674,Bắc Ninh,Bình Dương,327.6,perishable,reliability,106.9,106.9,1,0,jt_cargo,J&T Cargo,70000,0.5,0.9787,0.0231,4593,4.7,0
+ORD0675,Khánh Hòa (Nha Trang),Hà Nội,911.7,fragile,reliability,70.4,236.0,0,0,dhl_supply,DHL Express/Logistics,500000,0.8,0.9901,0.0073,960,4.9,0
+ORD0676,Khánh Hòa (Nha Trang),Bình Dương,603.5,fmcg,speed,68.8,412.79999999999995,0,1,kerry_logistics,Kerry Express,186000,0.5,0.9804,0.0171,4162,4.9,1
+ORD0677,Cần Thơ,Hải Phòng,316.7,perishable,speed,60.6,121.2,1,1,ghtk,GHTK Cargo,281000,0.5,0.9866,0.0211,5142,4.9,0
+ORD0678,Bình Dương,Hải Phòng,849.3,perishable,reliability,100.3,255.7,1,0,kerry_logistics,Kerry Express,183000,1.0,0.9756,0.0142,4172,4.9,0
+ORD0679,Cần Thơ,Đà Nẵng,890.7,chemicals,speed,124.8,1123.2,0,1,kerry_logistics,Kerry Express,556000,0.7,0.9845,0.0143,3773,4.8,1
+ORD0680,Nghệ An (Vinh),Hải Phòng,717.6,electronics,cost,39.0,390.0,0,1,viettel_post,Viettel Post,434000,0.6,0.9886,0.0191,12522,4.9,1
+ORD0681,Hải Phòng,Đà Nẵng,773.2,perishable,reliability,49.8,199.2,1,0,jt_cargo,J&T Cargo,430000,0.9,0.9701,0.0228,6263,4.8,0
+ORD0682,Cần Thơ,Nghệ An (Vinh),158.2,textile,cost,108.9,871.2,0,0,jt_cargo,J&T Cargo,87000,0.5,0.9856,0.0186,4065,4.7,1
+ORD0683,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,1007.7,textile,cost,122.1,610.5,0,1,jt_cargo,J&T Cargo,311000,0.8,0.9747,0.019,4075,4.7,1
+ORD0684,Nghệ An (Vinh),TP. Hồ Chí Minh,352.2,textile,speed,23.0,854.0,0,1,vnpost,VNPost Logistics,380000,0.5,0.9685,0.0277,13201,4.7,1
+ORD0685,Bắc Ninh,Khánh Hòa (Nha Trang),236.8,fragile,balanced,7.3,673.4,0,1,sotrans,Sotrans Logistics,402000,0.5,0.9848,0.0175,4325,4.8,1
+ORD0686,Cần Thơ,Khánh Hòa (Nha Trang),407.4,textile,reliability,23.7,381.6,0,0,dhl_supply,DHL Express/Logistics,355000,0.5,0.9837,0.0021,1841,4.9,0
+ORD0687,Khánh Hòa (Nha Trang),Đồng Nai,432.0,perishable,speed,128.2,1282.0,1,1,ghtk,GHTK Cargo,373000,0.5,0.9868,0.0189,5055,4.8,1
+ORD0688,TP. Hồ Chí Minh,Đồng Nai,896.2,electronics,reliability,92.1,460.5,1,1,jt_cargo,J&T Cargo,629000,0.7,0.9782,0.0231,6056,4.6,0
+ORD0689,Khánh Hòa (Nha Trang),Hải Phòng,1146.3,textile,speed,94.7,662.9,0,1,vnpost,VNPost Logistics,688000,1.0,0.9813,0.0224,9031,4.7,1
+ORD0690,Bà Rịa - Vũng Tàu,Đà Nẵng,852.3,textile,speed,8.0,327.8,0,1,vnpost,VNPost Logistics,282000,0.8,0.9797,0.0231,8701,4.7,1
+ORD0691,Nghệ An (Vinh),Quảng Ninh,161.8,perishable,balanced,118.9,713.4000000000001,1,0,transimex,Transimex Cold Chain,193000,0.5,0.9765,0.0127,2728,4.9,1
+ORD0692,Nghệ An (Vinh),Đồng Nai,791.1,chemicals,cost,89.2,1115.9,0,0,dhl_supply,DHL Express/Logistics,902000,0.8,0.9923,0.0034,1853,4.9,0
+ORD0693,Quảng Ninh,Bắc Ninh,781.0,fragile,speed,76.5,924.5,1,1,jt_cargo,J&T Cargo,607000,0.7,0.9642,0.0251,5030,4.7,0
+ORD0694,TP. Hồ Chí Minh,Cần Thơ,296.8,textile,reliability,123.7,1113.3,1,0,sotrans,Sotrans Logistics,251000,0.5,0.9862,0.0188,5799,4.8,0
+ORD0695,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,763.3,electronics,reliability,128.1,384.29999999999995,0,0,kerry_logistics,Kerry Express,476000,0.9,0.9895,0.0132,4933,4.9,1
+ORD0696,Bắc Ninh,Đồng Nai,556.3,electronics,reliability,68.6,748.4,0,0,viettel_post,Viettel Post,468000,0.7,0.9942,0.0148,15987,4.9,1
+ORD0697,Bắc Ninh,Hà Nội,106.5,chemicals,speed,125.2,626.0,0,1,transimex,Transimex Cold Chain,151000,0.5,0.9939,0.0129,2622,4.9,0
+ORD0698,Hải Phòng,Đà Nẵng,927.2,fragile,balanced,103.8,726.6,0,0,kerry_logistics,Kerry Express,711000,1.0,0.9715,0.0114,5203,4.8,1
+ORD0699,Bắc Ninh,TP. Hồ Chí Minh,740.6,perishable,speed,131.3,393.90000000000003,1,1,vnpost,VNPost Logistics,212000,0.7,0.968,0.0246,12412,4.7,0
+ORD0700,Khánh Hòa (Nha Trang),Bắc Ninh,484.6,textile,cost,143.7,862.1999999999999,0,0,jt_cargo,J&T Cargo,397000,0.7,0.9697,0.0209,5883,4.7,1
+ORD0701,Nghệ An (Vinh),Hà Nội,1011.5,electronics,cost,120.1,960.8,1,0,viettel_post,Viettel Post,804000,1.1,0.9841,0.02,15152,4.9,0
+ORD0702,Khánh Hòa (Nha Trang),Cần Thơ,705.3,fragile,reliability,15.6,156.0,1,1,vnpost,VNPost Logistics,452000,0.7,0.9713,0.0257,8563,4.7,0
+ORD0703,Quảng Ninh,Đồng Nai,805.6,chemicals,reliability,12.8,348.3,0,0,viettel_post,Viettel Post,152000,0.9,0.98,0.0144,11194,4.8,0
+ORD0704,Hải Phòng,Đồng Nai,812.0,perishable,speed,80.8,484.79999999999995,1,1,sotrans,Sotrans Logistics,726000,0.7,0.9893,0.0207,2773,4.8,0
+ORD0705,Hải Phòng,Bình Dương,684.9,electronics,cost,117.4,117.4,0,0,transimex,Transimex Cold Chain,337000,0.8,0.9905,0.0096,2610,4.8,0
+ORD0706,Hải Phòng,Đồng Nai,913.2,fmcg,speed,67.7,67.7,0,1,jt_cargo,J&T Cargo,76000,0.7,0.974,0.0196,6336,4.7,0
+ORD0707,Đà Nẵng,Nghệ An (Vinh),885.2,bulky,cost,141.2,282.4,0,0,vnpost,VNPost Logistics,112000,1.1,0.977,0.0249,7917,4.6,1
+ORD0708,Hà Nội,TP. Hồ Chí Minh,1720.0,perishable,balanced,142.0,852.0,1,0,transimex,Transimex Cold Chain,1032000,1.7,0.999,0.0087,3096,4.9,1
+ORD0709,Hà Nội,Bình Dương,223.3,textile,reliability,85.6,256.79999999999995,0,0,transimex,Transimex Cold Chain,116000,0.5,0.9957,0.0133,3199,4.9,0
+ORD0710,Đồng Nai,Đà Nẵng,751.0,electronics,speed,6.4,58.0,0,1,dhl_supply,DHL Express/Logistics,427000,0.5,0.9955,0.0022,858,4.8,1
+ORD0711,Hà Nội,Hải Phòng,120.0,perishable,cost,27.1,2011.2,1,1,vnpost,VNPost Logistics,185000,0.5,0.9675,0.0225,10804,4.8,0
+ORD0712,Khánh Hòa (Nha Trang),Cần Thơ,815.1,electronics,cost,21.0,519.8,0,0,jt_cargo,J&T Cargo,254000,1.0,0.9763,0.0246,3515,4.7,1
+ORD0713,Đà Nẵng,Hải Phòng,726.3,electronics,cost,133.3,666.5,0,1,sotrans,Sotrans Logistics,499000,0.7,0.9848,0.0187,4117,4.8,1
+ORD0714,Bắc Ninh,Đà Nẵng,912.7,fragile,balanced,111.0,1110.0,0,0,transimex,Transimex Cold Chain,596000,1.0,0.9985,0.0081,2474,4.9,0
+ORD0715,Bình Dương,Hà Nội,1191.8,bulky,balanced,62.0,620.0,0,0,sotrans,Sotrans Logistics,329000,1.4,0.9754,0.0221,5305,4.7,1
+ORD0716,Khánh Hòa (Nha Trang),Cần Thơ,489.3,textile,cost,11.3,910.8,0,0,jt_cargo,J&T Cargo,347000,0.7,0.9848,0.019,3517,4.8,1
+ORD0717,Bắc Ninh,Khánh Hòa (Nha Trang),1020.8,perishable,cost,30.8,611.5,1,0,ghtk,GHTK Cargo,564000,1.1,0.9791,0.0192,5683,4.7,0
+ORD0718,Hải Phòng,Nghệ An (Vinh),1042.0,electronics,reliability,96.0,288.0,0,0,kerry_logistics,Kerry Express,274000,1.1,0.9915,0.0132,6886,4.9,1
+ORD0719,Đồng Nai,Nghệ An (Vinh),361.5,perishable,balanced,2.1,210.2,1,0,vnpost,VNPost Logistics,79000,0.6,0.9585,0.0253,13737,4.6,0
+ORD0720,Hải Phòng,Cần Thơ,472.5,chemicals,speed,38.8,561.3,0,1,kerry_logistics,Kerry Express,193000,0.5,0.9731,0.0169,3621,4.9,1
+ORD0721,Đà Nẵng,Bà Rịa - Vũng Tàu,725.7,fragile,reliability,48.1,432.90000000000003,0,0,dhl_supply,DHL Express/Logistics,592000,0.7,1.0006,0.0063,1114,4.9,0
+ORD0722,Bà Rịa - Vũng Tàu,Bình Dương,268.7,fragile,cost,65.0,520.0,0,0,dhl_supply,DHL Express/Logistics,521000,0.5,0.9856,0.0028,2035,5.0,0
+ORD0723,Bình Dương,Hải Phòng,393.8,chemicals,balanced,130.0,260.0,0,0,sotrans,Sotrans Logistics,441000,0.6,0.9775,0.0217,2340,4.8,0
+ORD0724,Bà Rịa - Vũng Tàu,Cần Thơ,954.6,electronics,balanced,17.4,444.6,0,0,kerry_logistics,Kerry Express,588000,1.0,0.9852,0.018,3172,4.8,1
+ORD0725,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,874.4,fmcg,cost,87.9,527.4000000000001,0,0,sotrans,Sotrans Logistics,231000,1.1,0.9832,0.0185,5536,4.7,1
+ORD0726,Đồng Nai,Bà Rịa - Vũng Tàu,1139.5,textile,balanced,5.6,53.7,1,0,dhl_supply,DHL Express/Logistics,210000,1.0,0.989,0.0075,1309,4.9,0
+ORD0727,Hà Nội,Đồng Nai,909.6,perishable,reliability,97.9,881.1,1,0,jt_cargo,J&T Cargo,422000,1.1,0.9854,0.0207,6030,4.8,0
+ORD0728,Hải Phòng,Đồng Nai,636.9,chemicals,reliability,48.3,338.09999999999997,0,0,sotrans,Sotrans Logistics,465000,0.9,0.9754,0.0185,2652,4.7,1
+ORD0729,Bình Dương,Hà Nội,707.1,fmcg,speed,45.8,1393.7,0,1,transimex,Transimex Cold Chain,679000,0.6,0.9763,0.0137,4216,5.0,0
+ORD0730,Bắc Ninh,Đà Nẵng,939.0,textile,reliability,17.3,270.3,0,0,vnpost,VNPost Logistics,484000,1.2,0.9651,0.0238,9014,4.8,1
+ORD0731,Quảng Ninh,Bắc Ninh,573.2,fmcg,balanced,131.5,526.0,0,1,jt_cargo,J&T Cargo,198000,0.5,0.9849,0.0213,5326,4.7,1
+ORD0732,Đà Nẵng,Nghệ An (Vinh),765.9,bulky,balanced,120.9,725.4000000000001,0,0,sotrans,Sotrans Logistics,264000,1.0,0.9689,0.0205,5389,4.7,1
+ORD0733,Hải Phòng,Nghệ An (Vinh),197.4,bulky,speed,81.2,649.6,0,1,transimex,Transimex Cold Chain,416000,0.5,0.9856,0.0126,4034,4.8,0
+ORD0734,Nghệ An (Vinh),Đồng Nai,1083.3,fmcg,speed,98.2,883.8000000000001,0,1,sotrans,Sotrans Logistics,506000,0.9,0.9686,0.0208,5880,4.8,1
+ORD0735,Hà Nội,Quảng Ninh,860.9,perishable,balanced,47.9,383.2,1,0,kerry_logistics,Kerry Express,578000,1.0,0.9736,0.0153,4288,4.8,0
+ORD0736,Nghệ An (Vinh),Hà Nội,543.4,textile,reliability,11.4,216.6,0,1,ghtk,GHTK Cargo,96000,0.5,0.9657,0.0224,4859,4.8,0
+ORD0737,Đồng Nai,Quảng Ninh,464.5,textile,balanced,22.5,1237.4,1,0,jt_cargo,J&T Cargo,318000,0.7,0.9663,0.0201,4438,4.7,0
+ORD0738,Quảng Ninh,TP. Hồ Chí Minh,148.2,fragile,balanced,132.1,132.1,0,0,ghtk,GHTK Cargo,114000,0.5,0.965,0.0229,4838,4.7,0
+ORD0739,Hà Nội,Quảng Ninh,679.4,bulky,reliability,75.7,757.0,0,1,sotrans,Sotrans Logistics,313000,0.6,0.9813,0.0221,5603,4.8,1
+ORD0740,Khánh Hòa (Nha Trang),Đà Nẵng,898.4,chemicals,balanced,133.5,1201.5,1,0,sotrans,Sotrans Logistics,605000,1.1,0.9841,0.0197,2408,4.7,0
+ORD0741,Nghệ An (Vinh),Đà Nẵng,936.0,bulky,reliability,118.0,1508.0,0,1,transimex,Transimex Cold Chain,1024000,0.7,0.998,0.0119,1670,4.9,0
+ORD0742,Cần Thơ,Bà Rịa - Vũng Tàu,710.6,textile,cost,137.0,822.0,0,0,dhl_supply,DHL Express/Logistics,459000,0.7,0.988,0.0056,2082,4.8,0
+ORD0743,Đồng Nai,Cần Thơ,762.8,fmcg,balanced,85.1,510.59999999999997,0,0,viettel_post,Viettel Post,193000,0.9,0.9747,0.0127,14126,4.9,1
+ORD0744,Khánh Hòa (Nha Trang),Đà Nẵng,796.2,textile,reliability,145.1,145.1,0,0,ghtk,GHTK Cargo,76000,0.9,0.9777,0.0204,4378,4.7,0
+ORD0745,Đà Nẵng,Bắc Ninh,860.1,textile,reliability,32.6,260.8,1,0,dhl_supply,DHL Express/Logistics,418000,0.8,0.9801,0.0039,1477,5.0,0
+ORD0746,Đồng Nai,Hải Phòng,828.8,fragile,balanced,38.4,384.0,0,0,dhl_supply,DHL Express/Logistics,680000,0.8,0.9851,0.009,1358,4.9,0
+ORD0747,Hà Nội,Cần Thơ,91.7,chemicals,balanced,39.5,316.0,0,1,transimex,Transimex Cold Chain,129000,0.5,0.9758,0.0089,3501,4.8,0
+ORD0748,Khánh Hòa (Nha Trang),Bình Dương,718.5,electronics,reliability,44.1,481.3,1,1,vnpost,VNPost Logistics,375000,0.7,0.9709,0.026,7292,4.6,0
+ORD0749,TP. Hồ Chí Minh,Đà Nẵng,853.8,electronics,cost,37.8,75.6,0,1,viettel_post,Viettel Post,477000,0.7,0.9866,0.016,14295,4.9,1
+ORD0750,Bình Dương,Hà Nội,304.7,bulky,cost,53.8,161.39999999999998,0,0,vnpost,VNPost Logistics,245000,0.6,0.9626,0.027,12907,4.7,1
+ORD0751,Cần Thơ,TP. Hồ Chí Minh,435.7,chemicals,speed,83.0,249.0,1,1,viettel_post,Viettel Post,486000,0.5,0.9855,0.0134,11034,4.9,1
+ORD0752,TP. Hồ Chí Minh,Bà Rịa - Vũng Tàu,940.9,electronics,cost,122.4,122.4,1,0,vnpost,VNPost Logistics,125000,1.2,0.9575,0.0286,11681,4.7,0
+ORD0753,Bắc Ninh,Bà Rịa - Vũng Tàu,466.6,bulky,balanced,92.7,950.4,0,0,jt_cargo,J&T Cargo,191000,0.7,0.9774,0.0209,5609,4.7,1
+ORD0754,Đồng Nai,Bắc Ninh,539.6,electronics,reliability,8.3,50.4,0,0,ghtk,GHTK Cargo,312000,0.7,0.986,0.0178,5224,4.8,1
+ORD0755,Cần Thơ,Khánh Hòa (Nha Trang),229.1,perishable,balanced,100.5,603.0,1,0,transimex,Transimex Cold Chain,337000,0.5,0.9977,0.0138,2988,4.9,1
+ORD0756,Khánh Hòa (Nha Trang),Đồng Nai,810.5,fragile,reliability,18.1,215.5,0,0,viettel_post,Viettel Post,381000,1.0,0.975,0.0147,13403,4.9,1
+ORD0757,Khánh Hòa (Nha Trang),Đồng Nai,273.0,electronics,balanced,86.0,602.0,0,0,kerry_logistics,Kerry Express,220000,0.5,0.9844,0.0174,4296,4.7,1
+ORD0758,Bà Rịa - Vũng Tàu,Đà Nẵng,919.0,chemicals,balanced,110.8,1473.1,0,0,viettel_post,Viettel Post,574000,1.0,0.9783,0.0127,10922,4.9,1
+ORD0759,Đà Nẵng,Bắc Ninh,811.7,fragile,cost,135.9,1359.0,0,1,vnpost,VNPost Logistics,671000,0.7,0.9771,0.0233,8337,4.8,1
+ORD0760,Khánh Hòa (Nha Trang),Quảng Ninh,823.5,perishable,speed,146.5,586.0,1,1,vnpost,VNPost Logistics,602000,0.7,0.9759,0.0231,10107,4.7,0
+ORD0761,Hà Nội,Quảng Ninh,102.2,textile,reliability,68.2,585.1,0,0,vnpost,VNPost Logistics,54000,0.5,0.9792,0.0226,9458,4.6,1
+ORD0762,Đà Nẵng,TP. Hồ Chí Minh,899.8,chemicals,speed,91.2,547.2,1,1,ghtk,GHTK Cargo,338000,0.7,0.9741,0.017,5631,4.8,0
+ORD0763,Hà Nội,Khánh Hòa (Nha Trang),1195.7,fragile,speed,40.9,204.5,0,1,jt_cargo,J&T Cargo,334000,0.9,0.9805,0.0207,5556,4.6,0
+ORD0764,Nghệ An (Vinh),Hà Nội,832.5,fragile,balanced,7.3,432.4,0,0,kerry_logistics,Kerry Express,527000,0.9,0.9802,0.0137,5945,4.9,1
+ORD0765,Hải Phòng,Khánh Hòa (Nha Trang),1102.9,fragile,reliability,121.2,242.4,0,0,ghtk,GHTK Cargo,146000,1.1,0.9852,0.0159,5029,4.7,0
+ORD0766,Nghệ An (Vinh),Hải Phòng,771.6,chemicals,cost,130.8,784.8000000000001,0,0,sotrans,Sotrans Logistics,282000,1.0,0.9867,0.0158,4884,4.7,1
+ORD0767,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,883.0,electronics,cost,33.1,132.4,0,0,jt_cargo,J&T Cargo,210000,1.0,0.9844,0.0237,5892,4.7,1
+ORD0768,Bắc Ninh,Bà Rịa - Vũng Tàu,1171.1,bulky,cost,13.8,74.8,0,0,vnpost,VNPost Logistics,62000,1.4,0.9746,0.0226,9632,4.6,1
+ORD0769,Hải Phòng,Đà Nẵng,762.7,perishable,reliability,34.3,898.6,1,0,dhl_supply,DHL Express/Logistics,709000,0.7,0.987,0.0033,1811,4.8,0
+ORD0770,Bà Rịa - Vũng Tàu,Hà Nội,835.4,bulky,balanced,146.6,146.6,0,0,vnpost,VNPost Logistics,73000,1.1,0.9712,0.0278,9933,4.7,1
+ORD0771,Cần Thơ,Bình Dương,271.0,perishable,reliability,35.8,504.0,1,0,sotrans,Sotrans Logistics,159000,0.5,0.9901,0.0218,3899,4.8,0
+ORD0772,Cần Thơ,Khánh Hòa (Nha Trang),507.2,electronics,speed,118.7,356.1,0,1,kerry_logistics,Kerry Express,257000,0.5,0.9791,0.0145,6708,4.9,1
+ORD0773,Nghệ An (Vinh),Đà Nẵng,749.4,electronics,cost,42.1,126.30000000000001,0,1,dhl_supply,DHL Express/Logistics,579000,0.5,0.9857,0.0059,1686,4.9,0
+ORD0774,Đà Nẵng,Khánh Hòa (Nha Trang),852.0,textile,cost,106.5,639.0,1,0,kerry_logistics,Kerry Express,358000,1.0,0.9823,0.0187,4386,4.8,0
+ORD0775,Quảng Ninh,Nghệ An (Vinh),984.0,perishable,cost,109.3,655.8,1,0,vnpost,VNPost Logistics,317000,1.2,0.9574,0.025,14737,4.6,0
+ORD0776,Hải Phòng,Đồng Nai,862.1,textile,balanced,119.5,1195.0,0,0,transimex,Transimex Cold Chain,564000,1.0,0.9917,0.0129,2520,4.9,0
+ORD0777,Cần Thơ,Hà Nội,672.7,fragile,cost,49.6,733.5,0,0,vnpost,VNPost Logistics,368000,0.9,0.9682,0.0282,9262,4.8,1
+ORD0778,Bình Dương,Hà Nội,775.1,perishable,speed,54.7,328.20000000000005,1,1,sotrans,Sotrans Logistics,268000,0.7,0.9791,0.0175,2819,4.8,0
+ORD0779,Quảng Ninh,Hải Phòng,644.6,bulky,cost,79.5,318.0,0,0,dhl_supply,DHL Express/Logistics,239000,0.7,0.9865,0.0032,2134,4.8,0
+ORD0780,Đồng Nai,TP. Hồ Chí Minh,745.1,fragile,balanced,84.2,589.4,0,1,jt_cargo,J&T Cargo,422000,0.6,0.9709,0.0237,3667,4.7,1
+ORD0781,Bình Dương,Hà Nội,1011.6,fmcg,cost,23.0,745.9,0,1,kerry_logistics,Kerry Express,435000,0.8,0.9744,0.0159,5636,4.9,1
+ORD0782,Nghệ An (Vinh),Quảng Ninh,194.5,fmcg,cost,22.7,45.4,0,0,sotrans,Sotrans Logistics,313000,0.5,0.9755,0.0183,4017,4.8,0
+ORD0783,Hà Nội,Nghệ An (Vinh),209.1,perishable,balanced,68.4,273.6,1,0,viettel_post,Viettel Post,250000,0.5,0.9861,0.0165,14904,4.7,0
+ORD0784,Cần Thơ,Hà Nội,514.0,fmcg,speed,49.3,443.7,0,1,dhl_supply,DHL Express/Logistics,315000,0.5,0.9923,0.0074,1926,4.9,0
+ORD0785,Hải Phòng,Quảng Ninh,170.3,fmcg,speed,53.7,100.0,0,1,kerry_logistics,Kerry Express,71000,0.5,0.9753,0.0153,6048,4.9,1
+ORD0786,Bắc Ninh,Nghệ An (Vinh),446.3,fragile,balanced,51.5,257.5,0,1,jt_cargo,J&T Cargo,289000,0.5,0.9647,0.0228,5096,4.8,1
+ORD0787,Hải Phòng,Đà Nẵng,842.6,fmcg,cost,31.6,256.2,0,0,dhl_supply,DHL Express/Logistics,245000,0.8,0.989,0.0024,1960,4.9,0
+ORD0788,Bắc Ninh,Hải Phòng,311.1,bulky,cost,129.3,387.90000000000003,0,0,ghtk,GHTK Cargo,78000,0.5,0.988,0.0188,6756,4.8,0
+ORD0789,Hải Phòng,TP. Hồ Chí Minh,1140.4,bulky,cost,128.9,128.9,0,0,ghtk,GHTK Cargo,87000,1.2,0.9674,0.0179,7476,4.8,0
+ORD0790,Bình Dương,TP. Hồ Chí Minh,45.0,fragile,balanced,46.7,93.4,0,0,vnpost,VNPost Logistics,176000,0.5,0.98,0.028,7248,4.7,0
+ORD0791,Cần Thơ,Đà Nẵng,844.9,fmcg,cost,130.7,1045.6,0,0,vnpost,VNPost Logistics,309000,1.1,0.9753,0.0232,12554,4.6,1
+ORD0792,Hà Nội,Khánh Hòa (Nha Trang),815.4,perishable,balanced,134.8,1348.0,1,0,jt_cargo,J&T Cargo,559000,1.0,0.9691,0.0201,3770,4.8,0
+ORD0793,Cần Thơ,Hà Nội,881.4,textile,cost,119.2,1784.5,0,0,jt_cargo,J&T Cargo,820000,1.0,0.9845,0.0224,4520,4.7,1
+ORD0794,Khánh Hòa (Nha Trang),Đà Nẵng,945.9,fragile,reliability,57.1,539.5,0,1,kerry_logistics,Kerry Express,639000,0.7,0.979,0.0145,6624,4.8,1
+ORD0795,Bình Dương,Bà Rịa - Vũng Tàu,1180.6,perishable,balanced,137.9,1241.1000000000001,1,1,ghtk,GHTK Cargo,880000,0.8,0.9894,0.0213,5123,4.8,0
+ORD0796,Đồng Nai,TP. Hồ Chí Minh,824.4,bulky,cost,140.3,701.5,0,0,jt_cargo,J&T Cargo,237000,1.0,0.9669,0.0239,5246,4.8,1
+ORD0797,Khánh Hòa (Nha Trang),Bà Rịa - Vũng Tàu,1186.5,chemicals,balanced,103.8,726.6,0,0,viettel_post,Viettel Post,503000,1.3,0.9923,0.0198,12056,4.9,1
+ORD0798,TP. Hồ Chí Minh,Bình Dương,45.0,electronics,balanced,96.5,868.5,0,1,viettel_post,Viettel Post,95000,0.5,0.9774,0.0137,13574,4.9,1
+ORD0799,Bắc Ninh,Khánh Hòa (Nha Trang),416.2,fmcg,balanced,105.3,134.1,0,0,jt_cargo,J&T Cargo,59000,0.6,0.9799,0.0227,3129,4.8,1
+ORD0800,Bình Dương,Hà Nội,737.6,fragile,balanced,64.6,408.7,0,0,viettel_post,Viettel Post,480000,0.9,0.9795,0.0197,8711,4.9,1
+ORD0801,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,1182.1,fmcg,speed,37.7,226.20000000000002,1,1,transimex,Transimex Cold Chain,359000,0.9,0.9893,0.0088,3930,4.9,1
+ORD0802,Hà Nội,Nghệ An (Vinh),514.8,perishable,cost,105.2,526.0,1,0,dhl_supply,DHL Express/Logistics,374000,0.6,0.9946,0.0076,1725,4.9,0
+ORD0803,Đà Nẵng,Hà Nội,719.2,fragile,reliability,145.3,435.90000000000003,0,0,ghtk,GHTK Cargo,396000,0.8,0.9843,0.0154,4892,4.7,0
+ORD0804,Nghệ An (Vinh),Cần Thơ,1176.3,electronics,balanced,21.5,64.5,0,1,sotrans,Sotrans Logistics,446000,1.0,0.9869,0.0184,5676,4.8,1
+ORD0805,Quảng Ninh,Khánh Hòa (Nha Trang),552.9,fmcg,balanced,84.5,591.5,1,0,jt_cargo,J&T Cargo,204000,0.7,0.974,0.0254,3563,4.8,0
+ORD0806,Đà Nẵng,TP. Hồ Chí Minh,765.8,bulky,speed,57.3,852.8,1,1,kerry_logistics,Kerry Express,520000,0.6,0.9729,0.0113,4230,4.7,0
+ORD0807,Bà Rịa - Vũng Tàu,Đồng Nai,377.8,fmcg,reliability,79.6,159.2,0,0,transimex,Transimex Cold Chain,118000,0.6,0.9955,0.0144,3444,4.8,0
+ORD0808,Hải Phòng,TP. Hồ Chí Minh,242.9,electronics,balanced,129.0,387.0,0,0,ghtk,GHTK Cargo,124000,0.5,0.9712,0.021,4981,4.8,0
+ORD0809,Bắc Ninh,Cần Thơ,893.7,fmcg,balanced,30.5,30.5,0,0,ghtk,GHTK Cargo,47000,1.0,0.977,0.0226,5165,4.8,1
+ORD0810,Quảng Ninh,Đà Nẵng,804.3,electronics,reliability,90.8,635.6,0,0,viettel_post,Viettel Post,339000,0.9,0.9792,0.0151,14609,4.8,1
+ORD0811,Bình Dương,Bắc Ninh,1055.7,chemicals,reliability,59.1,882.0,0,0,ghtk,GHTK Cargo,345000,1.1,0.9767,0.0157,4902,4.8,0
+ORD0812,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,430.6,fmcg,reliability,78.0,780.0,0,0,dhl_supply,DHL Express/Logistics,315000,0.5,0.9848,0.0047,1370,4.9,0
+ORD0813,Đồng Nai,Bà Rịa - Vũng Tàu,848.3,textile,speed,30.1,630.6,0,1,jt_cargo,J&T Cargo,277000,0.7,0.9785,0.0194,4193,4.8,1
+ORD0814,Hải Phòng,Quảng Ninh,622.5,chemicals,reliability,38.4,560.8,0,0,dhl_supply,DHL Express/Logistics,322000,0.6,0.9951,0.004,2465,5.0,0
+ORD0815,Đồng Nai,Hà Nội,390.3,fmcg,speed,88.4,811.5,0,1,kerry_logistics,Kerry Express,259000,0.5,0.9857,0.0149,4790,4.7,1
+ORD0816,TP. Hồ Chí Minh,Hải Phòng,390.6,electronics,cost,127.4,127.4,0,0,kerry_logistics,Kerry Express,140000,0.6,0.9751,0.0181,3040,4.8,1
+ORD0817,Nghệ An (Vinh),Bắc Ninh,921.9,fragile,balanced,91.3,913.0,0,0,ghtk,GHTK Cargo,476000,1.0,0.9656,0.0197,4203,4.8,0
+ORD0818,Đồng Nai,Hải Phòng,382.1,bulky,cost,146.8,1468.0,0,1,transimex,Transimex Cold Chain,435000,0.5,0.9855,0.0093,2402,4.8,0
+ORD0819,Hà Nội,Bắc Ninh,340.0,textile,reliability,68.0,1403.7,0,0,kerry_logistics,Kerry Express,239000,0.5,0.9913,0.017,6133,4.7,1
+ORD0820,Quảng Ninh,Cần Thơ,1018.8,perishable,reliability,93.1,837.9,1,0,kerry_logistics,Kerry Express,523000,1.1,0.9742,0.0142,4446,4.8,0
+ORD0821,Hải Phòng,Bình Dương,861.3,electronics,balanced,38.1,488.9,0,0,sotrans,Sotrans Logistics,472000,1.1,0.976,0.0152,3824,4.7,1
+ORD0822,TP. Hồ Chí Minh,Cần Thơ,268.8,fragile,reliability,72.8,364.0,0,0,transimex,Transimex Cold Chain,525000,0.5,0.9951,0.0158,2436,4.8,0
+ORD0823,Đà Nẵng,TP. Hồ Chí Minh,773.3,bulky,cost,69.1,345.5,0,0,kerry_logistics,Kerry Express,156000,0.9,0.9778,0.0152,3377,4.8,1
+ORD0824,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,344.6,chemicals,speed,134.4,940.8000000000001,0,1,vnpost,VNPost Logistics,224000,0.5,0.9763,0.0242,11374,4.7,1
+ORD0825,Cần Thơ,Nghệ An (Vinh),89.8,chemicals,reliability,38.4,115.19999999999999,0,0,viettel_post,Viettel Post,49000,0.5,0.9798,0.0133,14934,4.8,1
+ORD0826,Nghệ An (Vinh),Bình Dương,879.0,bulky,reliability,107.1,321.29999999999995,0,0,ghtk,GHTK Cargo,381000,1.0,0.965,0.0187,6275,4.8,0
+ORD0827,Khánh Hòa (Nha Trang),Nghệ An (Vinh),726.8,textile,balanced,118.4,1229.6,0,0,ghtk,GHTK Cargo,603000,0.8,0.9776,0.019,4347,4.8,0
+ORD0828,Bình Dương,Bắc Ninh,625.7,fmcg,balanced,5.5,424.6,0,0,jt_cargo,J&T Cargo,130000,0.8,0.9856,0.0243,5658,4.8,1
+ORD0829,Đồng Nai,Hải Phòng,878.4,electronics,cost,61.1,488.8,0,0,kerry_logistics,Kerry Express,310000,1.0,0.994,0.013,5621,4.7,1
+ORD0830,Bắc Ninh,Đồng Nai,409.2,fmcg,reliability,13.6,1158.3,0,0,vnpost,VNPost Logistics,497000,0.7,0.9658,0.0235,8359,4.8,0
+ORD0831,TP. Hồ Chí Minh,Hải Phòng,495.8,textile,reliability,95.3,381.2,0,0,sotrans,Sotrans Logistics,136000,0.7,0.9741,0.0154,2505,4.8,1
+ORD0832,Cần Thơ,Đồng Nai,880.0,chemicals,cost,50.9,356.3,0,0,vnpost,VNPost Logistics,267000,1.1,0.9724,0.0242,7360,4.6,1
+ORD0833,Đà Nẵng,Bắc Ninh,763.8,perishable,speed,83.0,598.5,1,1,vnpost,VNPost Logistics,298000,0.7,0.9611,0.0223,13447,4.7,0
+ORD0834,Cần Thơ,Đà Nẵng,785.7,textile,balanced,122.1,976.8,0,0,sotrans,Sotrans Logistics,339000,1.0,0.9828,0.0176,4793,4.7,1
+ORD0835,Nghệ An (Vinh),Khánh Hòa (Nha Trang),447.5,textile,reliability,73.5,514.5,0,0,viettel_post,Viettel Post,132000,0.6,0.9938,0.0144,8872,4.9,1
+ORD0836,Khánh Hòa (Nha Trang),Hải Phòng,646.5,chemicals,speed,105.2,210.4,0,1,sotrans,Sotrans Logistics,147000,0.6,0.9745,0.0169,5885,4.8,1
+ORD0837,TP. Hồ Chí Minh,Đồng Nai,1175.8,fmcg,balanced,63.3,570.8,0,0,jt_cargo,J&T Cargo,268000,1.3,0.9872,0.0212,4761,4.7,1
+ORD0838,Bắc Ninh,Hải Phòng,1035.6,bulky,speed,89.8,538.8,1,1,ghtk,GHTK Cargo,390000,0.8,0.9785,0.0189,7473,4.7,0
+ORD0839,Bà Rịa - Vũng Tàu,Quảng Ninh,1181.7,electronics,cost,21.8,21.8,0,0,vnpost,VNPost Logistics,278000,1.4,0.958,0.0291,7319,4.7,0
+ORD0840,TP. Hồ Chí Minh,Hà Nội,1720.0,bulky,cost,124.0,868.0,0,0,vnpost,VNPost Logistics,843000,2.0,0.9778,0.0243,11965,4.6,1
+ORD0841,Đà Nẵng,Bà Rịa - Vũng Tàu,913.0,chemicals,cost,6.7,513.9,0,0,dhl_supply,DHL Express/Logistics,392000,0.8,0.9873,0.0076,2452,4.9,0
+ORD0842,Bắc Ninh,Bà Rịa - Vũng Tàu,145.8,fragile,speed,7.4,104.3,0,1,vnpost,VNPost Logistics,150000,0.5,0.982,0.023,9314,4.7,1
+ORD0843,Bà Rịa - Vũng Tàu,Bình Dương,828.5,bulky,speed,139.6,279.2,0,1,transimex,Transimex Cold Chain,246000,0.7,0.9964,0.0132,3100,4.8,0
+ORD0844,TP. Hồ Chí Minh,Hà Nội,1720.0,fmcg,reliability,99.4,795.2,0,0,sotrans,Sotrans Logistics,549000,1.9,0.9856,0.0207,5924,4.8,1
+ORD0845,Nghệ An (Vinh),Đà Nẵng,783.6,fmcg,speed,131.6,1052.8,1,1,jt_cargo,J&T Cargo,876000,0.7,0.9879,0.0253,4711,4.8,1
+ORD0846,Hà Nội,Bà Rịa - Vũng Tàu,1003.2,fragile,reliability,73.5,147.0,0,0,dhl_supply,DHL Express/Logistics,426000,0.9,0.9933,0.0091,2054,5.0,0
+ORD0847,Hải Phòng,Cần Thơ,1196.4,chemicals,cost,44.9,2226.5,0,0,vnpost,VNPost Logistics,1246000,1.4,0.9689,0.029,14488,4.8,1
+ORD0848,Nghệ An (Vinh),Hải Phòng,828.6,fragile,speed,122.9,122.9,0,1,dhl_supply,DHL Express/Logistics,484000,0.5,0.9801,0.0038,2482,4.9,0
+ORD0849,Đồng Nai,Hà Nội,692.1,perishable,cost,122.5,1102.5,1,0,viettel_post,Viettel Post,452000,0.9,0.9824,0.0166,12524,4.8,0
+ORD0850,TP. Hồ Chí Minh,Bắc Ninh,561.0,perishable,reliability,4.1,406.2,1,0,viettel_post,Viettel Post,493000,0.7,0.9725,0.0194,9384,4.9,0
+ORD0851,Quảng Ninh,Bắc Ninh,1123.6,perishable,speed,16.4,190.4,1,1,vnpost,VNPost Logistics,171000,1.0,0.9589,0.0232,14676,4.6,1
+ORD0852,Hải Phòng,TP. Hồ Chí Minh,937.9,chemicals,reliability,20.0,151.6,0,0,dhl_supply,DHL Express/Logistics,602000,0.9,0.9996,0.0049,1161,4.8,0
+ORD0853,Hải Phòng,Nghệ An (Vinh),664.7,fragile,cost,52.6,157.8,0,1,viettel_post,Viettel Post,336000,0.6,0.9785,0.0151,8848,4.9,1
+ORD0854,Đồng Nai,Hải Phòng,914.0,electronics,speed,146.5,554.3,0,1,jt_cargo,J&T Cargo,590000,0.7,0.9737,0.0231,3171,4.7,0
+ORD0855,Hải Phòng,Hà Nội,120.0,bulky,reliability,63.5,381.0,0,0,ghtk,GHTK Cargo,53000,0.5,0.9861,0.0198,3977,4.8,0
+ORD0856,Cần Thơ,Khánh Hòa (Nha Trang),681.5,bulky,reliability,38.4,230.39999999999998,0,1,ghtk,GHTK Cargo,312000,0.6,0.9824,0.0215,4649,4.9,0
+ORD0857,Đồng Nai,TP. Hồ Chí Minh,109.3,bulky,reliability,62.2,311.0,0,1,vnpost,VNPost Logistics,152000,0.5,0.9661,0.0228,9734,4.7,1
+ORD0858,TP. Hồ Chí Minh,Hải Phòng,931.9,bulky,speed,48.1,240.5,0,1,dhl_supply,DHL Express/Logistics,312000,0.6,1.0027,0.0073,1626,4.8,0
+ORD0859,Hà Nội,Bình Dương,1142.9,perishable,cost,12.2,49.4,1,0,viettel_post,Viettel Post,405000,1.2,0.9817,0.0149,10165,4.8,0
+ORD0860,Khánh Hòa (Nha Trang),Hải Phòng,196.3,fmcg,reliability,105.7,1057.0,0,0,ghtk,GHTK Cargo,106000,0.5,0.9834,0.0216,4477,4.8,0
+ORD0861,Hà Nội,Bà Rịa - Vũng Tàu,316.3,bulky,reliability,10.8,339.5,0,1,ghtk,GHTK Cargo,92000,0.5,0.9751,0.0197,4678,4.8,0
+ORD0862,Nghệ An (Vinh),TP. Hồ Chí Minh,208.4,textile,balanced,2.2,1147.7,0,0,ghtk,GHTK Cargo,117000,0.5,0.9854,0.0196,4519,4.9,0
+ORD0863,Hà Nội,Bắc Ninh,389.7,electronics,cost,144.9,434.70000000000005,1,1,vnpost,VNPost Logistics,288000,0.5,0.9777,0.0221,8690,4.6,0
+ORD0864,Đà Nẵng,Bà Rịa - Vũng Tàu,870.1,chemicals,cost,99.6,697.1999999999999,0,0,kerry_logistics,Kerry Express,290000,1.0,0.9788,0.018,5712,4.9,1
+ORD0865,Cần Thơ,Bắc Ninh,955.2,perishable,cost,25.5,204.0,1,0,dhl_supply,DHL Express/Logistics,315000,0.9,0.9851,0.0029,1380,4.9,0
+ORD0866,Đồng Nai,Hà Nội,851.0,perishable,cost,68.5,308.1,1,0,dhl_supply,DHL Express/Logistics,367000,0.8,0.984,0.0038,835,5.0,0
+ORD0867,Quảng Ninh,Cần Thơ,495.3,perishable,speed,41.6,163.0,1,1,dhl_supply,DHL Express/Logistics,352000,0.5,1.0016,0.0061,1626,4.9,1
+ORD0868,Nghệ An (Vinh),TP. Hồ Chí Minh,723.3,electronics,reliability,128.7,1158.3,0,0,viettel_post,Viettel Post,688000,0.9,0.9737,0.0122,14305,4.9,1
+ORD0869,Nghệ An (Vinh),Bình Dương,555.8,fmcg,balanced,108.7,543.5,0,0,sotrans,Sotrans Logistics,441000,0.8,0.9694,0.0188,3003,4.7,1
+ORD0870,Bình Dương,Đồng Nai,98.4,perishable,speed,143.7,1005.8999999999999,1,1,ghtk,GHTK Cargo,489000,0.5,0.9708,0.0219,5189,4.7,0
+ORD0871,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,121.0,fmcg,balanced,56.9,227.6,1,0,jt_cargo,J&T Cargo,252000,0.5,0.9863,0.0187,5505,4.8,0
+ORD0872,Bắc Ninh,Quảng Ninh,816.2,bulky,speed,82.1,410.5,0,1,transimex,Transimex Cold Chain,625000,0.7,0.9939,0.0151,3563,4.8,0
+ORD0873,Nghệ An (Vinh),Bắc Ninh,110.1,fmcg,balanced,105.0,945.0,1,0,transimex,Transimex Cold Chain,371000,0.5,0.9783,0.0093,4500,4.9,1
+ORD0874,Hải Phòng,Bắc Ninh,230.7,electronics,reliability,35.4,453.3,1,0,sotrans,Sotrans Logistics,284000,0.5,0.9827,0.022,4812,4.7,0
+ORD0875,Bà Rịa - Vũng Tàu,TP. Hồ Chí Minh,677.0,chemicals,speed,57.4,172.2,0,1,vnpost,VNPost Logistics,89000,0.6,0.9761,0.0237,7888,4.6,1
+ORD0876,Bà Rịa - Vũng Tàu,Đà Nẵng,753.9,fragile,reliability,99.8,898.1999999999999,0,1,dhl_supply,DHL Express/Logistics,931000,0.5,0.9879,0.0069,2434,5.0,0
+ORD0877,Hà Nội,Bắc Ninh,1059.7,perishable,reliability,139.2,1635.9,1,1,transimex,Transimex Cold Chain,1498000,0.8,0.9924,0.0123,3794,4.9,1
+ORD0878,Quảng Ninh,Nghệ An (Vinh),974.8,textile,speed,131.6,1184.3999999999999,0,1,vnpost,VNPost Logistics,886000,0.9,0.963,0.0264,11403,4.7,1
+ORD0879,Bắc Ninh,Đồng Nai,309.9,bulky,speed,127.8,1022.4,0,1,ghtk,GHTK Cargo,243000,0.5,0.9806,0.0156,5739,4.8,0
+ORD0880,Bình Dương,Khánh Hòa (Nha Trang),948.3,electronics,reliability,117.4,117.4,0,0,vnpost,VNPost Logistics,95000,1.2,0.9651,0.0281,11799,4.8,1
+ORD0881,Bà Rịa - Vũng Tàu,Hải Phòng,786.5,perishable,cost,10.5,1420.8,1,0,sotrans,Sotrans Logistics,727000,1.0,0.9748,0.0204,4064,4.8,0
+ORD0882,Bắc Ninh,Bình Dương,401.6,electronics,cost,81.9,985.5,0,0,ghtk,GHTK Cargo,274000,0.6,0.9856,0.0173,3673,4.8,0
+ORD0883,Cần Thơ,Hà Nội,821.5,bulky,balanced,9.2,92.0,0,0,sotrans,Sotrans Logistics,96000,1.0,0.9851,0.0172,3547,4.7,1
+ORD0884,Hải Phòng,Cần Thơ,490.2,electronics,reliability,99.9,599.4000000000001,0,0,viettel_post,Viettel Post,407000,0.7,0.9838,0.0123,11331,4.8,1
+ORD0885,Đồng Nai,Quảng Ninh,1147.5,chemicals,balanced,117.2,1172.0,0,0,dhl_supply,DHL Express/Logistics,945000,1.0,1.0,0.0094,1317,5.0,0
+ORD0886,TP. Hồ Chí Minh,Nghệ An (Vinh),610.5,bulky,cost,83.0,249.0,0,0,vnpost,VNPost Logistics,212000,0.9,0.967,0.0239,8159,4.7,1
+ORD0887,Nghệ An (Vinh),Bà Rịa - Vũng Tàu,1065.0,fragile,speed,5.1,189.1,0,1,sotrans,Sotrans Logistics,266000,0.9,0.9851,0.0218,2426,4.7,1
+ORD0888,Bắc Ninh,TP. Hồ Chí Minh,1139.7,perishable,cost,25.2,779.7,1,0,ghtk,GHTK Cargo,482000,1.2,0.9751,0.0168,4892,4.8,0
+ORD0889,Đà Nẵng,Bình Dương,769.9,electronics,cost,62.9,314.5,0,0,viettel_post,Viettel Post,482000,0.9,0.9893,0.0178,12555,4.8,1
+ORD0890,Khánh Hòa (Nha Trang),Đà Nẵng,874.3,chemicals,reliability,92.3,738.4,0,0,dhl_supply,DHL Express/Logistics,539000,0.8,0.986,0.0093,2366,4.8,0
+ORD0891,Hải Phòng,Nghệ An (Vinh),180.9,fragile,reliability,121.3,363.9,0,0,vnpost,VNPost Logistics,360000,0.5,0.9706,0.0269,11860,4.6,1
+ORD0892,Quảng Ninh,Hải Phòng,123.9,perishable,speed,149.9,899.4000000000001,1,1,vnpost,VNPost Logistics,117000,0.5,0.9809,0.0293,11136,4.7,0
+ORD0893,Bình Dương,Cần Thơ,92.0,fmcg,balanced,134.0,1427.9,0,0,vnpost,VNPost Logistics,76000,0.5,0.9654,0.0253,13861,4.7,1
+ORD0894,Hà Nội,Bắc Ninh,397.7,textile,balanced,41.1,1146.6,0,1,viettel_post,Viettel Post,273000,0.5,0.9921,0.0174,12995,4.8,1
+ORD0895,Đà Nẵng,Hà Nội,843.8,fmcg,reliability,96.6,869.4,1,0,jt_cargo,J&T Cargo,736000,1.0,0.9726,0.0182,4668,4.7,0
+ORD0896,Bà Rịa - Vũng Tàu,Đà Nẵng,804.6,electronics,speed,51.6,258.0,1,1,dhl_supply,DHL Express/Logistics,436000,0.5,0.9833,0.0063,887,5.0,0
+ORD0897,Quảng Ninh,Hà Nội,965.6,chemicals,reliability,66.4,524.2,1,0,kerry_logistics,Kerry Express,427000,1.1,0.9895,0.0111,3790,4.7,0
+ORD0898,Hà Nội,Nghệ An (Vinh),934.3,electronics,reliability,123.1,269.2,0,0,sotrans,Sotrans Logistics,213000,1.1,0.9905,0.0167,5144,4.8,1
+ORD0899,Bình Dương,Đồng Nai,623.6,fmcg,balanced,86.7,606.9,0,0,transimex,Transimex Cold Chain,264000,0.8,0.9986,0.0147,1665,4.8,0
+ORD0900,Bắc Ninh,Nghệ An (Vinh),827.2,fmcg,balanced,72.6,290.4,0,0,transimex,Transimex Cold Chain,236000,1.0,0.9798,0.011,1718,4.9,0
+ORD0901,Bình Dương,Khánh Hòa (Nha Trang),152.6,textile,cost,88.0,880.0,0,0,dhl_supply,DHL Express/Logistics,198000,0.5,0.9946,0.0033,2246,5.0,0
+ORD0902,Quảng Ninh,Đồng Nai,915.5,chemicals,balanced,114.4,1485.8,0,0,dhl_supply,DHL Express/Logistics,909000,0.8,0.9836,0.0083,2104,4.9,0
+ORD0903,Hải Phòng,Đà Nẵng,898.1,fragile,cost,86.3,431.5,0,0,vnpost,VNPost Logistics,285000,1.1,0.9616,0.0282,9411,4.8,1
+ORD0904,Đồng Nai,Cần Thơ,609.7,bulky,cost,148.5,230.8,0,1,jt_cargo,J&T Cargo,110000,0.6,0.9683,0.0197,5967,4.7,1
+ORD0905,Nghệ An (Vinh),Hải Phòng,1016.3,fragile,reliability,114.0,1026.0,0,0,kerry_logistics,Kerry Express,692000,1.1,0.9922,0.0119,5847,4.7,1
+ORD0906,Đồng Nai,Bình Dương,566.2,fmcg,speed,102.1,1095.9,0,1,kerry_logistics,Kerry Express,369000,0.5,0.9786,0.016,3887,4.9,0
+ORD0907,Cần Thơ,Đồng Nai,1178.1,fmcg,speed,86.6,741.4,0,1,dhl_supply,DHL Express/Logistics,913000,0.7,0.99,0.0032,2383,4.9,0
+ORD0908,Khánh Hòa (Nha Trang),Bắc Ninh,827.8,textile,cost,2.1,55.2,0,0,vnpost,VNPost Logistics,49000,1.1,0.982,0.0229,10171,4.8,1
+ORD0909,TP. Hồ Chí Minh,Đà Nẵng,793.8,textile,speed,141.9,141.9,1,1,dhl_supply,DHL Express/Logistics,313000,0.5,0.9957,0.0026,911,5.0,0
+ORD0910,Đà Nẵng,Bà Rịa - Vũng Tàu,792.1,bulky,speed,9.4,479.9,0,1,jt_cargo,J&T Cargo,537000,0.7,0.9751,0.0203,5925,4.7,1
+ORD0911,Đà Nẵng,Cần Thơ,899.7,chemicals,balanced,4.9,156.3,0,0,kerry_logistics,Kerry Express,106000,1.0,0.9931,0.0189,6819,4.8,1
+ORD0912,Bắc Ninh,Hà Nội,179.9,perishable,reliability,69.2,276.8,1,1,ghtk,GHTK Cargo,92000,0.5,0.9701,0.0223,5413,4.7,0
+ORD0913,TP. Hồ Chí Minh,Khánh Hòa (Nha Trang),80.5,fmcg,speed,91.2,182.4,1,1,sotrans,Sotrans Logistics,127000,0.5,0.9703,0.019,3412,4.8,0
+ORD0914,Hải Phòng,Bắc Ninh,1156.6,perishable,cost,9.3,441.2,1,0,kerry_logistics,Kerry Express,340000,1.2,0.9774,0.0113,4766,4.9,0
+ORD0915,Hà Nội,Bắc Ninh,1119.0,perishable,speed,81.1,648.8,1,1,ghtk,GHTK Cargo,468000,0.8,0.9879,0.0156,6117,4.8,0
+ORD0916,Cần Thơ,Quảng Ninh,1170.5,bulky,speed,78.9,394.5,0,1,jt_cargo,J&T Cargo,246000,0.9,0.9698,0.0214,6369,4.8,1
+ORD0917,TP. Hồ Chí Minh,Nghệ An (Vinh),583.6,electronics,reliability,86.7,346.8,0,0,kerry_logistics,Kerry Express,515000,0.7,0.9801,0.0184,4959,4.7,1
+ORD0918,Đồng Nai,Khánh Hòa (Nha Trang),501.3,electronics,balanced,115.2,691.2,1,0,ghtk,GHTK Cargo,321000,0.7,0.9706,0.0178,3853,4.8,0
+ORD0919,Quảng Ninh,Bà Rịa - Vũng Tàu,533.5,fragile,cost,103.6,236.4,0,1,vnpost,VNPost Logistics,213000,0.5,0.9815,0.0231,14937,4.7,1
+ORD0920,Nghệ An (Vinh),Hà Nội,957.4,bulky,reliability,82.2,996.8,0,0,sotrans,Sotrans Logistics,434000,1.2,0.987,0.0226,2941,4.8,1
+ORD0921,Khánh Hòa (Nha Trang),Đồng Nai,758.3,textile,reliability,46.1,427.7,0,0,vnpost,VNPost Logistics,136000,1.0,0.9641,0.0256,10750,4.7,1
+ORD0922,Hà Nội,Bà Rịa - Vũng Tàu,517.4,perishable,cost,61.4,552.6,1,1,viettel_post,Viettel Post,259000,0.5,0.9933,0.0156,8638,4.8,0
+ORD0923,TP. Hồ Chí Minh,Bà Rịa - Vũng Tàu,247.9,textile,balanced,58.9,1694.5,0,0,ghtk,GHTK Cargo,177000,0.5,0.973,0.0196,6571,4.8,1
+ORD0924,Quảng Ninh,Khánh Hòa (Nha Trang),859.0,fragile,cost,56.6,312.4,0,0,kerry_logistics,Kerry Express,396000,1.0,0.9795,0.016,5331,4.8,0
+ORD0925,Quảng Ninh,TP. Hồ Chí Minh,284.5,electronics,reliability,41.7,471.3,0,0,transimex,Transimex Cold Chain,412000,0.5,0.9775,0.0146,2260,4.9,0
+ORD0926,Quảng Ninh,Đà Nẵng,930.9,textile,reliability,144.2,1297.8,0,0,sotrans,Sotrans Logistics,553000,1.1,0.9717,0.0211,5818,4.8,1
+ORD0927,Bình Dương,Cần Thơ,760.9,electronics,speed,52.8,336.5,0,1,transimex,Transimex Cold Chain,335000,0.6,0.9955,0.0155,4410,4.8,0
+ORD0928,Bình Dương,Hà Nội,438.9,textile,balanced,4.3,541.2,0,0,viettel_post,Viettel Post,135000,0.6,0.9749,0.017,13533,4.8,1
+ORD0929,Nghệ An (Vinh),TP. Hồ Chí Minh,664.1,chemicals,cost,8.9,554.4,0,0,vnpost,VNPost Logistics,179000,0.9,0.978,0.0237,9664,4.7,1
+ORD0930,TP. Hồ Chí Minh,Đồng Nai,1072.4,chemicals,reliability,56.2,168.60000000000002,0,0,vnpost,VNPost Logistics,91000,1.3,0.963,0.0254,7375,4.8,0
+ORD0931,Nghệ An (Vinh),Bắc Ninh,278.6,chemicals,speed,116.9,116.9,0,1,jt_cargo,J&T Cargo,64000,0.5,0.978,0.0228,6103,4.8,1
+ORD0932,Bắc Ninh,Đồng Nai,704.3,electronics,speed,140.4,421.20000000000005,0,1,kerry_logistics,Kerry Express,489000,0.6,0.9715,0.0136,5074,4.9,1
+ORD0933,Cần Thơ,Nghệ An (Vinh),651.4,perishable,reliability,106.5,852.0,1,0,sotrans,Sotrans Logistics,357000,0.9,0.9853,0.0184,5550,4.7,0
+ORD0934,Bà Rịa - Vũng Tàu,Nghệ An (Vinh),1163.8,fragile,speed,136.8,1368.0,0,1,sotrans,Sotrans Logistics,1064000,0.9,0.9676,0.0225,2161,4.7,1
+ORD0935,Bắc Ninh,Đồng Nai,1004.9,textile,speed,97.1,291.29999999999995,0,1,sotrans,Sotrans Logistics,431000,0.8,0.9687,0.015,2138,4.7,1
+ORD0936,Quảng Ninh,Bà Rịa - Vũng Tàu,667.8,perishable,speed,128.0,640.0,1,1,jt_cargo,J&T Cargo,313000,0.6,0.9676,0.0257,3909,4.8,0
+ORD0937,Quảng Ninh,Cần Thơ,657.2,textile,reliability,56.2,168.60000000000002,0,1,vnpost,VNPost Logistics,87000,0.6,0.9701,0.0284,11451,4.6,1
+ORD0938,TP. Hồ Chí Minh,Hải Phòng,802.6,electronics,cost,132.0,396.0,0,0,kerry_logistics,Kerry Express,221000,0.9,0.9885,0.0181,4701,4.8,1
+ORD0939,Đà Nẵng,Bắc Ninh,801.0,textile,balanced,115.5,346.5,0,0,sotrans,Sotrans Logistics,292000,1.0,0.979,0.0176,3487,4.8,1
+ORD0940,Bắc Ninh,Khánh Hòa (Nha Trang),181.1,electronics,balanced,23.1,138.60000000000002,0,0,kerry_logistics,Kerry Express,360000,0.5,0.9925,0.0154,4607,4.8,1
+ORD0941,Đà Nẵng,Khánh Hòa (Nha Trang),896.8,fmcg,balanced,31.4,125.6,0,0,viettel_post,Viettel Post,88000,1.0,0.9781,0.0134,12643,4.8,1
+ORD0942,Hải Phòng,Cần Thơ,419.6,electronics,cost,13.2,1539.5,0,1,sotrans,Sotrans Logistics,485000,0.5,0.9833,0.0206,4365,4.7,1
+ORD0943,Khánh Hòa (Nha Trang),Hải Phòng,598.6,fragile,reliability,109.3,874.4,0,0,kerry_logistics,Kerry Express,367000,0.7,0.9772,0.0185,4069,4.8,1
+ORD0944,Nghệ An (Vinh),Cần Thơ,289.2,bulky,cost,66.9,826.8,0,1,jt_cargo,J&T Cargo,317000,0.5,0.983,0.0253,3877,4.8,1
+ORD0945,Bình Dương,Đà Nẵng,791.1,bulky,speed,21.9,43.8,0,1,transimex,Transimex Cold Chain,132000,0.6,0.9783,0.0151,3770,4.8,0
+ORD0946,Quảng Ninh,Cần Thơ,480.2,bulky,balanced,100.8,604.8,0,0,transimex,Transimex Cold Chain,224000,0.7,0.9744,0.0158,3088,4.8,0
+ORD0947,Nghệ An (Vinh),Quảng Ninh,1056.6,fragile,cost,143.2,429.59999999999997,0,0,viettel_post,Viettel Post,282000,1.2,0.9895,0.0171,15592,4.8,1
+ORD0948,Nghệ An (Vinh),Bình Dương,1052.0,textile,cost,43.0,344.0,0,1,kerry_logistics,Kerry Express,241000,0.8,0.9948,0.0117,5047,4.8,1
+ORD0949,TP. Hồ Chí Minh,Hải Phòng,212.2,perishable,cost,32.7,72.7,1,0,kerry_logistics,Kerry Express,76000,0.5,0.9817,0.0163,5481,4.7,0
+ORD0950,Quảng Ninh,TP. Hồ Chí Minh,126.9,fmcg,cost,137.2,411.59999999999997,0,1,jt_cargo,J&T Cargo,297000,0.5,0.9873,0.0196,5988,4.8,1
+ORD0951,Bắc Ninh,Quảng Ninh,280.3,electronics,balanced,4.0,439.7,0,0,vnpost,VNPost Logistics,273000,0.5,0.9607,0.0283,7738,4.6,1
+ORD0952,Khánh Hòa (Nha Trang),Bà Rịa - Vũng Tàu,248.1,perishable,speed,147.3,883.8000000000001,1,1,viettel_post,Viettel Post,307000,0.5,0.991,0.0167,11004,4.9,0
+ORD0953,Bình Dương,Cần Thơ,223.6,chemicals,cost,90.2,902.0,0,0,transimex,Transimex Cold Chain,253000,0.5,0.9982,0.0089,3236,4.8,0
+ORD0954,Khánh Hòa (Nha Trang),Bình Dương,370.5,bulky,reliability,127.3,509.2,1,0,jt_cargo,J&T Cargo,241000,0.6,0.9873,0.0214,3663,4.7,0
+ORD0955,Khánh Hòa (Nha Trang),Cần Thơ,888.1,fragile,cost,67.6,100.4,1,0,viettel_post,Viettel Post,491000,1.0,0.9803,0.013,12350,4.9,0
+ORD0956,TP. Hồ Chí Minh,Đồng Nai,875.6,fragile,reliability,34.8,139.7,0,0,viettel_post,Viettel Post,176000,1.0,0.9854,0.0193,12066,4.8,1
+ORD0957,Quảng Ninh,Cần Thơ,838.3,fragile,balanced,67.5,405.0,0,0,ghtk,GHTK Cargo,430000,0.9,0.9886,0.017,4060,4.8,0
+ORD0958,Bắc Ninh,Khánh Hòa (Nha Trang),972.9,perishable,cost,115.8,115.8,1,0,kerry_logistics,Kerry Express,153000,1.1,0.9838,0.0118,6127,4.8,0
+ORD0959,Cần Thơ,Đà Nẵng,737.0,perishable,cost,68.3,409.79999999999995,1,1,viettel_post,Viettel Post,270000,0.6,0.9816,0.0136,11710,4.7,0
+ORD0960,Hà Nội,Khánh Hòa (Nha Trang),674.4,textile,speed,55.4,277.0,0,1,ghtk,GHTK Cargo,125000,0.6,0.9679,0.0166,5282,4.7,0
+ORD0961,Khánh Hòa (Nha Trang),Nghệ An (Vinh),635.7,textile,reliability,90.2,1294.4,0,0,kerry_logistics,Kerry Express,375000,0.8,0.9739,0.0175,6776,4.9,1
+ORD0962,Đồng Nai,Cần Thơ,1010.4,perishable,speed,79.6,159.2,1,1,viettel_post,Viettel Post,179000,0.8,0.9708,0.0198,11486,4.8,0
+ORD0963,Bình Dương,Bà Rịa - Vũng Tàu,623.9,bulky,cost,68.1,68.1,0,0,transimex,Transimex Cold Chain,285000,0.8,0.9876,0.0155,4428,4.8,0
+ORD0964,Bà Rịa - Vũng Tàu,Quảng Ninh,272.8,textile,reliability,48.9,97.8,0,0,dhl_supply,DHL Express/Logistics,520000,0.5,0.9962,0.0068,1608,4.9,0
+ORD0965,Khánh Hòa (Nha Trang),Cần Thơ,214.7,textile,speed,67.0,670.0,0,1,vnpost,VNPost Logistics,99000,0.5,0.9673,0.0251,8771,4.6,1
+ORD0966,Hà Nội,Khánh Hòa (Nha Trang),316.2,perishable,reliability,66.7,400.20000000000005,1,0,dhl_supply,DHL Express/Logistics,261000,0.5,0.9946,0.0093,1713,5.0,0
+ORD0967,TP. Hồ Chí Minh,Bình Dương,45.0,electronics,balanced,9.5,76.0,0,0,vnpost,VNPost Logistics,151000,0.5,0.9592,0.0224,12450,4.6,0
+ORD0968,Quảng Ninh,Bà Rịa - Vũng Tàu,866.0,textile,reliability,56.7,226.8,0,0,jt_cargo,J&T Cargo,107000,1.0,0.9865,0.0252,4820,4.7,1
+ORD0969,Bà Rịa - Vũng Tàu,Khánh Hòa (Nha Trang),1081.5,bulky,reliability,139.4,1254.6000000000001,0,1,sotrans,Sotrans Logistics,681000,0.9,0.98,0.0209,3803,4.7,1
+ORD0970,Bình Dương,Khánh Hòa (Nha Trang),549.0,fmcg,speed,81.9,409.5,0,1,transimex,Transimex Cold Chain,242000,0.5,0.9835,0.0087,1874,4.9,0
+ORD0971,Quảng Ninh,TP. Hồ Chí Minh,706.9,electronics,balanced,101.2,1012.0,0,0,jt_cargo,J&T Cargo,543000,0.9,0.9806,0.0184,4452,4.6,1
+ORD0972,TP. Hồ Chí Minh,Bình Dương,45.0,chemicals,cost,8.5,285.8,0,0,transimex,Transimex Cold Chain,286000,0.5,0.9823,0.011,3385,4.8,0
+ORD0973,Quảng Ninh,Bà Rịa - Vũng Tàu,1117.4,textile,balanced,132.9,132.9,0,0,transimex,Transimex Cold Chain,158000,1.2,0.992,0.0155,2588,4.9,0
+ORD0974,Bắc Ninh,Đà Nẵng,735.6,fmcg,balanced,17.1,102.60000000000001,0,0,dhl_supply,DHL Express/Logistics,164000,0.7,0.9936,0.003,1975,4.9,0
+ORD0975,Hải Phòng,Bình Dương,234.0,bulky,balanced,132.3,132.3,0,0,jt_cargo,J&T Cargo,51000,0.5,0.979,0.0185,6412,4.6,1
+ORD0976,Bắc Ninh,TP. Hồ Chí Minh,262.8,electronics,cost,96.7,967.0,0,0,vnpost,VNPost Logistics,384000,0.5,0.9628,0.0258,7003,4.7,1
+ORD0977,Hải Phòng,Hà Nội,120.0,fragile,reliability,117.4,704.4000000000001,0,0,dhl_supply,DHL Express/Logistics,409000,0.5,0.9988,0.006,2062,4.9,0
+ORD0978,Bình Dương,Bà Rịa - Vũng Tàu,1026.5,fmcg,speed,63.6,636.0,0,1,ghtk,GHTK Cargo,317000,0.8,0.9825,0.0198,5738,4.8,0
+ORD0979,Khánh Hòa (Nha Trang),Nghệ An (Vinh),169.2,textile,cost,16.3,433.3,0,0,sotrans,Sotrans Logistics,96000,0.5,0.9826,0.0224,5879,4.8,1
+ORD0980,Đồng Nai,Quảng Ninh,1121.9,textile,speed,67.2,2016.0,0,1,sotrans,Sotrans Logistics,1077000,0.9,0.9755,0.0171,4702,4.7,1
+ORD0981,TP. Hồ Chí Minh,Quảng Ninh,1120.2,electronics,speed,38.5,295.5,0,1,sotrans,Sotrans Logistics,267000,0.9,0.9698,0.0188,4982,4.7,1
+ORD0982,Nghệ An (Vinh),Khánh Hòa (Nha Trang),874.5,chemicals,balanced,62.8,251.2,1,0,viettel_post,Viettel Post,418000,1.0,0.9795,0.0121,13374,4.7,0
+ORD0983,Bắc Ninh,Đà Nẵng,870.6,fragile,reliability,149.8,1048.6000000000001,0,0,kerry_logistics,Kerry Express,776000,1.0,0.9808,0.0143,4785,4.8,1
+ORD0984,Hà Nội,Bình Dương,112.7,fragile,balanced,81.6,689.1,0,0,transimex,Transimex Cold Chain,336000,0.5,0.9788,0.0121,3241,4.9,0
+ORD0985,Bình Dương,Bắc Ninh,456.9,chemicals,balanced,116.0,348.0,0,1,sotrans,Sotrans Logistics,157000,0.5,0.9727,0.0154,4765,4.8,1
+ORD0986,Đà Nẵng,TP. Hồ Chí Minh,819.6,electronics,speed,144.7,1012.8999999999999,0,1,kerry_logistics,Kerry Express,677000,0.7,0.9734,0.0135,3113,4.7,1
+ORD0987,Đà Nẵng,Bình Dương,829.3,textile,cost,80.9,404.5,0,1,viettel_post,Viettel Post,216000,0.7,0.9727,0.0167,11941,4.9,1
+ORD0988,Khánh Hòa (Nha Trang),Đà Nẵng,896.4,electronics,cost,67.7,581.2,1,0,ghtk,GHTK Cargo,578000,1.0,0.9899,0.0183,4172,4.7,0
+ORD0989,Đồng Nai,TP. Hồ Chí Minh,903.7,electronics,cost,39.2,352.8,0,0,sotrans,Sotrans Logistics,467000,1.1,0.9844,0.0208,4180,4.8,1
+ORD0990,Khánh Hòa (Nha Trang),Bình Dương,218.2,chemicals,speed,47.8,246.2,0,1,sotrans,Sotrans Logistics,111000,0.5,0.989,0.0179,5891,4.8,1
+ORD0991,Hà Nội,Bà Rịa - Vũng Tàu,459.2,perishable,reliability,98.5,547.4,1,1,vnpost,VNPost Logistics,246000,0.5,0.9605,0.0235,10665,4.8,0
+ORD0992,Khánh Hòa (Nha Trang),Quảng Ninh,352.0,chemicals,balanced,115.1,805.6999999999999,0,0,ghtk,GHTK Cargo,132000,0.5,0.9658,0.0219,5054,4.8,0
+ORD0993,TP. Hồ Chí Minh,Khánh Hòa (Nha Trang),1157.8,fragile,cost,118.0,1180.0,0,0,viettel_post,Viettel Post,694000,1.3,0.9797,0.02,10662,4.9,1
+ORD0994,Khánh Hòa (Nha Trang),Đà Nẵng,930.2,fragile,speed,7.3,44.8,0,1,vnpost,VNPost Logistics,135000,0.8,0.9749,0.0252,9347,4.7,0
+ORD0995,TP. Hồ Chí Minh,Cần Thơ,558.8,fragile,speed,40.7,244.20000000000002,0,1,sotrans,Sotrans Logistics,287000,0.5,0.9842,0.0188,3844,4.8,1
+ORD0996,Khánh Hòa (Nha Trang),TP. Hồ Chí Minh,591.3,fmcg,reliability,23.8,270.3,0,0,kerry_logistics,Kerry Express,113000,0.7,0.9947,0.0152,6624,4.9,1
+ORD0997,Bà Rịa - Vũng Tàu,Nghệ An (Vinh),197.2,fmcg,reliability,126.0,383.0,0,0,viettel_post,Viettel Post,229000,0.5,0.9903,0.0189,12427,4.9,1
+ORD0998,Đồng Nai,Bắc Ninh,262.3,electronics,reliability,89.7,358.8,0,0,ghtk,GHTK Cargo,144000,0.5,0.9894,0.0229,5547,4.8,1
+ORD0999,Đà Nẵng,Quảng Ninh,741.9,electronics,speed,138.8,1249.2,1,1,viettel_post,Viettel Post,750000,0.6,0.9746,0.0134,8516,4.7,0
+ORD1000,Đồng Nai,Khánh Hòa (Nha Trang),748.5,perishable,balanced,126.5,1138.5,1,0,kerry_logistics,Kerry Express,522000,0.9,0.973,0.0154,3775,4.9,0

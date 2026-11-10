@@ -408,6 +408,7 @@ export default function App() {
           allProviders={results.allProviders}
           modelInfo={results.modelInfo}
           aiAnalysisSummary={results.aiAnalysisSummary}
+          wsmComparison={results.wsmComparison}
           onBackToInput={() => setActiveTab('input')}
           onBookProvider={handleBookProvider}
           onOpenModelModal={() => setIsModelModalOpen(true)}
